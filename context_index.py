@@ -1,7 +1,9 @@
 '''
-functions
-varaibes
-consitionals - true or false
+Course Context
+
+functions -
+varaibes - 
+conditionals - true or false
 loops - repeated again and again set number of times
 exceptions - except errors
 libraries - 3rd party code orcode you have writen to be reused as many times as desired
