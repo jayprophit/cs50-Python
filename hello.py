@@ -3,11 +3,11 @@ Print Hello
 '''
 
 
-def main()
+def main():
     name = input("What's your name? ").strip().title()
     hello()  
 
-def hello(to="world")
+def hello(to="world"):
     print("hello,", to)
 
 main()

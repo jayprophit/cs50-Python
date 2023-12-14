@@ -331,7 +331,7 @@ specifying how you want to manipulate the function,
 allows you to stop repeating yourself again and again,
 
 e.g.
-def hello()    
+def hello():
     print("hello")
 
 # ask user for their name
@@ -343,11 +343,11 @@ print(name)
 you can also define a default value to some worlds by using parenthesis
 
 e.g.
-def hello(to="world")
+def hello(to="world"):
 
 by default it makes the word to = world, without needing to use an argument
 
-def main()
+def main():
     inset argument
 main()
 
@@ -360,21 +360,21 @@ refer's to a variable only existing in the context in which you defined it
 
 e.g.
 # with scope
-def main()
+def main():
     name = input("What's your name? ").strip().title()
     hello()  
 
-def hello(to="world")
+def hello(to="world"):
     print("hello,", to)
 
 main()
 
 # without scope
-def main()
+def main():
     name = input("What's your name? ").strip().title()
     hello()  
 
-def hello()
+def hello():
     print("hello,", name)
 
 main()
@@ -386,7 +386,7 @@ return
 it calls the input function to return a value string that the user typed in
 
 e.g.
-def main()
+def main():
     x = int(input("what's x? "))
 
 print("x squared is", square(x))

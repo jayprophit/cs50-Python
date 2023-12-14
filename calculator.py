@@ -2,7 +2,7 @@
 calculator
 '''
 
-def main()
+def main():
     x = int(input("what's x? "))
 
 print("x squared is", square(x))
@@ -17,7 +17,7 @@ main()
 # descending from currently used practices to basic beginner code
 
 
-def main()
+def main():
     x = int(input("what's x? "))
 
 print("x squared is", square(x))
@@ -28,7 +28,7 @@ def square(n):
 main()
 
 
-def main()
+def main():
     x = int(input("what's x? "))
 
 print("x squared is", square(x))
