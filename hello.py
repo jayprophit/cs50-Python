@@ -195,6 +195,3 @@ print("hello, John")
 # prints hello world to be interperated and made readable 
 print("hello world")
 '''
-
-'''
-'''
