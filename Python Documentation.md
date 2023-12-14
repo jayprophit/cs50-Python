@@ -7,17 +7,17 @@ cs50 - Introduction to Programming with Python - Full University Course
 Course Context
 
 functions -
-varaibes - 
+variables - 
 conditionals - true or false
 loops - repeated again and again set number of times
 exceptions - except errors
-libraries - 3rd party code or code you have writen to be reused as many times as desired
+libraries - 3rd party code or code you have written to be reused as many times as desired
 unit test - write test to test your own code
 file i/o - input/ out
 regular expression - validate data or extract data
 object-oriented programming:- allows you to represent real world entities
 procedural programming - write procedures top to bottom to solve problems step by step
-functinal programming - 
+functional programming - 
 et cetera
 
 python website documentation library: https://docs.python.org/3/library/
@@ -31,16 +31,16 @@ online course: https://www.edx.org/learn/python/harvard-university-cs50-s-introd
 
 SECTION 1
 
-# Sinlgle Line Comment - 'number sign, hash, or pound sign' (#) is a comment, which allows you to leave notes that are reminders that are ignored by the programme
+# Single Line Comment - 'number sign, hash, or pound sign' (#) is a comment, which allows you to leave notes that are reminders that are ignored by the programme
 
 
-Paragraph Commnet
+Paragraph Comment
 Three apostrophe's 'punctuation marks' (''' ''') or three Quotation marks (""" """) before and after your text, 
 allows comment of a section of information, 
 to leave notes that are reminders that are ignored by the programme 
 
 
-Python is a program otherwise known as an interperator.  
+Python is a program otherwise known as an interpreter.  
 It converts the file into readable binary code a computer can understand,
 then it changes the programme into readable human language
 
@@ -52,7 +52,7 @@ in the place of name, is where you put your file name
 this allows you to create a new file
 
 
-Run/ Exicute Python Code
+Run/ Execute Python Code
 Using the terminal and typing
 python name.py
 in the place of name, is where you put your file name
@@ -71,7 +71,7 @@ that the language will already know how to use.
 as a programmer you can use the functions to get the computer to do those things
 
 some functions take multiple arguments, 
-if you seperate the arguments to the function with a comma, 
+if you separate the arguments to the function with a comma, 
 you can pass in 1 or more arguments
 
 e.g.
@@ -82,8 +82,8 @@ when you pass multiple arguments to print,
 it automatically inserts a space for you
 
 
-Arguements
-is an input to a function that somehow influences its's behavior 
+Arguments
+is an input to a function that somehow influences its's behaviour 
 
 Parameters ()
 what you pass your argument inside to get an output
@@ -98,7 +98,7 @@ e.g.
 print()
 Print is a function that use's parentheses, 
 as an ability to take in some input of string of text data, 
-in english or any other human language.
+in English or any other human language.
 that you want this function to print onto the screen
 
 https://docs.python.org/3/library/functions.html#print
@@ -110,22 +110,22 @@ print(*objects, sep='', end='\n', file=sys.stdout, flush=False)
 print(
     *                   - pass in zero to specified number of strings
     object              - is the string
-    ,                   - is the seperator
-    sep=''              - seperator is how many spaces.  default value is a single blank space
-    ,                   - is the seperator
+    ,                   - is the separator
+    sep=''              - separator is how many spaces.  default value is a single blank space
+    ,                   - is the separator
     end='\n'            - new line, line ending specification
-    ,                   - is the seperator
+    ,                   - is the separator
     file=sys.stdout     - 
-    ,                   - is the seperator
+    ,                   - is the separator
     flush=False
 )
 
 Print objects to the text stream file, separated by sep and followed by end. sep, end, file, and flush, if present, must be given as keyword arguments.
 
-Speech Text that is visible and reable to the user is placed inside comma's ('text') or quotation marks ("text"),
+Speech Text that is visible and readable to the user is placed inside comma's ('text') or quotation marks ("text"),
 as python accepts both,
-just remember to keep consistant when using a specific se when coding, 
-as to not break code or confuse your self or some one else who may need to eidt the code in the future
+just remember to keep consistent when using a specific se when coding, 
+as to not break code or confuse your self or some one else who may need to edit the code in the future
 
 
 Corner Case
@@ -144,7 +144,7 @@ print(f"hello,", {name})
 is an escape character, also means new line
 
 Side Effects
-when a function is exicuterd. 
+when a function is executed. 
 The program gives back an action from the commands given.
 it can be:-
 
@@ -153,15 +153,15 @@ audio
 
 
 Bugs
-are mistakes that coders and progammers make, 
+are mistakes that coders and programmers make, 
 that causes errors in the programme
-and its the coders and progammers job to fix theses problems
+and its the coders and programmers job to fix theses problems
 before, during and after programme launch.
 Theses are just seen as problems that need to be solved, edited, rewritten, modified or simplified
 
 
-Retrun values
-a feature of some of one or more funtions, 
+Return values
+a feature of some of one or more functions, 
 that returns values.
 
 output = return value
@@ -181,11 +181,11 @@ inside of a computer or inside a programme that can be used or reused at any tim
 
 
 input()
-exspects what's called a string, 
-it's exspecting text which is going to prompt the user
+expects what's called a string, 
+it's expecting text which is going to prompt the user
 
 = sign means assignment operator
-this means the programmer wants to asign from right to left
+this means the programmer wants to assign from right to left
 
 e.g.
 name = input("What's your name? ")
@@ -204,7 +204,7 @@ e.g.
 
 
 String - str()
-a sequence of text be it english or any other human language, 
+a sequence of text be it English or any other human language, 
 this is classed as data in programmes
 
 https://docs.python.org/3/library/functions.html#func-str
@@ -215,13 +215,13 @@ https://docs.python.org/3/library/stdtypes.html#str
 is a string extension
 it is a method to remove white space, 
 if a user inputs to many spaces it will reduce it by default off 1, 
-or if you set a specific number like 2, it will reduce it to 2 whitespsaces
+or if you set a specific number like 2, it will reduce it to 2 whitespaces
 
 e.g.
 name = name.strip()
 
 {} list
-allows you to store multiple pieces of data into a list, be int int or variable, 
+allows you to store multiple pieces of data into a list, be it int or variable, 
 to be recalled on command
 
 
@@ -238,11 +238,11 @@ but not a decimal number
 
 Interactive Mode
 you can start writing python code and immediately execute each of those lines interactively,
-allowing the coder to excute some lines of code and get back some answers
+allowing the coder to execute some lines of code and get back some answers
 
-using the termianl without any files open
+using the terminal without any files open
 
-you can process some lines of code to excute the code to instatly get a result
+you can process some lines of code to execute the code to instantly get a result
 
 e.g.
 1 + 1
@@ -305,13 +305,13 @@ round(number[, ndigits=None])
 round(
     number          - represents 1 number
     [               - optional choice
-    ndigits=None    - specify the number of digits e'g' you want the number 3.589068 rounded to 2 decimal point that would equal 3.59, if you dont specify it rounds to the nearest integer (number)
+    ndigits=None    - specify the number of digits e.g. you want the number 3.589068 rounded to 2 decimal point that would equal 3.59, if you don't specify it rounds to the nearest integer (number)
     ]               - optional choice
 )
 
 
 Number break - 0,000.00 
-to break a number up, so it has a comma in mathmatics e.g. 1000 is 1,000
+to break a number up, so it has a comma in mathematics e.g. 1000 is 1,000
 using the format principle and a list bracket {}
 
 e.g.
@@ -327,7 +327,7 @@ print(f"{:.2f,}")
 
 def - Define
 allows you to invent or define your own function, 
-specifying how you want to maniulate the function, 
+specifying how you want to manipulate the function, 
 allows you to stop repeating yourself again and again,
 
 e.g.
@@ -340,7 +340,7 @@ hello()
 # say hello
 print(name)
 
-you can also deine a default value to some worlds by using paranthaeses
+you can also define a default value to some worlds by using parenthesis
 
 e.g.
 def hello(to="world")
@@ -379,7 +379,7 @@ def hello()
 
 main()
 
-name dosen't exsit in the hello function so can't be called
+name doesn't exist in the hello function so can't be called
 
 
 return
@@ -430,9 +430,9 @@ if the answer to this question is true go ahead and execute this code
 
 
 Flow chart
-a diagram that represent's the direction of the funtion, 
+a diagram that represent's the direction of the function, 
 also known as the control flow.
-go left if the nswer is true or go right if the answer is false
+go left if the answer is true or go right if the answer is false
 start from 0 - 5
 
 e.g.
