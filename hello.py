@@ -4,16 +4,110 @@ Print Hello
 
 
 # ask user for their name
-name = input("What's your name? ")
+name = input("What's your name? ").strip().title()
 
 # say hello
-print("hello,", name)
+print(f"hello, {name}")
 
 
 
 
 '''
 # different variations to produce the same result and solve the problem
+# asending from currently used practises to basic begginer code
+
+
+
+# ask user for their name
+name = input("What's your name? ").strip().title()
+
+# Split user's name into first name and last name
+first, last = name.split("")
+
+# say hello
+print(f"hello, {first}")
+
+
+
+# ask user for their name
+name = input("What's your name? ").strip().title()
+
+# say hello
+print(f"hello, {name}")
+
+
+
+# ask user for their name
+name = input("What's your name? ")
+
+# Remove whitespace from str and Capitalize 1st letter of each word of user's name
+name = name.strip().title()
+
+# say hello
+print(f"hello, {name}")
+
+
+
+# ask user for their name
+name = input("What's your name? ")
+
+# Remove whitespace from str
+name = name.strip()
+
+# Capitalize 1st letter of each word of user's name
+name = name.title()
+
+# say hello
+print(f"hello, {name}")
+
+
+
+# ask user for their name
+name = input("What's your name? ")
+
+# Remove whitespace from str
+name = name.strip()
+
+# Capitalize 1st letter of user's name
+name = name.capitalize()
+
+# say hello
+print(f"hello, {name}")
+
+
+
+# ask user for their name
+name = input("What's your name? ")
+
+# say hello
+print(f"hello, {name}")
+
+
+
+# ask user for their name
+name = input("What's your name? ")
+
+# say hello
+print("hello,", sep="")
+print(name)
+
+
+
+# ask user for their name
+name = input("What's your name? ")
+
+# say hello
+print("hello,", end="")
+print(name)
+
+
+
+# ask user for their name
+name = input("What's your name? ")
+
+# say hello
+print("hello,", name)
+
 
 
 # ask user for their name
@@ -24,6 +118,7 @@ name = input("What's your name? ")
 print("hello, " + name)
 
 
+
 # ask user for their name
 name = input("What's your name? ")
 
@@ -32,17 +127,21 @@ print("hello,")
 print(name)
 
 
+
 # sedo code - stuctured to-do-list, that sets out sort guide lines of whats needed to be coded (bit-sized tasks)
 # ask user for their name
 # say hello to user
+
 
 
 name = input("What's your name? ")
 print("hello, name")
 
 
+
 name = input("What's your name? ")
 print("hello, John")
+
 
 
 # prints hello world to be interperated and made readable 
@@ -83,6 +182,11 @@ this will run your programme
 '''
 
 '''
+using the up arrow
+is a quick way to recall a request command printed on the terminal
+'''
+
+'''
 Functions
 a function is like an action or a verb,
 that lets you do something in the programme.
@@ -110,11 +214,45 @@ is an input to a function that somehow influences its's behavior
 '''
 
 '''
+Parameters ()
+what you pass your argument inside to get an output
+'''
+
+'''
+Parentheses
+arguments inside of the parameters
+
+e.g.
+
+(1 + 2)
+'''
+
+'''
 print()
 Print is a function that use's parentheses, 
 as an ability to take in some input of string of text data, 
 in english or any other human language.
 that you want this function to print onto the screen
+
+https://docs.python.org/3/library/functions.html#print
+
+official documentation for:
+
+print(*objects, sep='', end='\n', file=sys.stdout, flush=False)
+print(
+    *               - pass in zero to specified number of strings
+    object          - is the string
+    ,               - is the seperator
+    sep=''          - seperator is how many spaces.  default value is a single blank space
+    ,               - is the seperator
+    end='\n'        - new line, line ending specification
+    ,               - is the seperator
+    file=sys.stdout - 
+    ,               - is the seperator
+    flush=False
+)
+
+Print objects to the text stream file, separated by sep and followed by end. sep, end, file, and flush, if present, must be given as keyword arguments.
 '''
 
 '''
@@ -122,6 +260,24 @@ speech text that is visible and reable to the user is placed inside comma's ('te
 as python accepts both,
 just remember to keep consistant when using a specific se when coding, 
 as to not break code or confuse your self or some one else who may need to eidt the code in the future
+
+Corner Case
+quotations marks in side comma's
+
+e.g.
+
+print('hello, "friend"')
+print("hello, \"friend\"")
+
+f - (means format)
+before the quotation mark make it a special string
+inside the parameters
+print(f"hello,", {name})
+'''
+
+'''
+\n
+is an escape character, also means new line
 '''
 
 '''
@@ -196,7 +352,51 @@ e.g.
 '''
 
 '''
-String - (str)
+String - str()
 a sequence of text be it english or any other human language, 
 this is classed as data in programmes
+
+https://docs.python.org/3/library/functions.html#func-str
+
+https://docs.python.org/3/library/stdtypes.html#str
+'''
+
+'''
+.strip()
+is a method to remove white space, 
+if a user inputs to many spaces
+
+e.g.
+
+name = name.strip()
+'''
+
+
+'''
+int - Integer
+it represents a number, 
+but not a decimal number
+
+
++   - addition
+-   - subtraction
+*   - multiplication
+/   - division
+%   - modulo operator, it allows you to take the remainder after dividing one number by another
+'''
+
+'''
+Interactive Mode
+you can start writing python code and immediately execute each of those lines interactively,
+allowing the coder to excute some lines of code and get back some answers
+
+using the termianl without any files open
+
+you can process some lines of code to excute the code to instatly get a result
+
+e.g.
+
+1 + 1
+
+print("hello, world)
 '''
