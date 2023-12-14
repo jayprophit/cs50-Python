@@ -412,3 +412,44 @@ this means ive raised n by the value of 2, raising the left side by the value of
 SECTION 2
 
 
+Conditionals
+
+built in sytax
+>   - greater than
+>=  - greater than or equal to
+<   - less than
+<=  - less than or equal to
+==  - equal equal to - equality
+!=  - not equal to
+
+if
+is a statement that represents
+
+e.g.
+if the answer to this question is true go ahead and execute this code
+
+
+Flow chart
+a diagram that represent's the direction of the funtion, 
+also known as the control flow.
+go left if the nswer is true or go right if the answer is false
+start from 0 - 5
+
+e.g.
+0                        (start)
+1                        (x < y)
+            (true)
+2    (x is less than y)      or      (false)
+                        (x > y)
+            (true)
+3    (x is greater than y)   or      (false)
+                        (x == y)
+            (true)
+4    (x is equal to y)       or      (false)
+5                        (stop)
+
+
+elif
+
+else
+''''''
