@@ -1,4 +1,4 @@
-cs50 - Introduction to Programming with Python – Full University Course
+Harvard's cs50 - Introduction to Programming with Python – Full University Course
 
 - Functions
 - Varaibes
