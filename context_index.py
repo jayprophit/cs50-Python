@@ -7,7 +7,7 @@ varaibes -
 conditionals - true or false
 loops - repeated again and again set number of times
 exceptions - except errors
-libraries - 3rd party code orcode you have writen to be reused as many times as desired
+libraries - 3rd party code or code you have writen to be reused as many times as desired
 unit test - write test to test your own code
 file i/o - input/ out
 regular expression - validate data or extract data
