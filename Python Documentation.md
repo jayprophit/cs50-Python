@@ -414,7 +414,7 @@ SECTION 2
 
 Conditionals
 
-built in sytax
+built in syntax
 >   - greater than
 >=  - greater than or equal to
 <   - less than
