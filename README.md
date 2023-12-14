@@ -4,7 +4,7 @@ Introduction to Programming with Python – Full University Course
 
 Functions
 Varaibes
-Consitionals - true or false
+Conditionals - true or false
 Loops - repeated again and again set number of times
 Exceptions - except errors
 Libraries - 3rd party code or code you have writen to be reused as many times as desired
