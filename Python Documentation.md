@@ -20,7 +20,11 @@ procedural programming - write procedures top to bottom to solve problems step b
 functinal programming - 
 et cetera
 
-python documentation library: https://docs.python.org/3/library/
+python website documentation library: https://docs.python.org/3/library/
+
+Youtube video link: https://www.youtube.com/watch?v=nLRL_NcnK-4&t=1405s
+
+online course: https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python?index=product&queryID=d261282de44491e46e7817fb335660b7&position=2&results_level=first-level-results&term=cs50&objectID=course-2cc794d0-316d-42f7-bbfd-25c34e4cd5df&campaign=CS50%27s+Introduction+to+Programming+with+Python&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fsearch
 
 
 
@@ -99,6 +103,7 @@ https://docs.python.org/3/library/functions.html#print
 official documentation for:
 
 print(*objects, sep='', end='\n', file=sys.stdout, flush=False)
+
 print(
     *                   - pass in zero to specified number of strings
     object              - is the string
@@ -212,6 +217,10 @@ or if you set a specific number like 2, it will reduce it to 2 whitespsaces
 e.g.
 name = name.strip()
 
+{} list
+allows you to store multiple pieces of data into a list, be int int or variable, 
+to be recalled on command
+
 
 int - Integer
 it represents a number, 
@@ -242,7 +251,7 @@ is used to indent inside code instead of multiple spaces.
 
 if used in terminal.  
 if you start typing the request command e.g. "cal TAB" (cal for the file ive named calculator).  
-It will finish the rest of the text input,
+It will auto complete the rest of the text input,
 as its recalling request memory, as a file you've already created and stored, as long as your saved file is located in the same file directory folder
 
 e.g.
@@ -259,4 +268,139 @@ folder name: Users
 folder name: Python
 file name: calculator
 
+
+Nesting functions
+means the return value of the inner function, 
+becomes the argument to outer function
+
+# un-nested
+input("what's x?)
+
+# nested
+int(input("what's x? ))
+
+this means that the input "whats x?" now equals or is represented by the function int
+
+
+float
+is a number with a decimal point,
+also know as a floating point value.
+
+[] square brackets
+means an optional choice
+
+
+round - Rounding
+you can round the number to the ndigit (nearest digit "integer") after the decimal point 
+
+https://docs.python.org/3/library/functions.html#round
+
+official documentation for:
+
+round(number[, ndigits=None])
+
+round(
+    number          - represents 1 number
+    [               - optional choice
+    ndigits=None    - specify the number of digits e'g' you want the number 3.589068 rounded to 2 decimal point that would equal 3.59, if you dont specify it rounds to the nearest integer (number)
+    ]               - optional choice
+)
+
+
+Number break - 0,000.00 
+to break a number up, so it has a comma in mathmatics e.g. 1000 is 1,000
+using the format principle and a list bracket {}
+
+e.g.
+print(f"{:,}")
+
+
+.2f
+allows you to specify how many digits you want to print, e.g. 3.566789 into 3.56
+
+e.g.
+print(f"{:.2f,}")
+
+
+def - Define
+allows you to invent or define your own function, 
+specifying how you want to maniulate the function, 
+allows you to stop repeating yourself again and again,
+
+e.g.
+def hello()    
+    print("hello")
+
+# ask user for their name
+name = input("What's your name? ").strip().title()
+hello()
+# say hello
+print(name)
+
+you can also deine a default value to some worlds by using paranthaeses
+
+e.g.
+def hello(to="world")
+
+by default it makes the word to = world, without needing to use an argument
+
+def main()
+    inset argument
+main()
+
+by defining main() and closing with main, main can be any customized word e.g. house, car,
+you can have your argument inside and it will run like a function but to a customized argument
+
+
+Scope
+refer's to a variable only existing in the context in which you defined it
+
+e.g.
+# with scope
+def main()
+    name = input("What's your name? ").strip().title()
+    hello()  
+
+def hello(to="world")
+    print("hello,", to)
+
+main()
+
+# without scope
+def main()
+    name = input("What's your name? ").strip().title()
+    hello()  
+
+def hello()
+    print("hello,", name)
+
+main()
+
+name dosen't exsit in the hello function so can't be called
+
+
+return
+it calls the input function to return a value string that the user typed in
+
+e.g.
+def main()
+    x = int(input("what's x? "))
+
+print("x squared is", square(x))
+
+def square(n):
+    return n * n
+
+main()
+
+square has been returned as a value after being called
+
+
+Raise a number to the value of another
+
+e.g.
+n ** 2
+pow(n, 2)
+
+this means ive raised n by the value of 2, raising the left side by the value of the right side
 

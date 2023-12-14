@@ -3,19 +3,66 @@ Print Hello
 '''
 
 
+def main()
+    name = input("What's your name? ").strip().title()
+    hello()  
+
+def hello(to="world")
+    print("hello,", to)
+
+main()
+
+'''
+# different variations to produce the same result and solve the problem
+# desending from currently used practises to basic begginer code
+
+
+def main()
+    name = input("What's your name? ").strip().title()
+    hello()  
+
+def hello()
+    print("hello,", name)
+
+main()
+
+
+def hello(to="world")
+    print("hello,", to)
+
+# calls hellow to the world
+hello()  
+name = input("What's your name? ").strip().title()
+# calls hello personally
+hello(name)
+
+
+# by default it makes the word to = world, without having to use an argument
+def hello(to="world")
+    print("hello,", to)
+    
+name = input("What's your name? ").strip().title()
+hello(name)
+
+
+def hello()
+    
+    print("hello")
+    
+# ask user for their name
+name = input("What's your name? ").strip().title()
+
+hello()
+
+# say hello
+print(name)
+
+
 # ask user for their name
 name = input("What's your name? ").strip().title()
 
 # say hello
 print(f"hello, {name}")
-
-
-
-
-'''
-# different variations to produce the same result and solve the problem
-# asending from currently used practises to basic begginer code
-
 
 
 # ask user for their name
@@ -57,6 +104,7 @@ name = name.strip()
 # Capitalize 1st letter of each word of user's name
 name = name.title()
 
+# {} list bracket to surrand the number
 # say hello
 print(f"hello, {name}")
 
@@ -146,4 +194,7 @@ print("hello, John")
 
 # prints hello world to be interperated and made readable 
 print("hello world")
+'''
+
+'''
 '''
