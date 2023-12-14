@@ -14,7 +14,7 @@ if x == y:
 
 '''
 # different variations to produce the same result and solve the problem
-# desending from currently used practises to basic begginer code
+# descending from currently used practices to basic beginner code
 
 
 x = int(input("What's x?"))

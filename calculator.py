@@ -14,7 +14,7 @@ main()
 
 '''
 # different variations to produce the same result and solve the problem
-# desending from currently used practises to basic begginer code
+# descending from currently used practices to basic beginner code
 
 
 def main()
@@ -114,7 +114,7 @@ print(x + y)
 x = input("what's x? ")
 y = input("what's y? ")
 
-# int - converts it into a number to use in mathmatics
+# int - converts it into a number to use in mathematics
 z = int(x) + int(y)
 
 print(z)

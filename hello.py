@@ -14,7 +14,7 @@ main()
 
 '''
 # different variations to produce the same result and solve the problem
-# desending from currently used practises to basic begginer code
+# descending from currently used practices to basic beginner code
 
 
 def main()
@@ -30,7 +30,7 @@ main()
 def hello(to="world")
     print("hello,", to)
 
-# calls hellow to the world
+# calls hello to the world
 hello()  
 name = input("What's your name? ").strip().title()
 # calls hello personally
@@ -104,7 +104,7 @@ name = name.strip()
 # Capitalize 1st letter of each word of user's name
 name = name.title()
 
-# {} list bracket to surrand the number
+# {} list bracket to surround the number
 # say hello
 print(f"hello, {name}")
 
@@ -162,7 +162,7 @@ print("hello,", name)
 name = input("What's your name? ")
 
 # + adds an additional function to the call function
-# additional spcing ("hello, ") after the comma (,)
+# additional spacing ("hello, ") after the comma (,)
 print("hello, " + name)
 
 
@@ -176,7 +176,7 @@ print(name)
 
 
 
-# sedo code - stuctured to-do-list, that sets out sort guide lines of whats needed to be coded (bit-sized tasks)
+# sudo code - structured to-do-list, that sets out sort guide lines of whats needed to be coded (bit-sized tasks)
 # ask user for their name
 # say hello to user
 
@@ -192,6 +192,6 @@ print("hello, John")
 
 
 
-# prints hello world to be interperated and made readable 
+# prints hello world to be interpreted and made readable 
 print("hello world")
 '''
