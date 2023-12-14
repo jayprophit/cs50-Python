@@ -9,7 +9,7 @@ cs50 - Introduction to Programming with Python – Full University Course
 - Unit Test - write test to test your own code
 - File i/o - input/ out
 - Regular Expression - validate data or extract data
-- Objec-Oriented programming:- allows you to represent real world entities
+- Object-Oriented programming:- allows you to represent real world entities
 - Procedural Programming - write procedures top to bottom to solve problems step by step
 - Functinal Programming - 
 - et Cetera
