@@ -28,6 +28,9 @@ online course: https://www.edx.org/learn/python/harvard-university-cs50-s-introd
 
 
 
+
+SECTION 1
+
 # Sinlgle Line Comment - 'number sign, hash, or pound sign' (#) is a comment, which allows you to leave notes that are reminders that are ignored by the programme
 
 
@@ -403,4 +406,9 @@ n ** 2
 pow(n, 2)
 
 this means ive raised n by the value of 2, raising the left side by the value of the right side
+
+
+
+SECTION 2
+
 
