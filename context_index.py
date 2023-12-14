@@ -12,9 +12,9 @@ libraries - 3rd party code or code you have writen to be reused as many times as
 unit test - write test to test your own code
 file i/o - input/ out
 regular expression - validate data or extract data
-objec-oriented programming:- allows you to represent real world entities
-- procedural programming - write procedures top to bottom to solve problems step by step
-- functinal programming - 
+object-oriented programming:- allows you to represent real world entities
+procedural programming - write procedures top to bottom to solve problems step by step
+functinal programming - 
 et cetera
 
 '''
