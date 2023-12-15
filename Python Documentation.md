@@ -13,7 +13,7 @@ loops - repeated again and again set number of times
 exceptions - except errors
 libraries - 3rd party code or code you have written to be reused as many times as desired
 unit test - write test to test your own code
-file i/o - input/ out
+file I/O - input/ out
 regular expression - validate data or extract data
 object-oriented programming:- allows you to represent real world entities
 procedural programming - write procedures top to bottom to solve problems step by step
@@ -29,7 +29,7 @@ online course: https://www.edx.org/learn/python/harvard-university-cs50-s-introd
 
 
 
-SECTION 1
+--SECTION 1--
 
 # Single Line Comment - 'number sign, hash, or pound sign' (#) is a comment, which allows you to leave notes that are reminders that are ignored by the programme
 
@@ -409,7 +409,7 @@ this means ive raised n by the value of 2, raising the left side by the value of
 
 
 
-SECTION 2
+--SECTION 2--
 
 
 Conditionals
@@ -427,7 +427,9 @@ Flow chart
 a diagram that represent's the direction of the function,
 also known as the control flow.
 go left if the answer is true or go right if the answer is false
-start from 0 - 5
+
+e.g.
+follow the stages from start to stop, notice how many steps it function has!
 
 
 if
@@ -438,33 +440,117 @@ if the answer to this question is true go ahead and execute this code
 
 e.g.
 0                        (start)
-1                        (x < y)
-            (true)
-2    (x is less than y)      or      (false)
-                        (x > y)
-            (true)
-3    (x is greater than y)   or      (false)
-                        (x == y)
-            (true)
-4    (x is equal to y)       or      (false)
-5                        (stop)
+                            |
+1              ----------(x < y)--------
+            (true)                      |
+2    (x is less than y)              (false)
+3              |----------(x > y)--------|
+                            |
+               -------------|-----------
+            (true)                      |
+4    (x is greater than y)           (false)
+5             |----------(x == y)-------|
+                            |
+               -------------|-----------
+            (true)                      |
+6    (x is equal to y)               (false)
+7             |----------(stop)---------|
 
 
 elif
-its a conjunction of else and if,
+its a statement that is a conjunction  of else and if,
 allow to ask a question that takes into account whether or not a previous question had a true or false answer
 
 e.g.
-0                                       (start)
-1                                       (x < y)
-        (true)
-                                                    (false)
-2                                                   (x > y)
-                                    (true)
-                                                                            (false)
-3                                                                           (x == y)
-                                                            (true)
-4   (x is less than y)      (x is greater than y)       (x is equal to y)       or      (false)
-5                                       (stop)
+0                                    (start)
+                                        |
+1          --------------------------(x < y)------------
+          |                                             |
+          |                                          (false)
+2         |                             -------------(x > y)-------------------
+          |                             |                                      |
+        (true)                       (true)                                 (false)
+3         |                             |                        -----------(x == y)-------
+          |                             |                     (true)                       |
+4   (x is less than y)      (x is greater than y)       (x is equal to y)               (false)
+          |                             |                       |                          |
+5         |--------------------------(stop)---------------------|--------------------------|
+
 
 else
+is a statement that if the answer to the question is not true then lets just assume because its false  for example:- that x is equal to y
+
+e.g.
+0                                    (start)
+                                        |
+1          --------------------------(x < y)------------
+          |                                             |
+          |                                          (false)
+2         |                             -------------(x > y)----
+          |                             |                       |
+        (true)                       (true)                     |
+          |                             |                       |
+          |                             |                     (false)
+3   (x is less than y)      (x is greater than y)       (x is equal to y)
+          |                             |                       |
+4         |--------------------------(stop)---------------------|
+
+
+or
+is x equal to y or not or is it true or false
+
+e.g.
+0                 (start)
+                     |
+1          -------(x < y)------
+          |                    |
+          |                 (false)
+2         |         --------(x > y)----
+          |        |                   |
+        (true)  (true)                 |
+          |        |                   |
+          |        |                (false)
+3   (x is not equal to y)       (x is equal to y)
+              |                        |
+4             |---------(stop)---------|
+
+
+!=  - not equal to
+means its not equal to so just print e.g. x is not equal to y
+
+e.g.
+0                  (start)
+                      |
+1          --------(x != y)---------
+          |                        |
+          |                        |
+          |                        |
+          |                        |
+        (true)                  (false)
+          |                        |
+          |                        |
+2   (x is not equal to y)   (x is equal to y)
+          |                        |
+3         |---------(stop)---------|
+
+==  - equal equal to
+means its equal equal to so just print e.g. x is equal to y
+
+e.g.
+0                  (start)
+                      |
+1          --------(x == y)---------
+          |                        |
+          |                        |
+          |                        |
+          |                        |
+        (true)                  (false)
+          |                        |
+          |                        |
+2   (x is equal to y)   (x is not equal to y)
+          |                        |
+3         |---------(stop)---------|
+
+
+and
+means to ask one or two or more questions
