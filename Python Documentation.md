@@ -422,18 +422,19 @@ built in syntax
 ==  - equal equal to - equality
 !=  - not equal to
 
+
+Flow chart
+a diagram that represent's the direction of the function,
+also known as the control flow.
+go left if the answer is true or go right if the answer is false
+start from 0 - 5
+
+
 if
 is a statement that represents
 
 e.g.
 if the answer to this question is true go ahead and execute this code
-
-
-Flow chart
-a diagram that represent's the direction of the function, 
-also known as the control flow.
-go left if the answer is true or go right if the answer is false
-start from 0 - 5
 
 e.g.
 0                        (start)
@@ -450,5 +451,20 @@ e.g.
 
 
 elif
+its a conjunction of else and if,
+allow to ask a question that takes into account whether or not a previous question had a true or false answer
+
+e.g.
+0                                       (start)
+1                                       (x < y)
+        (true)
+                                                    (false)
+2                                                   (x > y)
+                                    (true)
+                                                                            (false)
+3                                                                           (x == y)
+                                                            (true)
+4   (x is less than y)      (x is greater than y)       (x is equal to y)       or      (false)
+5                                       (stop)
 
 else
