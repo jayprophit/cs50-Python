@@ -516,7 +516,8 @@ e.g.
 
 
 !=  - not equal to
-means its not equal to so just print e.g. x is not equal to y
+means its not equal to so just print
+e.g. x is not equal to y
 
 e.g.
 0                  (start)
@@ -534,7 +535,8 @@ e.g.
 3         |---------(stop)---------|
 
 ==  - equal equal to
-means its equal equal to so just print e.g. x is equal to y
+means its equal equal to so just print
+e.g. x is equal to y
 
 e.g.
 0                  (start)
@@ -553,6 +555,4 @@ e.g.
 
 
 and
-means to ask one or two or more questions
-'''
-'''
+means to ask, one or two or more questions
