@@ -83,9 +83,3 @@ y = int(input("What's y?"))
 if x < y:
     print("x is less than y")
 '''
-
-
-
-'''
-
-'''
