@@ -1,10 +1,10 @@
-Python
+# Python
 
 
 
-cs50 - Introduction to Programming with Python - Full University Course
+# cs50 - Introduction to Programming with Python - Full University Course
 
-Course Context
+# Course Context
 
 functions -
 variables - 
@@ -20,49 +20,54 @@ procedural programming - write procedures top to bottom to solve problems step b
 functional programming - 
 et cetera
 
-python website documentation library: https://docs.python.org/3/library/
+# python website documentation library:
+https://docs.python.org/3/library/
 
-Youtube video link: https://www.youtube.com/watch?v=nLRL_NcnK-4&t=1405s
+# Youtube video link:
+https://www.youtube.com/watch?v=nLRL_NcnK-4&t=1405s
 
-online course: https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python?index=product&queryID=d261282de44491e46e7817fb335660b7&position=2&results_level=first-level-results&term=cs50&objectID=course-2cc794d0-316d-42f7-bbfd-25c34e4cd5df&campaign=CS50%27s+Introduction+to+Programming+with+Python&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fsearch
+# online course:
+https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python?index=product&queryID=d261282de44491e46e7817fb335660b7&position=2&results_level=first-level-results&term=cs50&objectID=course-2cc794d0-316d-42f7-bbfd-25c34e4cd5df&campaign=CS50%27s+Introduction+to+Programming+with+Python&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fsearch
 
 
 
 
 --SECTION 1--
 
-# Single Line Comment - 'number sign, hash, or pound sign' (#) is a comment, which allows you to leave notes that are reminders that are ignored by the programme
+# Single Line Comment
+at the beginning of the line before any text input, 'number sign, hash, or pound sign' (#) is a comment, which allows you to leave notes that are reminders that are ignored by the programme
 
 
-Paragraph Comment
+# Paragraph Comment
 Three apostrophe's 'punctuation marks' (''' ''') or three Quotation marks (""" """) before and after your text, 
 allows comment of a section of information, 
 to leave notes that are reminders that are ignored by the programme 
 
 
-Python is a program otherwise known as an interpreter.  
+# Python
+is a program otherwise known as an interpreter.  
 It converts the file into readable binary code a computer can understand,
 then it changes the programme into readable human language
 
 
-Create New File
+# Create New File
 Using the terminal and typing 
 code name.py
 in the place of name, is where you put your file name
 this allows you to create a new file
 
 
-Run/ Execute Python Code
+# Run/ Execute Python Code
 Using the terminal and typing
 python name.py
 in the place of name, is where you put your file name
 this will run your programme
 
-using the up arrow
+# using the up arrow
 is a quick way to recall a request command printed on the terminal
 
 
-Functions
+# Functions
 a function is like an action or a verb,
 that lets you do something in the programme.
 generally any language comes with some predetermined set of functions.
@@ -82,20 +87,20 @@ when you pass multiple arguments to print,
 it automatically inserts a space for you
 
 
-Arguments
+# Arguments
 is an input to a function that somehow influences its's behaviour 
 
-Parameters ()
+# Parameters ()
 what you pass your argument inside to get an output
 
-Parentheses
+# Parentheses
 arguments inside of the parameters
 
 e.g.
 (1 + 2)
 
 
-print()
+# print()
 Print is a function that use's parentheses, 
 as an ability to take in some input of string of text data, 
 in English or any other human language.
@@ -122,37 +127,35 @@ print(
 
 Print objects to the text stream file, separated by sep and followed by end. sep, end, file, and flush, if present, must be given as keyword arguments.
 
-Speech Text that is visible and readable to the user is placed inside comma's ('text') or quotation marks ("text"),
-as python accepts both,
-just remember to keep consistent when using a specific se when coding, 
+# Speech Text that is visible and readable to the user is placed inside comma's ('text') or quotation marks ("text"),
+as python accepts both, just remember to keep consistent when using a specific set when coding, 
 as to not break code or confuse your self or some one else who may need to edit the code in the future
 
 
-Corner Case
+# Corner Case
 quotations marks in side comma's
 
 e.g.
 print('hello, "friend"')
 print("hello, \"friend\"")
 
-f - (means format)
+# f - (means format)
 before the quotation mark make it a special string
 inside the parameters
 print(f"hello,", {name})
 
-\n
-is an escape character, also means new line
+# \n
+is an escape character, also means new line, line ending
 
-Side Effects
+# Side Effects
 when a function is executed. 
 The program gives back an action from the commands given.
 it can be:-
-
 visual
 audio
 
 
-Bugs
+# Bugs
 are mistakes that coders and programmers make, 
 that causes errors in the programme
 and its the coders and programmers job to fix theses problems
@@ -167,20 +170,20 @@ that returns values.
 output = return value
 
 e.g.
-# question = what's your name?
+'''question = what's your name?'''
 input = what's your name?
 
-# answer = John
+'''answer = John'''
 output = John
 
 
-Variables
+# Variables
 can store a value of some number, text, image, video or more.
 a variable is a container for some value, 
 inside of a computer or inside a programme that can be used or reused at any time
 
 
-input()
+# input()
 expects what's called a string, 
 it's expecting text which is going to prompt the user
 
@@ -196,14 +199,14 @@ it will display:-
 
 what's your name?
 
-Concatenation - concatenates
+# Concatenation - concatenates
 to join the thing on the left and the thing on the right
 
 e.g.
 ("hello + world")
 
 
-String - str()
+# String - str()
 a sequence of text be it English or any other human language, 
 this is classed as data in programmes
 
@@ -211,21 +214,21 @@ https://docs.python.org/3/library/functions.html#func-str
 
 https://docs.python.org/3/library/stdtypes.html#str
 
-.strip()
+# .strip()
 is a string extension
 it is a method to remove white space, 
 if a user inputs to many spaces it will reduce it by default off 1, 
-or if you set a specific number like 2, it will reduce it to 2 whitespaces
+or if you set a specific number like 2, it will reduce it to 2 white spaces
 
 e.g.
 name = name.strip()
 
-{} list
+# list - part: 1
 allows you to store multiple pieces of data into a list, be it int or variable, 
 to be recalled on command
 
 
-int - Integer
+# int - Integer
 it represents a number, 
 but not a decimal number
 
@@ -236,7 +239,7 @@ but not a decimal number
 %   - modulo operator, it allows you to take the remainder after dividing one number by another
 
 
-Interactive Mode
+# Interactive Mode
 you can start writing python code and immediately execute each of those lines interactively,
 allowing the coder to execute some lines of code and get back some answers
 
@@ -249,7 +252,7 @@ e.g.
 print("hello, world)
 
 
-TAB
+# TAB
 is used to indent inside code instead of multiple spaces.
 
 if used in terminal.  
@@ -272,20 +275,20 @@ folder name: Python
 file name: calculator
 
 
-Nesting functions
+# Nesting functions
 means the return value of the inner function, 
 becomes the argument to outer function
 
-# un-nested
+'''un-nested'''
 input("what's x?)
 
-# nested
+'''nested'''
 int(input("what's x? ))
 
 this means that the input "whats x?" now equals or is represented by the function int
 
 
-float
+# float
 is a number with a decimal point,
 also know as a floating point value.
 
@@ -293,7 +296,7 @@ also know as a floating point value.
 means an optional choice
 
 
-round - Rounding
+# round - Rounding
 you can round the number to the ndigit (nearest digit "integer") after the decimal point 
 
 https://docs.python.org/3/library/functions.html#round
@@ -310,7 +313,7 @@ round(
 )
 
 
-Number break - 0,000.00 
+# Number break - 0,000.00 
 to break a number up, so it has a comma in mathematics e.g. 1000 is 1,000
 using the format principle and a list bracket {}
 
@@ -318,14 +321,14 @@ e.g.
 print(f"{:,}")
 
 
-.2f
+# .2f
 allows you to specify how many digits you want to print, e.g. 3.566789 into 3.56
 
 e.g.
 print(f"{:.2f,}")
 
 
-def - Define
+# def - Define
 allows you to invent or define your own function, 
 specifying how you want to manipulate the function, 
 allows you to stop repeating yourself again and again,
@@ -334,10 +337,10 @@ e.g.
 def hello():
     print("hello")
 
-# ask user for their name
+'''ask user for their name'''
 name = input("What's your name? ").strip().title()
 hello()
-# say hello
+'''say hello''
 print(name)
 
 you can also define a default value to some worlds by using parenthesis
@@ -355,11 +358,11 @@ by defining main() and closing with main, main can be any customized word e.g. h
 you can have your argument inside and it will run like a function but to a customized argument
 
 
-Scope
+# Scope
 refer's to a variable only existing in the context in which you defined it
 
 e.g.
-# with scope
+'''with scope'''
 def main():
     name = input("What's your name? ").strip().title()
     hello()  
@@ -369,7 +372,7 @@ def hello(to="world"):
 
 main()
 
-# without scope
+'''without scope'''
 def main():
     name = input("What's your name? ").strip().title()
     hello()  
@@ -382,7 +385,7 @@ main()
 name doesn't exist in the hello function so can't be called
 
 
-return
+# return
 it calls the input function to return a value string that the user typed in
 
 e.g.
@@ -396,10 +399,8 @@ def square(n):
 
 main()
 
-square has been returned as a value after being called
-
-
-Raise a number to the value of another
+square has been returned as a value after being called, 
+raise a number to the value of another
 
 e.g.
 n ** 2
@@ -409,10 +410,10 @@ this means ive raised n by the value of 2, raising the left side by the value of
 
 
 
---SECTION 2--
+# --SECTION 2--
 
 
-Conditionals
+# Conditionals
 
 built in syntax
 >   - greater than
@@ -423,7 +424,7 @@ built in syntax
 !=  - not equal to
 
 
-Flow chart
+# Flow chart
 a diagram that represent's the direction of the function,
 also known as the control flow.
 go left if the answer is true or go right if the answer is false
@@ -432,7 +433,7 @@ e.g.
 follow the stages from start to stop, notice how many steps it function has!
 
 
-if
+# if
 is a statement that represents
 
 e.g.
@@ -457,7 +458,7 @@ e.g.
 7             |----------(stop)---------|
 
 
-elif
+# elif
 its a statement that is a conjunction  of else and if,
 allow to ask a question that takes into account whether or not a previous question had a true or false answer
 
@@ -471,13 +472,13 @@ e.g.
           |                             |                                      |
         (true)                       (true)                                 (false)
 3         |                             |                        -----------(x == y)-------
-          |                             |                     (true)                       |
+          |                             |                     (true)                        |
 4   (x is less than y)      (x is greater than y)       (x is equal to y)               (false)
           |                             |                       |                          |
 5         |--------------------------(stop)---------------------|--------------------------|
 
 
-else
+# else
 is a statement that if the answer to the question is not true then lets just assume because its false  for example:- that x is equal to y
 
 e.g.
@@ -496,7 +497,7 @@ e.g.
 4         |--------------------------(stop)---------------------|
 
 
-or
+# or
 is x equal to y or not or is it true or false
 
 e.g.
@@ -515,7 +516,7 @@ e.g.
 4             |---------(stop)---------|
 
 
-!=  - not equal to
+# !=  - not equal to
 means its not equal to so just print
 e.g. x is not equal to y
 
@@ -534,14 +535,14 @@ e.g.
           |                        |
 3         |---------(stop)---------|
 
-==  - equal equal to
+# ==  - equal equal to
 means its equal equal to so just print
 e.g. x is equal to y
 
 e.g.
-0                  (start)
-                      |
-1          --------(x == y)---------
+0                   (start)
+                       |
+1          ---------(x == y)-------
           |                        |
           |                        |
           |                        |
@@ -554,25 +555,25 @@ e.g.
 3         |---------(stop)---------|
 
 
-and
+# and
 means to ask, one or two or more questions
 
 
-bool - Boolean
+# bool - Boolean
 they can only be True or False,
 (has to have a capital for code input - True/ False)
 
 
-match - (also know as switch in other languages)
+# match - (also know as switch in other languages)
 it uses a case argument
 in a case argument -: = who?
 
 
 
-Section 3
+# Section 3
 
 
-Loops
+# Loops
 
 e.g.
 0   (start)
@@ -586,7 +587,92 @@ e.g.
 4   (stop)
 
 
-while
+# while
 allows a question to be asked as a loop, 
-that repeats again and agian, 
+that repeats again and again, 
 as many times as you want
+
+
+Break out of infinite loop if stuck by accident
+ctrl c (cancel, interrupt) in terminal window
+(May very depending ong system software)
+
+
+e.g.
+0                   (start)
+                       |
+1                   (i = 3)
+                       |
+2          -------- (i != 0)-------
+          |            |           |
+          |            |           |
+          |            |           |
+          |            |           |
+3       (true)      (False)        |
+          |            |           |
+          |            |           |
+4       ("meow")     (stop)         |
+          |                        |
+5         |-------(i = i - 1)------|
+
+
+when counting generally most scientist or programmers start from zero
+
+
+e.g.
+0                   (start)
+                       |
+1                   (i = 0)
+                       |
+2          ---------(i < 0)--------
+          |            |           |
+          |            |           |
+          |            |           |
+          |            |           |
+3       (true)      (False)        |
+          |            |           |
+          |            |           |
+4       ("meow")     (stop)        |
+          |                        |
+5         |--------(i += 1)--------|
+
+
+# for
+it allows you to iterate over a list of items
+
+
+# [] list - pt: 2
+allows you to contain multiple values all in the same place, all in the same variable.
+the 1st item in a list starts at location zero
+
+e.g.
+
+shopping list equals, item one: location zero, item two: location one, item three: location two
+shopping list = ["item1", "item 2", "item 3"]
+
+item one    [0]
+item two    [1]
+item three  [2]
+
+in a list when using loops call the variable by its name and don't use a place holder
+
+
+e.g.
+
+students = ["Hemione", "Harry", "Ron"]
+
+for student in students:
+    print(student)
+
+
+# range
+it returns to you a range of values, from at least one or more arguments,
+this is a selection of values up to a specified value, 
+not through the specified value
+
+# _
+use as a place holder, if its a variable but you not concerned about its name
+
+
+# end=""
+allows you to set the amount of spaces to reduce from the end
