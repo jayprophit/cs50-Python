@@ -32,7 +32,7 @@ https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-progr
 
 
 
---SECTION 1--
+# --SECTION 1--
 
 # Single Line Comment
 at the beginning of the line before any text input, 'number sign, hash, or pound sign' (#) is a comment, which allows you to leave notes that are reminders that are ignored by the programme
