@@ -38,3 +38,8 @@ push an existing repository from the command line
 git remote add origin <https://github.com/jayprophit/cs50-Python>
 git branch -M main
 git push -u origin main
+
+
+
+Published:
+By Jonathan Powell
