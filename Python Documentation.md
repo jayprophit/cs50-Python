@@ -557,4 +557,16 @@ e.g.
 and
 means to ask, one or two or more questions
 
-'''
+
+bool - Boolean
+they can only be True or False,
+(has to have a capital for code input - True/ False)
+
+
+match - (also know as switch in other languages)
+it uses a case argument
+in a case argument -: = who?
+
+
+
+Section 3
