@@ -436,6 +436,7 @@ follow the stages from start to stop, notice how many steps it function has!
 # if
 is a statement that represents
 
+(view in code)
 e.g.
 if the answer to this question is true go ahead and execute this code
 
@@ -462,6 +463,7 @@ e.g.
 its a statement that is a conjunction  of else and if,
 allow to ask a question that takes into account whether or not a previous question had a true or false answer
 
+(view in code)
 e.g.
 0                                    (start)
                                         |
@@ -481,6 +483,7 @@ e.g.
 # else
 is a statement that if the answer to the question is not true then lets just assume because its false  for example:- that x is equal to y
 
+(view in code)
 e.g.
 0                                    (start)
                                         |
@@ -500,6 +503,7 @@ e.g.
 # or
 is x equal to y or not or is it true or false
 
+(view in code)
 e.g.
 0                 (start)
                      |
@@ -520,6 +524,7 @@ e.g.
 means its not equal to so just print
 e.g. x is not equal to y
 
+(view in code)
 e.g.
 0                  (start)
                       |
@@ -539,6 +544,7 @@ e.g.
 means its equal equal to so just print
 e.g. x is equal to y
 
+(view in code)
 e.g.
 0                   (start)
                        |
@@ -575,6 +581,7 @@ in a case argument -: = who?
 
 # Loops
 
+(view in code)
 e.g.
 0   (start)
        |
@@ -597,7 +604,7 @@ Break out of infinite loop if stuck by accident
 ctrl c (cancel, interrupt) in terminal window
 (May very depending ong system software)
 
-
+(view in code)
 e.g.
 0                   (start)
                        |
@@ -618,7 +625,7 @@ e.g.
 
 when counting generally most scientist or programmers start from zero
 
-
+(view in code)
 e.g.
 0                   (start)
                        |
