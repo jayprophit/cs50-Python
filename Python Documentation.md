@@ -570,3 +570,23 @@ in a case argument -: = who?
 
 
 Section 3
+
+
+Loops
+
+e.g.
+0   (start)
+       |
+1   (meow)
+       |
+2   (meow)
+       |
+3   (meow)
+       |
+4   (stop)
+
+
+while
+allows a question to be asked as a loop, 
+that repeats again and agian, 
+as many times as you want
