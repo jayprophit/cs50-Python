@@ -703,3 +703,12 @@ adds a separator, a separation with a comma
 
 ## None
 this means the absents of a value
+
+
+## end=""
+allows you to end the line 
+
+
+## nesting (notes)
+you can use i, j, k
+advised not to use any more as these letters are assigned to a function in python
