@@ -684,3 +684,22 @@ use as a place holder, if its a variable but you not concerned about its name
 
 ## end=""
 allows you to set the amount of spaces to reduce from the end
+
+
+## len - length
+tells you the length of a list
+
+
+## dict - dictionary
+a data structure that allows you to associate one value with another
+
+e.g.
+words with their definitions
+
+
+## sep=", "
+adds a separator, a separation with a comma
+
+
+## None
+this means the absents of a value
