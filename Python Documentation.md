@@ -34,6 +34,7 @@ https://www.youtube.com/watch?v=nLRL_NcnK-4&t=1405s
 
 # --SECTION 1--
 
+
 ## Single Line Comment
 at the beginning of the line before any text input, 'number sign, hash, or pound sign' (#) is a comment, which allows you to leave notes that are reminders that are ignored by the programme
 
@@ -712,3 +713,10 @@ allows you to end the line
 ## nesting (notes)
 you can use i, j, k
 advised not to use any more as these letters are assigned to a function in python
+
+
+
+# Section 4
+
+
+## Exceptions

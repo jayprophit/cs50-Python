@@ -59,7 +59,7 @@ main()
 
 
 
-# print bricks in a row
+# print ? bricks in a row
 def main():
     print_row(4)
 
