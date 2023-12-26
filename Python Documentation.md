@@ -577,7 +577,7 @@ in a case argument -: = who?
 
 
 
-## Section 3
+# --Section 3--
 
 
 ## Loops
@@ -716,7 +716,32 @@ advised not to use any more as these letters are assigned to a function in pytho
 
 
 
-# Section 4
+# --Section 4--
 
 
 ## Exceptions
+
+## Syntax error
+is a problem that you have to solve and want resolve itself
+
+## Run time error
+this happens when you code is running.
+as good practice coders write additional codes defensively to detect when the errors happen.  This is to prepare for the different varieties of code that will be input by different users correctly or incorrectly
+
+## ValueError
+this is an error with one of the input values
+
+## try
+try to see if this is exceptional code
+
+## except
+excepts a code regardless of the error
+
+## NameError
+your specified variable name has an error
+
+## Pass
+allows you to ignore/ pass on doing anything with it - meaning (don't print data)
+
+## raise
+allows you to raise exceptions yourself
