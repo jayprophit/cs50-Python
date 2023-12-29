@@ -745,3 +745,61 @@ allows you to ignore/ pass on doing anything with it - meaning (don't print data
 
 ## raise
 allows you to raise exceptions yourself
+
+
+
+# --Section 5--
+
+
+## Libraries
+are files that other people have written that you can use in your own program, or code that you yourself have written that you can use in your own program
+
+## modules
+are files with one or more functions built into it.
+its to encourage reusability of code, meaning shorter work time and and the ability to share work
+
+## random
+its a modulator with pre programmed functions
+
+[official Python documentation](https://docs.python.org/3/library/random.html)
+
+### random.choice(seq)
+module = random, function = choice, sequence = a list/ list like of string data
+
+### random.randint(a, b)
+randint - means random integer
+module = random, function = randint, thats between a and b inclusive
+
+e.g.
+
+1-10
+you will get a number back between one and ten and the numbers one and ten included.
+this gives a 10% probability for each choice
+
+### random.shuffle(x)
+takes in a list of values and shuffle up the data into random order
+module = random, function = shuffle, x - is the list of values
+
+## import
+allows you to import the entire contents of a module
+
+## from
+allows you to import parts of a functions from a module
+
+## Statistics
+has functions that are more mathematical in nature.  calculating means, modules or other aspects of a data set you may want to analyze
+
+[official Python documentation](https://docs.python.org/3/library/statistics.html)
+
+## command-line arguments
+it allows to provide arguments that inputs to the program just when your executing at the command-line
+
+## sys -system
+contains functionality that specific to the python system itself
+
+[official Python documentation](https://docs.python.org/3/library/sys.html)
+
+a variable called argument vector.
+the 1st element is the first thing you type the second element will be the second thing that you type. etc
+
+sys.argv
