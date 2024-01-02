@@ -803,3 +803,84 @@ a variable called argument vector.
 the 1st element is the first thing you type the second element will be the second thing that you type. etc
 
 sys.argv
+
+when passing through a prompt, you can put it in double quotes at the terminal window to except the argument as long as the in the code the allows it
+
+e.g.
+
+import sys
+
+if len(sys.argv) < 2:
+    print("Too few arguments")
+elif len(sys.argv) > 2:
+    print("Too many arguments")
+else:
+    print("hello, my name is" , sys.argv[1])
+
+at the terminal window:
+python name.py "Jonathan Powell"
+
+exits the program at the specified location, then are there
+
+sys.exit
+
+
+## IndexError
+this tells the user that your prompt (list selection) is to far out of range.  this means to far to the left or to far to the right in this object which is a list of some values.
+
+## slices
+takes a sub-set of a list (a slice of a list)
+
+e.g.
+
+Example 1
+import sys
+
+check for errors
+
+if len(sys.argv) < 2:
+    sys.exit("Too few arguments")
+
+starts at element 1 and everything else
+
+for arg in sys.argv[1:]:
+    print("hello, my name is" , arg)
+
+
+Example 2
+import sys
+
+check for errors
+
+if len(sys.argv) < 2:
+    sys.exit("Too few arguments")
+
+starts at element 1 and everything else and removes last entry
+
+for arg in sys.argv[1:-1]:
+    print("hello, my name is" , arg)
+
+
+## Packages
+3rd party library which is a module implemented in a folder of functions that you yourself or other people have created
+
+## PyPi
+is the python package index website, that allows you to download and install a package on your computer or server or upload a package you create for others to use
+
+[official Python package index](https://pypi.org)
+
+## cowsay
+is a package in python that allows a cow to say something on your screen
+
+[official Python package index](https://pypi.org/project/cowsay)
+
+## pip
+is a package manager.  install packages into your Mac, PC, Linux, Cloud environment or IDE (integrated development environment)
+
+e.g.
+
+pip install cowsay
+
+## ASCII - art
+is olden styled textual way of using keys on the keyboard to print pictures of sort on a screen
+
