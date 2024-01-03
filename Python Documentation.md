@@ -935,3 +935,27 @@ this means to pass that function that response.json return value
 
 ## indent=
 indents the data by the specified number of spaces
+
+## __name__
+automatically set by python to be main when you run a file from the command line
+
+e.g.
+
+def main():
+    hello("world")
+    goodbye("world")
+
+def hello(name):
+    print(f"hello, {name}")
+
+def goodbye(name):
+    print(f"goodbye, {name}")
+
+if __name__ == "__name__":
+    main()
+
+name - becomes main
+
+
+
+# Section 6
