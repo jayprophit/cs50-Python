@@ -300,7 +300,7 @@ means an optional choice
 # round - Rounding
 you can round the number to the ndigit (nearest digit "integer") after the decimal point 
 
-https://docs.python.org/3/library/functions.html#round
+[Python string documentation](https://docs.python.org/3/library/functions.html#round)
 
 official documentation for:
 
@@ -884,3 +884,54 @@ pip install cowsay
 ## ASCII - art
 is olden styled textual way of using keys on the keyboard to print pictures of sort on a screen
 
+## APIs
+application programming interface.
+third party services that anyone can talk to.
+
+## requests
+allows the user to make web requests, allowing the user to automate the requests of URL's that stat with http or https
+
+pip install requests
+
+[official Python package index](https://pypi.org/requests)
+
+
+### Itunes Exercise
+
+https://itunes.apple.com/search?entity=song&limit=1&term=weezer
+
+https://itunes.apple.com - is the website
+
+search? - is the request made on the website server
+
+entity=song - so that its songs is not artists or albums or something like that
+
+limit=1 - this is to get back information on one song
+
+term=weezer - this is the band or the artist that is requested
+
+this gives you will give you a text file
+
+{
+ "resultCount":1,
+ "results": [
+{"wrapperType":"track", "kind":"song", "artistId":115234, "collectionId":1440878798, "trackId":1440879325, "artistName":"Weezer", "collectionName":"Weezer", "trackName":"Buddy Holly", "collectionCensoredName":"Weezer", "trackCensoredName":"Buddy Holly", "artistViewUrl":"https://music.apple.com/us/artist/weezer/115234?uo=4", "collectionViewUrl":"https://music.apple.com/us/album/buddy-holly/1440878798?i=1440879325&uo=4", "trackViewUrl":"https://music.apple.com/us/album/buddy-holly/1440878798?i=1440879325&uo=4",
+"previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/f0/ba/a8/f0baa81a-7449-c490-f43a-b5c6e3609e3f/mzaf_3988310882581261442.plus.aac.p.m4a", "artworkUrl30":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/74/67/fc74674a-1eb0-d50d-33fe-215caee529d1/16UMGIM52971.rgb.jpg/30x30bb.jpg", "artworkUrl60":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/74/67/fc74674a-1eb0-d50d-33fe-215caee529d1/16UMGIM52971.rgb.jpg/60x60bb.jpg", "artworkUrl100":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/74/67/fc74674a-1eb0-d50d-33fe-215caee529d1/16UMGIM52971.rgb.jpg/100x100bb.jpg", "collectionPrice":10.99, "trackPrice":1.29, "releaseDate":"1994-01-01T12:00:00Z", "collectionExplicitness":"notExplicit", "trackExplicitness":"notExplicit", "discCount":1, "discNumber":1, "trackCount":10, "trackNumber":4, "trackTimeMillis":159587, "country":"USA", "currency":"USD", "primaryGenreName":"Pop", "isStreamable":true}]
+}
+
+this text format is known as 'json'
+
+## JSON
+javaScript object notation.
+known as a 'language agnostic format' for exchanging data between computers.  this isn't limit to python.  you can use any other language to read json or write it as well.
+its completely text based format.  meaning if i visit a url in a browser, what gets downloaded is just a bunch of text, but that text is formatted in a standard way using curly braces and square brackets, using quotes and some colons, that contains all of the information on apple's data base on Weezer's song at the first one as the selection was limited to one in their database.
+thats using an API, a mechanism where the user can access some data on someone else's server and then integrate it into the user's own program.
+as the web browser is not something that is written by the user.  the user will need a code to interact with the text format provide,
+
+[Python string documentation](https://docs.python.org/3/library/json.html)
+
+json.dumps - dump string,
+this means to pass that function that response.json return value
+
+## indent=
+indents the data by the specified number of spaces
