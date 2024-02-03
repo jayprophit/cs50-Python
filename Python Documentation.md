@@ -974,3 +974,19 @@ is a 3rd party program  tool that will automate the testing of your code, as lon
 note - there are other unit testing programs available on python
 
 [official Pytest package index](https://pytest.org)
+
+
+running pytest on multiple folders
+
+in terminal:-
+
+pytest test 
+
+## mkdir
+makes a new folder
+
+## __init__.py
+tells python to treat the specified folder not as a module but as a package
+
+## package
+is a python module or multiple modules that are organized inside of a folder
