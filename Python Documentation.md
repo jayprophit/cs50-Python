@@ -962,3 +962,15 @@ name - becomes main
 
 ## Unit Tests
 
+## assert
+allows you to claim (assert) that something is true, if its not true it will show an error
+
+## AssertionError
+shows that theres an error wile using the assert command
+
+## pytest
+is a 3rd party program  tool that will automate the testing of your code, as long as the coder/ programmer write's the test
+
+note - there are other unit testing programs available on python
+
+[official Pytest package index](https://pytest.org)

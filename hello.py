@@ -1,16 +1,17 @@
 '''
-Calculator 2
+Print Hello 2
 '''
 
 def main():
-    x = int(input("what's x? "))
-    print("x squared is", square(x))
+    name = input("What's your name? ").strip().title()
+    hello()  
 
-def square(n):
-    return n * n
+def hello(to="world"):
+    print("hello,", to)
 
 if __name__ == "__main__":
     main()
+
 
 '''
 # different variations to produce the same result and solve the problem
