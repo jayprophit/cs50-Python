@@ -990,3 +990,103 @@ tells python to treat the specified folder not as a module but as a package
 
 ## package
 is a python module or multiple modules that are organized inside of a folder
+
+
+
+# Section 7
+
+# File I/O
+is the input and output of files.
+
+## {} list - part: 3
+list are stored in the computers memory, so once the program exits even the contents of those disappear
+
+## open
+open a file, allows the user to read information from it or write information to it
+
+[official Python library](https://docs.python.org/3/library/functions.html#open)
+
+## rm
+in terminal if you input
+rm (name) it will delete the file
+
+e.g.
+
+rm names.txt
+
+## with
+with open allows you to write and close a file
+
+e.g.
+
+with open("names.txt", "a") as file:
+    file.write(f"{name}\n")
+
+
+## line
+allows you to read files, stores them in a variable called line and return them as a list
+
+e.g.
+
+with open("names.txt", "r") as file:
+    lines = file.readlines()
+
+for line in lines:
+    print("hello,", line)
+
+
+## .rstrip
+allows you to strip of the end of an implement detail in the line
+
+e.g.
+
+with open("names.txt", "r") as file:
+    lines = file.readlines()
+
+for line in lines:
+    print("hello,", line.rstrip())
+
+## append
+sorts the file in alphabetical ascending order
+
+e.g.
+
+names = []
+
+with open("names.txt") as file:
+    for line in file:
+        names.append(line.rstrip())
+
+for name in sorted(names):
+    print(f"hello, {name}")
+
+[official Python library](https://docs.python.org/3/library/functions.html#sorted)
+
+
+summary:-
+
+sorted(iterable, /, *, key=None, reverse=False)
+
+to have descending order
+
+you change it to:-
+
+sorted(iterable, /, *, key=None, reverse=True)
+
+
+## csv
+ stands for - comma separated value, which is a file format, that allows you to store multiple pieces of information that are related in the same file
+
+ you can import your csv file into spreadsheet software
+ like:-
+
+ excel
+ apple number
+ google spreadsheet
+
+
+ ## .split
+ the split function will split the pice of information into 1 or more pieces of data
+
+ ## row
+ it allows you to look at lines as rows, each part separated by comma's as columns
