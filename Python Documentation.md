@@ -1084,9 +1084,107 @@ sorted(iterable, /, *, key=None, reverse=True)
  apple number
  google spreadsheet
 
+ [official Python library](https://docs.python.org/3/library/csv.html)
+
 
  ## .split
  the split function will split the pice of information into 1 or more pieces of data
 
  ## row
  it allows you to look at lines as rows, each part separated by comma's as columns
+
+ ## key
+ tells sorted function how to sort the specified list of dictionary.  you can also pass an anonymous function, which is called lambda which can be seen in example 3.
+
+ e.g. #1
+
+ def get_name(student):
+    return student["name"]
+
+for student in sorted (students, key=get_name):
+    print(f"{student['name']} is in {student['house']}")
+
+e.g. #2
+
+students = []
+
+with open("students.csv") as file:
+    for line in file:
+        name, house = line.rstrip().split(",")
+        student = {}
+        student = {"name": name, "house": house}
+        students.append(student)
+
+def get_house(student):
+    return student["house"]
+
+
+for student in sorted (students, key=get_house, reverse=True):
+    print(f"{student['name']} is in {student['house']}")
+
+e.g. #3
+
+students = []
+
+with open("students.csv") as file:
+    for line in file:
+        name, house = line.rstrip().split(",")
+        student = {}
+        student = {"name": name, "house": house}
+        students.append(student)
+
+def get_house(student):
+    return student["house"]
+
+for student in sorted (students, key=lambda student: student["name"]):
+    print(f"{student['name']} is in {student['house']}")
+
+## reader
+it can be used to iterate over files, meaning it sorts where the quotes, corner cases, etc and will automatically sort them for you, you can override certain defaults or functions
+
+e.g.
+
+import csv
+
+students = []
+
+with open("students.csv") as file:
+    reader = csv.reader(file)
+    for row in reader:
+        students.append({"name": row[0], "home": row[1]})
+
+for student in sorted (students, key=lambda student: student["name"]):
+    print(f"{student['name']} is from {student['home']}")
+
+
+## DictReader - dictionary reader
+is a function for csv that allows you to iterate over the file, top to bottom, loading in each line of text not as a list of columns but as a dictionary of columns, this gives automatic access yto those columns names
+
+## writer
+allows you to open and write a file
+
+e.g.
+
+import csv
+
+name = input("what's your name? ")
+home = input("where's your home? ")
+
+with open("students.csv", "a") as file:
+    writer = csv.writer(file)
+    writer.writerow([name, home])
+
+## DictWriter
+
+allows you to open and write a file as a dictionary, it needs an extra function called fieldname that helps to define which column belongs to which group
+
+e.g.
+
+import csv
+
+name = input("what's your name? ")
+home = input("where's your home? ")
+
+with open("students.csv", "a") as file:
+    writer = csv.DictWriter(file, fieldnames=["name", "home"])
+    writer.writerow({"name": name, "home": home})
