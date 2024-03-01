@@ -1188,3 +1188,7 @@ home = input("where's your home? ")
 with open("students.csv", "a") as file:
     writer = csv.DictWriter(file, fieldnames=["name", "home"])
     writer.writerow({"name": name, "home": home})
+
+
+## fieldname
+is a string name given to the column you intend to write to in that file.  it ensures that the library knows which column has been given its name or tiles respectively 
