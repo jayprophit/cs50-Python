@@ -577,7 +577,7 @@ in a case argument -: = who?
 
 
 
-# --Section 3--
+# --SECTION 3--
 
 
 ## Loops
@@ -716,7 +716,7 @@ advised not to use any more as these letters are assigned to a function in pytho
 
 
 
-# --Section 4--
+# --SECTION 4--
 
 
 ## Exceptions
@@ -748,7 +748,7 @@ allows you to raise exceptions yourself
 
 
 
-# --Section 5--
+# --SECTION 5--
 
 
 ## Libraries
@@ -958,7 +958,7 @@ name - becomes main
 
 
 
-# Section 6
+# --SECTION 6--
 
 ## Unit Tests
 
@@ -993,7 +993,7 @@ is a python module or multiple modules that are organized inside of a folder
 
 
 
-# Section 7
+# --SECTION 7--
 
 # File I/O
 is the input and output of files.
@@ -1236,3 +1236,8 @@ this can be memes, stickers.  it is an image file that has multiple layers insid
 
 ## scratch
 a programming language from MIT that allows you to animate images and more
+
+
+
+# --SECTION 8--
+
