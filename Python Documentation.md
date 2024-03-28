@@ -1192,3 +1192,47 @@ with open("students.csv", "a") as file:
 
 ## fieldname
 is a string name given to the column you intend to write to in that file.  it ensures that the library knows which column has been given its name or tiles respectively 
+
+
+## binary files
+allows you to store multiple keys and multiple values.  binary files are just zero's and one's (0, 1) and can be laid out in any pattern you want. this is not just restricted to text information but iyt can be graphical, audio or video information aswell
+
+## PIL
+it allows you to apply filters, animation.
+[official pillow library](https://pillow.readthedocs.io)
+
+the pillow library takes care of opening, the saving and closing by just calling save
+
+e.g.
+
+import sys
+
+from PIL import image
+
+images = []
+
+for arg in sys.argv:
+    image = Image.open(arg)
+    images.append(image)
+
+images[0].save
+
+to animate in the terminal window you call the command
+
+e.g.
+
+python costumes.py costume1.gif costume2.gif
+
+to get the final gif in the terminal window you type
+
+e.g.
+
+code costumes.gif
+
+
+## animated gif
+this can be memes, stickers.  it is an image file that has multiple layers inside it.  the computer shows the images one after another sometimes on an endless loop. as long as theres enough images it creates the illusion of animation, as the observer is only seeing 1 frame per second it looks like an animation.  it can be seen as a simplistic version of a video file
+
+
+## scratch
+a programming language from MIT that allows you to animate images and more
