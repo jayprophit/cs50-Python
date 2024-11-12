@@ -1,4 +1,12 @@
 {
     "CodeGPT.apiKey": "CodeGPT Plus Beta",
-    "workbench.editor.closeOnFileDelete": true
+    "workbench.editor.closeOnFileDelete": true,
+    "editor.wordWrap": "on",
+    "workbench.editor.wrapTabs": true,
+    "notebook.output.wordWrap": true,
+    "chat.editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "editor.defaultColorDecorators": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.codeActions.triggerOnFocusChange": true
 }

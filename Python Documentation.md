@@ -1303,4 +1303,4 @@ you can use "\." to to match on a dot or period
 use r before te r".+@.+\.com" to define that the "\." is used as a dot or period
 
 this is similar to python using f as a format string in a certain way plugging in variables between curly braces.
-In theis case r represents a raw string i want passed through exactly as is
+In this case r represents a raw string i want passed through exactly as is
