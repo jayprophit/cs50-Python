@@ -109,4 +109,3 @@ for _ in range(3):
 name = input("whats your name? ")
 print(f"hello, {name}")
 '''
-

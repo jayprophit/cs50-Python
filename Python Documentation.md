@@ -1241,3 +1241,66 @@ a programming language from MIT that allows you to animate images and more
 
 # --SECTION 8--
 
+# Regular Expressions
+also known as a regexes.  is just a pattern in a code
+
+## re
+which stands for regular expressions, is a library.  the library gives alot of capabilities to define, check for and even replace patterns and extract data from these patterns.
+
+[official Python library](https://docs.python.org/3/library/re.html)
+
+re.search(pattern, string, flags=0)
+
+there are certain symbols which you can use to define patterns
+
+e.g.
+
+.           any character except a newline
+*           0 or more repetitions
++           1 or more repetitions
+?           0 or 1 repetitions
+{m}         m repetitions
+{m,n}       m-n repetitions
+^           matches the start of the string
+$           matches the end of the string or just before the newline at the end of the string
+
+it searches and finds a result using a finite state machine or formally known as non-deterministic finite automaton
+
+e.g. v1
+
+".*@.*"
+
+start--> q1 --@-- q2
+
+q1: its starts in a so called start state is the condition in which it begins (in the 1st state which has a curved edge meaning a reflexive Edge and its labeled dot [because dot means any character] it will follow these transitions as follows from left to right through single characters using the prompt input [name])
+
+q2: then it reads the users email address from left to right, then it decides whether or no to stay in this 1st stat or transition to the next state (then it will follow through to the 2nd state as theres an @ sign [@email.com] and read the following in character order.  it has double circles one inside the other meaning if the computer finds its self in that 2nd accept state after reading all the users prompt input.  it means its a valid address)
+
+q1: if by some chance it ends up in the 1st circle which dose not have double circles whcih is not an accept state.  the computer will conclude this is an invalid email address
+
+
+e.g. v2
+
+".+@.+"
+
+start--> q1 --.-- q2 --@-- q3 --.-- q4
+
+q1: can consume any one character
+
+q2: can consume more characters before the @ sign
+
+q3: can consume atleast one more character because recall Rex has dot plus this time
+
+q4: then we can consume even more chacters if we want
+
+(one your at state 4 your at an accept state, [as it has 2 circles in total] so if the computer finds its self in the 4th state then it is a valid email address)
+
+if it dose not make it to the 4th state then it means the email address is Invalid
+
+you can use "\." to to match on a dot or period
+
+### r
+use r before te r".+@.+\.com" to define that the "\." is used as a dot or period
+
+this is similar to python using f as a format string in a certain way plugging in variables between curly braces.
+In theis case r represents a raw string i want passed through exactly as is
