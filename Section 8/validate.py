@@ -6,7 +6,7 @@ import re
 
 email = input("What's your email? ").strip()
 
-if re.search(r"^.+@.+\.com$", email):
+if re.search(r"^\w+@(\w+\.)?\w+\.(com|co.uk|edu|net|gov|org)$", email, re.IGNORECASE):
     print("Valid")
 else:
     print("Invalid")
@@ -16,6 +16,45 @@ else:
 # descending from currently used practices to basic beginner code
 
 
+if re.search(r"^[a-z0-9_\.]+@(\w+\.)?\w+\.(com|co.uk|edu|net|gov|org)$", email, re.IGNORECASE):
+    print("Valid")
+else:
+    print("Invalid")
+
+
+
+if re.search(r"^(\w|\.)+@(\w+\.)?\w+\.(com|co.uk|edu|net|gov|org)$", email, re.IGNORECASE):
+    print("Valid")
+else:
+    print("Invalid")
+
+
+
+if re.search(r"^\w+@(\w+\.)?\w+\.(com|co.uk|edu|net|gov|org)$", email, re.IGNORECASE):
+    print("Valid")
+else:
+    print("Invalid")
+
+
+
+if re.search(r"^[a-zA-Z0-9_ ]+@[a-zA-Z0-9_ ]+\.com$", email):
+    print("Valid")
+else:
+    print("Invalid")
+
+
+
+if re.search(r"^[^@]+@[^@]+\.com$", email):
+    print("Valid")
+else:
+    print("Invalid")
+
+
+
+if re.search(r"^.+@.+\.com$", email):
+    print("Valid")
+else:
+    print("Invalid")
 
 
 

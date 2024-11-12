@@ -1195,7 +1195,7 @@ is a string name given to the column you intend to write to in that file.  it en
 
 
 ## binary files
-allows you to store multiple keys and multiple values.  binary files are just zero's and one's (0, 1) and can be laid out in any pattern you want. this is not just restricted to text information but iyt can be graphical, audio or video information aswell
+allows you to store multiple keys and multiple values.  binary files are just zero's and one's (0, 1) and can be laid out in any pattern you want. this is not just restricted to text information but iyt can be graphical, audio or video information as well
 
 ## PIL
 it allows you to apply filters, animation.
@@ -1242,10 +1242,10 @@ a programming language from MIT that allows you to animate images and more
 # --SECTION 8--
 
 # Regular Expressions
-also known as a regexes.  is just a pattern in a code
+also known as a regex's.  is just a pattern in a code
 
 ## re
-which stands for regular expressions, is a library.  the library gives alot of capabilities to define, check for and even replace patterns and extract data from these patterns.
+which stands for regular expressions, is a library.  the library gives a lot of capabilities to define, check for and even replace patterns and extract data from these patterns.
 
 [official Python library](https://docs.python.org/3/library/re.html)
 
@@ -1263,6 +1263,8 @@ e.g.
 {m,n}       m-n repetitions
 ^           matches the start of the string
 $           matches the end of the string or just before the newline at the end of the string
+[]          set of characters
+[^]         complementing the set - (you cannot match any of these characters)
 
 it searches and finds a result using a finite state machine or formally known as non-deterministic finite automaton
 
@@ -1276,8 +1278,7 @@ q1: its starts in a so called start state is the condition in which it begins (i
 
 q2: then it reads the users email address from left to right, then it decides whether or no to stay in this 1st stat or transition to the next state (then it will follow through to the 2nd state as theres an @ sign [@email.com] and read the following in character order.  it has double circles one inside the other meaning if the computer finds its self in that 2nd accept state after reading all the users prompt input.  it means its a valid address)
 
-q1: if by some chance it ends up in the 1st circle which dose not have double circles whcih is not an accept state.  the computer will conclude this is an invalid email address
-
+q1: if by some chance it ends up in the 1st circle which dose not have double circles which is not an accept state.  the computer will conclude this is an invalid email address
 
 e.g. v2
 
@@ -1289,9 +1290,9 @@ q1: can consume any one character
 
 q2: can consume more characters before the @ sign
 
-q3: can consume atleast one more character because recall Rex has dot plus this time
+q3: can consume at least one more character because recall Rex has dot plus this time
 
-q4: then we can consume even more chacters if we want
+q4: then we can consume even more characters if we want
 
 (one your at state 4 your at an accept state, [as it has 2 circles in total] so if the computer finds its self in the 4th state then it is a valid email address)
 
@@ -1300,7 +1301,45 @@ if it dose not make it to the 4th state then it means the email address is Inval
 you can use "\." to to match on a dot or period
 
 ### r
+
 use r before te r".+@.+\.com" to define that the "\." is used as a dot or period
 
 this is similar to python using f as a format string in a certain way plugging in variables between curly braces.
 In this case r represents a raw string i want passed through exactly as is
+
+# \w
+represents a "word character", commonly known as an alpha numeric symbol or the underscore
+
+here are some other examples of input using backslash
+
+e.g.
+
+\d          decimal digit
+\D          not a decimal digit
+\s          whitespace characters
+\S          not a whitespace character
+\w          word character ... as well as numbers and the underscore
+\W          not a word character
+
+A|B         either A or B
+(...)       a group
+(?:...)     non-capturing version
+
+# flags
+
+re.IGNORECASE
+re.MULTILINE
+re.DOTALL
+
+
+regular expression use case:
+
+^[a-zA-Z0-9.!#$%&'*+\/=?^_'{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$
+
+re.match(pattern, string, flags=0)
+
+re.match automatically starts matching from the start of the string
+
+re.fullmatch(pattern, string, flags=0)
+
+re.fullmatch starts matching at the start and end of the string
