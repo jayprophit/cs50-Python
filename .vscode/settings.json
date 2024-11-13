@@ -8,5 +8,6 @@
     "files.autoSave": "afterDelay",
     "editor.defaultColorDecorators": true,
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.codeActions.triggerOnFocusChange": true
+    "editor.codeActions.triggerOnFocusChange": true,
+    "deepscan.enable": true
 }
