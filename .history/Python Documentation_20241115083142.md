@@ -7,7 +7,7 @@
 ## Course Context
 
 functions -
-variables -
+variables - 
 conditionals - true or false
 loops - repeated again and again set number of times
 exceptions - except errors
@@ -17,7 +17,7 @@ file I/O - input/ out
 regular expression - validate data or extract data
 object-oriented programming:- allows you to represent real world entities
 procedural programming - write procedures top to bottom to solve problems step by step
-functional programming -
+functional programming - 
 et cetera
 
 ## python website documentation library:
@@ -40,19 +40,19 @@ at the beginning of the line before any text input, 'number sign, hash, or pound
 
 
 ## Paragraph Comment
-Three apostrophe's 'punctuation marks' (''' ''') or three Quotation marks (""" """) before and after your text,
-allows comment of a section of information,
-to leave notes that are reminders that are ignored by the programme
+Three apostrophe's 'punctuation marks' (''' ''') or three Quotation marks (""" """) before and after your text, 
+allows comment of a section of information, 
+to leave notes that are reminders that are ignored by the programme 
 
 
 ## Python
-is a program otherwise known as an interpreter.
+is a program otherwise known as an interpreter.  
 It converts the file into readable binary code a computer can understand,
 then it changes the programme into readable human language
 
 
 ## Create New File
-Using the terminal and typing
+Using the terminal and typing 
 code name.py
 in the place of name, is where you put your file name
 this allows you to create a new file
@@ -72,12 +72,12 @@ is a quick way to recall a request command printed on the terminal
 a function is like an action or a verb,
 that lets you do something in the programme.
 generally any language comes with some predetermined set of functions.
-the can be very basic actions or verbs,
+the can be very basic actions or verbs, 
 that the language will already know how to use.
 as a programmer you can use the functions to get the computer to do those things
 
-some functions take multiple arguments,
-if you separate the arguments to the function with a comma,
+some functions take multiple arguments, 
+if you separate the arguments to the function with a comma, 
 you can pass in 1 or more arguments
 
 e.g.
@@ -89,7 +89,7 @@ it automatically inserts a space for you
 
 
 ## Arguments
-is an input to a function that somehow influences its's behaviour
+is an input to a function that somehow influences its's behaviour 
 
 ## Parameters ()
 what you pass your argument inside to get an output
@@ -102,8 +102,8 @@ e.g.
 
 
 ## print()
-Print is a function that use's parentheses,
-as an ability to take in some input of string of text data,
+Print is a function that use's parentheses, 
+as an ability to take in some input of string of text data, 
 in English or any other human language.
 that you want this function to print onto the screen
 
@@ -121,7 +121,7 @@ print(
     ,                   - is the separator
     end='\n'            - new line, line ending specification
     ,                   - is the separator
-    file=sys.stdout     -
+    file=sys.stdout     - 
     ,                   - is the separator
     flush=False
 )
@@ -129,7 +129,7 @@ print(
 Print objects to the text stream file, separated by sep and followed by end. sep, end, file, and flush, if present, must be given as keyword arguments.
 
 ## Speech Text that is visible and readable to the user is placed inside comma's ('text') or quotation marks ("text"),
-as python accepts both, just remember to keep consistent when using a specific set when coding,
+as python accepts both, just remember to keep consistent when using a specific set when coding, 
 as to not break code or confuse your self or some one else who may need to edit the code in the future
 
 
@@ -149,7 +149,7 @@ print(f"hello,", {name})
 is an escape character, also means new line, line ending
 
 # Side Effects
-when a function is executed.
+when a function is executed. 
 The program gives back an action from the commands given.
 it can be:-
 visual
@@ -157,7 +157,7 @@ audio
 
 
 # Bugs
-are mistakes that coders and programmers make,
+are mistakes that coders and programmers make, 
 that causes errors in the programme
 and its the coders and programmers job to fix theses problems
 before, during and after programme launch.
@@ -165,7 +165,7 @@ Theses are just seen as problems that need to be solved, edited, rewritten, modi
 
 
 ## Return values
-a feature of some of one or more functions,
+a feature of some of one or more functions, 
 that returns values.
 
 output = return value
@@ -180,12 +180,12 @@ output = John
 
 ## Variables
 can store a value of some number, text, image, video or more.
-a variable is a container for some value,
+a variable is a container for some value, 
 inside of a computer or inside a programme that can be used or reused at any time
 
 
 ## input()
-expects what's called a string,
+expects what's called a string, 
 it's expecting text which is going to prompt the user
 
 = sign means assignment operator
@@ -208,7 +208,7 @@ e.g.
 
 
 ## String - str()
-a sequence of text be it English or any other human language,
+a sequence of text be it English or any other human language, 
 this is classed as data in programmes
 
 [Python string documentation](https://docs.python.org/3/library/functions.html#func-str)
@@ -217,20 +217,20 @@ this is classed as data in programmes
 
 ## .strip()
 is a string extension
-it is a method to remove white space,
-if a user inputs to many spaces it will reduce it by default off 1,
+it is a method to remove white space, 
+if a user inputs to many spaces it will reduce it by default off 1, 
 or if you set a specific number like 2, it will reduce it to 2 white spaces
 
 e.g.
 name = name.strip()
 
 ## {} list - part: 1
-allows you to store multiple pieces of data into a list, be it int or variable,
+allows you to store multiple pieces of data into a list, be it int or variable, 
 to be recalled on command
 
 
 ## int - Integer
-it represents a number,
+it represents a number, 
 but not a decimal number
 
 - +   - addition
@@ -256,8 +256,8 @@ print("hello, world)
 ## TAB
 is used to indent inside code instead of multiple spaces.
 
-if used in terminal.
-if you start typing the request command e.g. "cal TAB" (cal for the file ive named calculator).
+if used in terminal.  
+if you start typing the request command e.g. "cal TAB" (cal for the file ive named calculator).  
 It will auto complete the rest of the text input,
 as its recalling request memory, as a file you've already created and stored, as long as your saved file is located in the same file directory folder
 
@@ -277,7 +277,7 @@ file name: calculator
 
 
 ## Nesting functions
-means the return value of the inner function,
+means the return value of the inner function, 
 becomes the argument to outer function
 
 '''un-nested'''
@@ -298,7 +298,7 @@ means an optional choice
 
 
 # round - Rounding
-you can round the number to the ndigit (nearest digit "integer") after the decimal point
+you can round the number to the ndigit (nearest digit "integer") after the decimal point 
 
 [Python string documentation](https://docs.python.org/3/library/functions.html#round)
 
@@ -314,7 +314,7 @@ round(
 )
 
 
-# Number break - 0,000.00
+# Number break - 0,000.00 
 to break a number up, so it has a comma in mathematics e.g. 1000 is 1,000
 using the format principle and a list bracket {}
 
@@ -330,8 +330,8 @@ print(f"{:.2f,}")
 
 
 # def - Define
-allows you to invent or define your own function,
-specifying how you want to manipulate the function,
+allows you to invent or define your own function, 
+specifying how you want to manipulate the function, 
 allows you to stop repeating yourself again and again,
 
 e.g.
@@ -366,7 +366,7 @@ e.g.
 '''with scope'''
 def main():
     name = input("What's your name? ").strip().title()
-    hello()
+    hello()  
 
 def hello(to="world"):
     print("hello,", to)
@@ -376,7 +376,7 @@ main()
 '''without scope'''
 def main():
     name = input("What's your name? ").strip().title()
-    hello()
+    hello()  
 
 def hello():
     print("hello,", name)
@@ -400,7 +400,7 @@ def square(n):
 
 main()
 
-square has been returned as a value after being called,
+square has been returned as a value after being called, 
 raise a number to the value of another
 
 e.g.
@@ -596,12 +596,12 @@ e.g.
 
 
 ## while
-allows a question to be asked as a loop,
-that repeats again and again,
+allows a question to be asked as a loop, 
+that repeats again and again, 
 as many times as you want
 
 
-## Break out of infinite loop
+## Break out of infinite loop 
 if stuck by accident
 ctrl c (cancel, interrupt) in terminal window
 (May very depending ong system software)
@@ -676,7 +676,7 @@ for student in students:
 
 ## range
 it returns to you a range of values, from at least one or more arguments,
-this is a selection of values up to a specified value,
+this is a selection of values up to a specified value, 
 not through the specified value
 
 ## _
@@ -707,7 +707,7 @@ this means the absents of a value
 
 
 ## end=""
-allows you to end the line
+allows you to end the line 
 
 
 ## nesting (notes)
@@ -980,7 +980,7 @@ running pytest on multiple folders
 
 in terminal:-
 
-pytest test
+pytest test 
 
 ## mkdir
 makes a new folder
@@ -1191,7 +1191,7 @@ with open("students.csv", "a") as file:
 
 
 ## fieldname
-is a string name given to the column you intend to write to in that file.  it ensures that the library knows which column has been given its name or tiles respectively
+is a string name given to the column you intend to write to in that file.  it ensures that the library knows which column has been given its name or tiles respectively 
 
 
 ## binary files
@@ -1343,6 +1343,4 @@ re.match automatically starts matching from the start of the string
 re.fullmatch(pattern, string, flags=0)
 
 re.fullmatch starts matching at the start and end of the string
-
-# :=
-also known as the walrus operator, it allows you to sign assign a value from right to left and ask a boolean question about it.
+oierfwef

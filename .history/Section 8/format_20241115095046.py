@@ -5,7 +5,8 @@ format
 import re
 
 name = input("What's your name? ").strip()
-if match := re.search(r"^(.+), *(.+)$", name):
+match = re.search(r"^(.+), *(.+)$", name)
+if matches:
     name = matches.group(2) + " " + matches.group(1)
 print(f"hello, {name}")
 
@@ -14,11 +15,7 @@ print(f"hello, {name}")
 # different variations to produce the same result and solve the problem
 # descending from currently used practices to basic beginner code
 
-name = input("What's your name? ").strip()
-match = re.search(r"^(.+), *(.+)$", name)
-if matches:
-    name = matches.group(2) + " " + matches.group(1)
-print(f"hello, {name}")
+
 
 
 

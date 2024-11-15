@@ -1343,6 +1343,4 @@ re.match automatically starts matching from the start of the string
 re.fullmatch(pattern, string, flags=0)
 
 re.fullmatch starts matching at the start and end of the string
-
-# :=
-also known as the walrus operator, it allows you to sign assign a value from right to left and ask a boolean question about it.
+oi
