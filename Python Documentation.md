@@ -1362,7 +1362,7 @@ is a way to substatue outcode or sections of imformation that would normally be 
 # re.split
 re.split(pattern, string, maxplit=0, flag=0)
 
-allows the user to split a string by usings not a specific character or characters, commar or a space but multiple characters aswell
+allows the user to split a string by usings not a specific character or characters, comma or a space but multiple characters aswell
 
 # re.findall
 re.findall(pattern, string, flag=0)
@@ -1374,6 +1374,14 @@ allows the user to search for multiuple copys of the same pattern in different p
 # --SECTION 9--
 
 # Object-Oriented Programming
-also known s OOP 
+also known as OOP 
 
-## 
+## tuple
+is type of data that is a collection of values, it's similar to a list but its immutable, not mutable - meaning you can not change the value.  that means a list is something you can change the values of but a tuple returns multiple values just by using a comma.  it returnsmultiple values as 1 value which is a tuple, and inside of that values is multiple values
+
+e.g.
+
+e,y
+(x,z)
+
+to return data that has been modified you must put the condition inside a [] instead of a of nothing or ()
