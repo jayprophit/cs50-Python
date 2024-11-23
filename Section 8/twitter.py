@@ -5,9 +5,8 @@ import re
 
 url = input("URL: ").strip()
 
-username = url.removeprfix("https://twitter.com/", "")
+re.sub(r"https://twitter.com", "", url)
 print(f"Username: {username}")
-
 
 '''
 # different variations to produce the same result and solve the problem
