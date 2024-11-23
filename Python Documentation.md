@@ -1385,3 +1385,8 @@ e,y
 (x,z)
 
 to return data that has been modified you must put the condition inside a [] instead of a of nothing or ()
+
+e.g.
+["name, house"]
+
+you index into list's and tuples usings numbers, but you index into dictionaries using strings
