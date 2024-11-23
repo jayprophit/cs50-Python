@@ -1399,3 +1399,6 @@ classes allow you to invent you own type of data types and give them a name
 
 # class
 allows you to define custom containers with custom names for pieces of data
+
+# objects
+any time you use a class you're creating an object as in OOP - object oriented programming.  the object is the incarnation of or technically instantiation of.  another term for object is instance, yoyu have instances of classes aswell
