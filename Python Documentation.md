@@ -1411,4 +1411,19 @@ name
 house
 
 # instance variables
-also another technical name for attributes 
+also another technical name for attributes
+
+# methods
+classes come with certain methods or functions inside of them that can be defiend and will behave in a special way.  these functions allow yoy to determine behavour in a standard way known as special methods
+
+# __init__
+also known as Dunder init method is specifically known as an instance method.
+if you want to initialize the contents of an object  from a class you define this method
+
+this is known as adding vairbles to objects
+
+a constructor call is data that will contruct the data object using synoyms. meaning instantiate the data object for the user, by using the class as a template to mold, so that all the data is structured the same.
+
+e.g. they have names and houses
+
+due to being customizable from being a class it allows you to modify the contents of that object
