@@ -1450,3 +1450,11 @@ this is generally ment for users of the program, to be user friendly
 
 # repr
 is ment for developers which gives access to more information, it will provides the data on what type of object it is
+
+# properties
+is an attribute that has even more defences mechanisms put into place.  a little more functionality to prevent programmers messing things up
+
+@property
+
+# decorators
+is a term of art, they are functions that modify the behavour of other functions
