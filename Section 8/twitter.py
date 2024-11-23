@@ -5,7 +5,7 @@ import re
 
 url = input("URL: ").strip()
 
-if matches := re.search(r"^https?://(?:www\.)?twitter\.com/(.+)$", url, re.IGNORECASE)
+if matches := re.search(r"^https?://(?:www\.)?twitter\.com/([a-z0-9_]+)", url, re.IGNORECASE)
     print(f"Username:", matches.group(1))
 
 
@@ -13,6 +13,17 @@ if matches := re.search(r"^https?://(?:www\.)?twitter\.com/(.+)$", url, re.IGNOR
 '''
 # different variations to produce the same result and solve the problem
 # descending from currently used practices to basic beginner code
+
+
+if matches := re.search(r"^https?://(?:www\.)?twitter\.com/(.+)$", url, re.IGNORECASE)
+    if matches.group(1) =="com":
+        print(f"Username:", matches.group(1))
+
+
+
+
+if matches := re.search(r"^https?://(?:www\.)?twitter\.(?:com|org)/(.+)$", url, re.IGNORECASE)
+    print(f"Username:", matches.group(1))
 
 
 

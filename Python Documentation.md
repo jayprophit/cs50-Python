@@ -1350,10 +1350,30 @@ also known as the walrus operator, it allows you to sign assign a value from rig
 # ignoring conditions
 you can ignore some statements if they meet the conditions.  by using these methods:-
 
-.replace() - replaces the statement with the the defined condition 
+.replace() - replaces the statement with the the defined condition
+
 .removeprefix() - removes the part that is defined by the statement
 
 # re.sub
 re.sub(pattern, repl, string, count=0, flags=0)
 
 is a way to substatue outcode or sections of imformation that would normally be required, that now ignores or skips past some information
+
+# re.split
+re.split(pattern, string, maxplit=0, flag=0)
+
+allows the user to split a string by usings not a specific character or characters, commar or a space but multiple characters aswell
+
+# re.findall
+re.findall(pattern, string, flag=0)
+
+allows the user to search for multiuple copys of the same pattern in different places in a string 
+
+
+
+# --SECTION 9--
+
+# 
+is 
+
+## 
