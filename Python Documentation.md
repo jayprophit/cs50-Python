@@ -1458,3 +1458,31 @@ is an attribute that has even more defences mechanisms put into place.  a little
 
 # decorators
 is a term of art, they are functions that modify the behavour of other functions
+
+# int
+int is a class and can be passed back an object called int
+
+class int(x, base=10)
+
+# str
+str is a class and can be passed back as an object
+
+class str(object='')
+
+this is a method
+str.lower()
+
+this is a class
+str.strip([chars])
+
+# list
+list is a class and can be passed back as an object
+
+class list([iterable])
+
+this is a method
+list.append(x)
+
+# dict
+dict is a class and can be passed back as an object
+
