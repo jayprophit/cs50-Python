@@ -1440,3 +1440,9 @@ class Student:
 
 # __new__
 creates a new function for you
+
+# raise
+allows you to raise value errors, or create exception of an error
+
+# __str__
+this is also a special method, this is used when another function wants to see your object as a string
