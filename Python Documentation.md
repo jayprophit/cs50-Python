@@ -1346,3 +1346,10 @@ re.fullmatch starts matching at the start and end of the string
 
 # :=
 also known as the walrus operator, it allows you to sign assign a value from right to left and ask a boolean question about it.
+
+you can ignore some statements if they meet the conditions.  by using these methods:-
+
+.replace() - replaces the statement with the the defined condition 
+.removeprefix() - removes the part that is defined by the statement
+
+re.sub(pattern, repl, string, count=0, flags=0)
