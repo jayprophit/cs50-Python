@@ -1446,3 +1446,7 @@ allows you to raise value errors, or create exception of an error
 
 # __str__
 this is also a special method, this is used when another function wants to see your object as a string
+this is generally ment for users of the program, to be user friendly
+
+# repr
+is ment for developers which gives access to more information, it will provides the data on what type of object it is
