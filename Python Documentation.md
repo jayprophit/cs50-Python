@@ -1438,3 +1438,5 @@ class Student:
         self.name = name
         self.house = house
 
+# __new__
+creates a new function for you
