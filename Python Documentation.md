@@ -1355,3 +1355,5 @@ you can ignore some statements if they meet the conditions.  by using these meth
 
 # re.sub
 re.sub(pattern, repl, string, count=0, flags=0)
+
+is a way to substatue outcode or sections of imformation that would normally be required, that now ignores or skips past some information
