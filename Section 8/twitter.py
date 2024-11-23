@@ -7,7 +7,7 @@ url = input("URL: ").strip()
 
 matches = re.search(r"^(https?://)?(www\.)?twitter\.com/(.+)$", url, re.IGNORECASE)
 if mathces:
-    print(f"Username:", matches.group(1))
+    print(f"Username:", matches.group(2))
 
 
 
