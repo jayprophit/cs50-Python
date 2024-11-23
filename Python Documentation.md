@@ -1387,6 +1387,15 @@ e,y
 to return data that has been modified you must put the condition inside a [] instead of a of nothing or ()
 
 e.g.
-["name, house"]
+["name"]
 
 you index into list's and tuples usings numbers, but you index into dictionaries using strings
+
+# classes
+a class is a blueprint for pieces of data or objects.  its a mold that can be defined and given a name.  when you use the mold or blueprint, you get types of data designed exactly as you want.
+classes allow you to invent you own type of data types and give them a name
+
+[official Python library](https://docs.python.org/3/tutorial/classes.html)
+
+# class
+allows you to define custom containers with custom names for pieces of data
