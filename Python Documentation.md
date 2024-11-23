@@ -1486,3 +1486,7 @@ list.append(x)
 # dict
 dict is a class and can be passed back as an object
 
+# class methods
+an instances or an object of a class that dosent have a special function but function stays the same no matter its use case
+
+@classmethod
