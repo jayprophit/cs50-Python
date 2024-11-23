@@ -17,11 +17,13 @@ class Student:
 
     
     # Getter - gets some attributes
+    @property
     def house(self):
         return self.house
 
 
     # Setter - sets some values
+    house.setter
     def house(self, house):
         if house not in ["Gryffindor", "Hufflepuff", "Ravensclaw", "Slytherin"]:
             raise ValueError("Invalid house")
