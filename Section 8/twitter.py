@@ -5,9 +5,8 @@ import re
 
 url = input("URL: ").strip()
 
-matches = re.search(r"^(https?://)?(www\.)?twitter\.com/(.+)$", url, re.IGNORECASE)
-if mathces:
-    print(f"Username:", matches.group(2))
+if matches := re.search(r"^https?://(?:www\.)?twitter\.com/(.+)$", url, re.IGNORECASE)
+    print(f"Username:", matches.group(1))
 
 
 
@@ -15,8 +14,21 @@ if mathces:
 # different variations to produce the same result and solve the problem
 # descending from currently used practices to basic beginner code
 
+
+
+if matches := re.search(r"^(https?://)?(www\.)?twitter\.com/(.+)$", url, re.IGNORECASE)
+    print(f"Username:", matches.group(2))
+
+
+
+
 re.sub(r"^(https?://)?(www\.)?twitter\.com/", "", url)
 print(f"Username: {username}")
+
+
+matches = re.search(r"^(https?://)?(www\.)?twitter\.com/(.+)$", url, re.IGNORECASE)
+if mathces:
+    print(f"Username:", matches.group(2))
 
 
 
