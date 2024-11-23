@@ -1352,4 +1352,5 @@ you can ignore some statements if they meet the conditions.  by using these meth
 .replace() - replaces the statement with the the defined condition 
 .removeprefix() - removes the part that is defined by the statement
 
+# re.sub
 re.sub(pattern, repl, string, count=0, flags=0)
