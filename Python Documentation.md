@@ -1427,3 +1427,14 @@ a constructor call is data that will contruct the data object using synoyms. mea
 e.g. they have names and houses
 
 due to being customizable from being a class it allows you to modify the contents of that object
+
+# self
+gives you access to the current object that was just created
+
+e.g.
+
+class Student:
+    def __init__(self, name, house):
+        self.name = name
+        self.house = house
+
