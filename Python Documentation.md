@@ -1504,3 +1504,30 @@ you can have a class within another class.  meaning a parent class and a child c
 
 # inheritance
 the ability to have a hierarchical meaning, one class can borrow or inherit from attributes, mehtods or variables if they all have them in common
+
+super() is used to refer to/ pull data from the parent class
+
+e.g.
+
+class Parent:
+    def __init__(self, name):
+        if not name:
+            raise ValueError("Missing name")
+        self.name = name
+
+    ...
+
+class Child1(Main):
+    def __init__(self, name, house):
+        super().__init__(name)
+        self.house = house
+
+    ...
+
+
+class Child2(Main):
+    def __inti__(self, name, subject):
+        super().__init__(name)
+        self.subject = subject
+
+    ...

@@ -33,8 +33,6 @@ if __name__ == "__main__":
 
 
 
-
-
 class Student:
     def __init__(self, name, house):
         self.name = name
