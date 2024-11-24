@@ -1583,28 +1583,7 @@ right + left
 self + other
 
 
-
-
-
-
 # --SECTION 10--
-
-# Procedual Programming
-write procedures top to bottom to solve problems step by step
-
-## 
-
-
-
-# --SECTION 11--
-
-# Functional Programming
-
-## 
-
-
-
-# --SECTION 12--
 
 # Extra Cetera 
 
