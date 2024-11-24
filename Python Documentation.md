@@ -1570,7 +1570,7 @@ meaing plus(+) dose not have to mean addition, its also used for concatenation -
 
 [official Python library](https://docs.python.org/3/reference/datamodel.html#special-method-names)
 
-object.__aadd__(self, other)
+object.__add__(self, other)
 
 
 
