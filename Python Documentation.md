@@ -1561,13 +1561,20 @@ BaseExceptions
     +-- ValueError
 
 
+# operator overloading
+this allows you to take specific symbols or keyboard syntax and implement your own interpertaion thereof.
+
+e.g.
+
+meaing plus(+) dose not have to mean addition, its also used for concatenation - for joining two strings, its also used for adding to a list
+
 
 
 
 # --SECTION 10--
 
 # Procedual Programming
-also known as OOP 
+write procedures top to bottom to solve problems step by step
 
 ## 
 
@@ -1576,7 +1583,6 @@ also known as OOP
 # --SECTION 11--
 
 # Functional Programming
-write procedures top to bottom to solve problems step by step
 
 ## 
 
@@ -1584,7 +1590,6 @@ write procedures top to bottom to solve problems step by step
 
 # --SECTION 12--
 
-# Extra Cetera
-also known as OOP 
+# Extra Cetera 
 
 ## 
