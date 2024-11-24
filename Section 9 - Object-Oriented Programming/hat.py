@@ -21,6 +21,21 @@ Hat.sort("Harry")
 # descending from currently used practices to basic beginner code
 
 class Hat:
+
+    houses = ["Gryffindor", "Hufflepuff", "Raveclaw", "Slythrin"]
+
+
+    @classmethod
+    def sort(cls, name):
+        print(name, "is in", random.choice(cls.houses))
+
+
+Hat.sort("Harry")
+
+
+
+
+class Hat:
     def __init__(self):
         self.houses = ["Gryffindor", "Hufflepuff", "Raveclaw", "Slythrin"]
 

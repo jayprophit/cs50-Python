@@ -1495,4 +1495,6 @@ also known as cls
 # random.choice
 gives ramdom sorting and can be used within a class
 
-you can have a class within another class.  meaning a parent class and a child class
+# class within a class
+you can have a class within another class.  meaning a parent class and a child classes
+
