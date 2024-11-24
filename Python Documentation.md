@@ -1490,3 +1490,6 @@ dict is a class and can be passed back as an object
 an instances or an object of a class that dosent have a special function but function stays the same no matter its use case
 
 @classmethod
+
+# random.choice
+gives ramdom sorting
