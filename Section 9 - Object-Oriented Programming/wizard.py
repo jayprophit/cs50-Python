@@ -27,6 +27,11 @@ class Professor(Wizard):
     ...
 
 
+wizard = Wizard("Albus")
+student = Student("Harry", "Gryffindor")
+professor = Professor("Serverus", "Defence Against the Dark Arts")
+
+
 '''
 # different variations to produce the same result and solve the problem
 # descending from currently used practices to basic beginner code

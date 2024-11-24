@@ -1531,3 +1531,7 @@ class Child2(Main):
         self.subject = subject
 
     ...
+
+parent = Parent("Attendents")
+child1 = Child1("Debbie", "inner Spirit")
+child2 = Child2("Brian", "Sports")
