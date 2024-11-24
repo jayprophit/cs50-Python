@@ -1572,6 +1572,18 @@ meaing plus(+) dose not have to mean addition, its also used for concatenation -
 
 object.__add__(self, other)
 
+example:-
+
+two blocks of data that you want to combined (add) together. one on the right and one on the left
+
+right add left
+
+right + left
+=
+self + other
+
+
+
 
 
 
