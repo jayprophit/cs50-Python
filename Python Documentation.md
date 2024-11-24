@@ -1498,3 +1498,9 @@ gives ramdom sorting and can be used within a class
 # class within a class
 you can have a class within another class.  meaning a parent class and a child classes
 
+# static methods
+
+@staticmethod
+
+# inheritance
+the ability to have a hierarchical meaning, one class can borrow or inherit from attributes, mehtods or variables if they all have them in common
