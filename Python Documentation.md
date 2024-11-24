@@ -1598,8 +1598,7 @@ self + other
 
 [official Python library](https://docs.python.org/3/howto/)
 
+# set
+in mathmatics a set is a collection of values where there are no duplicates, and there eliminated for you
 
-
-
-
-
+[official Python library](https://docs.python.org/3/library/stdtypes.html#set)
