@@ -1489,7 +1489,10 @@ dict is a class and can be passed back as an object
 # class methods
 an instances or an object of a class that dosent have a special function but function stays the same no matter its use case
 
-@classmethod
+@classmethod - cls
+also known as cls
 
 # random.choice
 gives ramdom sorting and can be used within a class
+
+you can have a class within another class.  meaning a parent class and a child class
