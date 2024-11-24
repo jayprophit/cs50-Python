@@ -6,19 +6,19 @@
 
 ## Course Context
 
-functions -
-variables -
-conditionals - true or false
-loops - repeated again and again set number of times
-exceptions - except errors
-libraries - 3rd party code or code you have written to be reused as many times as desired
-unit test - write test to test your own code
-file I/O - input/ out
-regular expression - validate data or extract data
-object-oriented programming:- allows you to represent real world entities
-procedural programming - write procedures top to bottom to solve problems step by step
-functional programming -
-et cetera
+# functions -
+# variables -
+# conditionals - true or false
+# loops - repeated again and again set number of times
+# exceptions - except errors
+# libraries - 3rd party code or code you have written to be reused as many times as desired
+# unit test - write test to test your own code
+# file I/O - input/ out
+# regular expression - validate data or extract data
+# object-oriented programming:- allows you to represent real world entities
+# procedural programming - write procedures top to bottom to solve problems step by step
+# functional programming -
+# et cetera
 
 ## python website documentation library:
 https://docs.python.org/3/library/
@@ -1535,3 +1535,29 @@ class Child2(Main):
 parent = Parent("Attendents")
 child1 = Child1("Debbie", "inner Spirit")
 child2 = Child2("Brian", "Sports")
+
+
+# --SECTION 10--
+
+# Procedual Programming
+also known as OOP 
+
+## 
+
+
+
+# --SECTION 11--
+
+# Functional Programming
+write procedures top to bottom to solve problems step by step
+
+## 
+
+
+
+# --SECTION 12--
+
+# Extra Cetera
+also known as OOP 
+
+## 
