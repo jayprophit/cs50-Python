@@ -1602,3 +1602,6 @@ self + other
 in mathmatics a set is a collection of values where there are no duplicates, and there eliminated for you
 
 [official Python library](https://docs.python.org/3/library/stdtypes.html#set)
+
+# global
+aslo known as global variable
