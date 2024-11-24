@@ -1537,6 +1537,33 @@ child1 = Child1("Debbie", "inner Spirit")
 child2 = Child2("Brian", "Sports")
 
 
+# exceptions
+
+[official Python library](https://docs.python.org/3/library/exceptions.html)
+
+heres some examples:-
+
+BaseExceptions
++-- KeyboardInterrupt
++-- Exception
+    +-- ArithmeticError
+    |   +-- ZeroDivisionError
+    +-- AssertionError
+    +-- AttributeError
+    +-- EOFError
+    +-- ImportError
+    |   +-- ModuleNotFoundError
+    +-- LookupError
+    |   +-- KeyError
+    +-- NameError
+    +-- SyntaxError
+    |   +-- IndentationError
+    +-- ValueError
+
+
+
+
+
 # --SECTION 10--
 
 # Procedual Programming
