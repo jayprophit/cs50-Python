@@ -1492,4 +1492,4 @@ an instances or an object of a class that dosent have a special function but fun
 @classmethod
 
 # random.choice
-gives ramdom sorting
+gives ramdom sorting and can be used within a class
