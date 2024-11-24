@@ -1587,4 +1587,19 @@ self + other
 
 # Extra Cetera 
 
-## 
+## reading material
+[official Python library](https://docs.python.org/3)
+
+[official Python library](https://docs.python.org/3/tutorial/)
+
+[official Python library](https://docs.python.org/3/library/)
+
+[official Python library](https://docs.python.org/3/reference)
+
+[official Python library](https://docs.python.org/3/howto/)
+
+
+
+
+
+
