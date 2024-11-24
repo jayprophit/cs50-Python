@@ -1568,6 +1568,10 @@ e.g.
 
 meaing plus(+) dose not have to mean addition, its also used for concatenation - for joining two strings, its also used for adding to a list
 
+[official Python library](https://docs.python.org/3/reference/datamodel.html#special-method-names)
+
+object.__aadd__(self, other)
+
 
 
 
