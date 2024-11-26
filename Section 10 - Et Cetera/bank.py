@@ -17,7 +17,7 @@ def deposite(n):
 def withdraw(n):
     balance -= n
 
-if __name__ == "__main__"
+if __name__ == "__main__":
     main()
 
 
