@@ -211,7 +211,7 @@ e.g.
 a sequence of text be it English or any other human language,
 this is classed as data in programmes
 
-[officail Python library - functions, func-str](https://docs.python.org/3/library/functions.html#func-str)
+[official Python library - functions, func-str](https://docs.python.org/3/library/functions.html#func-str)
 
 [official Python library - std types, str ](<https://docs.python.org/3/library/stdtypes.html#str>)
 
@@ -300,7 +300,7 @@ means an optional choice
 # round - Rounding
 you can round the number to the ndigit (nearest digit "integer") after the decimal point
 
-[Python string library - functions, round](https://docs.python.org/3/library/functions.html#round)
+[official Python library - functions, round](https://docs.python.org/3/library/functions.html#round)
 
 official documentation for:
 
