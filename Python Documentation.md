@@ -107,7 +107,7 @@ as an ability to take in some input of string of text data,
 in English or any other human language.
 that you want this function to print onto the screen
 
-[official Python documentation](https://docs.python.org/3/library/functions.html#print)
+[official Python library - functions, print](https://docs.python.org/3/library/functions.html#print)
 
 official documentation for:
 
@@ -211,9 +211,9 @@ e.g.
 a sequence of text be it English or any other human language,
 this is classed as data in programmes
 
-[Python string documentation](https://docs.python.org/3/library/functions.html#func-str)
+[officail Python library - functions, func-str](https://docs.python.org/3/library/functions.html#func-str)
 
-[Python string documentation](<https://docs.python.org/3/library/stdtypes.html#str>)
+[official Python library - std types, str ](<https://docs.python.org/3/library/stdtypes.html#str>)
 
 ## .strip()
 is a string extension
@@ -300,7 +300,7 @@ means an optional choice
 # round - Rounding
 you can round the number to the ndigit (nearest digit "integer") after the decimal point
 
-[Python string documentation](https://docs.python.org/3/library/functions.html#round)
+[Python string library - functions, round](https://docs.python.org/3/library/functions.html#round)
 
 official documentation for:
 
@@ -761,7 +761,7 @@ its to encourage reusability of code, meaning shorter work time and and the abil
 ## random
 its a modulator with pre programmed functions
 
-[official Python documentation](https://docs.python.org/3/library/random.html)
+[official Python library - random](https://docs.python.org/3/library/random.html)
 
 ### random.choice(seq)
 module = random, function = choice, sequence = a list/ list like of string data
@@ -789,7 +789,7 @@ allows you to import parts of a functions from a module
 ## Statistics
 has functions that are more mathematical in nature.  calculating means, modules or other aspects of a data set you may want to analyze
 
-[official Python documentation](https://docs.python.org/3/library/statistics.html)
+[official Python library - statistics](https://docs.python.org/3/library/statistics.html)
 
 ## command-line arguments
 it allows to provide arguments that inputs to the program just when your executing at the command-line
@@ -797,7 +797,7 @@ it allows to provide arguments that inputs to the program just when your executi
 ## sys -system
 contains functionality that specific to the python system itself
 
-[official Python documentation](https://docs.python.org/3/library/sys.html)
+[official Python library - sys](https://docs.python.org/3/library/sys.html)
 
 a variable called argument vector.
 the 1st element is the first thing you type the second element will be the second thing that you type. etc
@@ -867,12 +867,12 @@ for arg in sys.argv[1:-1]:
 ## PyPi
 is the python package index website, that allows you to download and install a package on your computer or server or upload a package you create for others to use
 
-[official Python package index](https://pypi.org)
+[official pypi](https://pypi.org)
 
 ## cowsay
 is a package in python that allows a cow to say something on your screen
 
-[official Python package index](https://pypi.org/project/cowsay)
+[pypi projects -  cowsay](https://pypi.org/project/cowsay)
 
 ## pip
 is a package manager.  install packages into your Mac, PC, Linux, Cloud environment or IDE (integrated development environment)
@@ -893,7 +893,7 @@ allows the user to make web requests, allowing the user to automate the requests
 
 pip install requests
 
-[official Python package index](https://pypi.org/requests)
+[pypi documentation - requests](https://pypi.org/requests)
 
 
 ### Itunes Exercise
@@ -928,7 +928,7 @@ its completely text based format.  meaning if i visit a url in a browser, what g
 thats using an API, a mechanism where the user can access some data on someone else's server and then integrate it into the user's own program.
 as the web browser is not something that is written by the user.  the user will need a code to interact with the text format provide,
 
-[Python string documentation](https://docs.python.org/3/library/json.html)
+[official Python library - json (string documentation)](https://docs.python.org/3/library/json.html)
 
 json.dumps - dump string,
 this means to pass that function that response.json return value
@@ -1004,7 +1004,7 @@ list are stored in the computers memory, so once the program exits even the cont
 ## open
 open a file, allows the user to read information from it or write information to it
 
-[official Python library](https://docs.python.org/3/library/functions.html#open)
+[official Python library - functions, open](https://docs.python.org/3/library/functions.html#open)
 
 ## rm
 in terminal if you input
@@ -1060,7 +1060,7 @@ with open("names.txt") as file:
 for name in sorted(names):
     print(f"hello, {name}")
 
-[official Python library](https://docs.python.org/3/library/functions.html#sorted)
+[official Python library - functions, sorted](https://docs.python.org/3/library/functions.html#sorted)
 
 
 summary:-
@@ -1084,7 +1084,7 @@ sorted(iterable, /, *, key=None, reverse=True)
  apple number
  google spreadsheet
 
- [official Python library](https://docs.python.org/3/library/csv.html)
+ [official Python library - csv](https://docs.python.org/3/library/csv.html)
 
 
  ## .split
@@ -1199,7 +1199,7 @@ allows you to store multiple keys and multiple values.  binary files are just ze
 
 ## PIL
 it allows you to apply filters, animation.
-[official pillow library](https://pillow.readthedocs.io)
+[pillow documentation](https://pillow.readthedocs.io)
 
 the pillow library takes care of opening, the saving and closing by just calling save
 
@@ -1247,7 +1247,7 @@ also known as a regex's.  is just a pattern in a code
 ## re
 which stands for regular expressions, is a library.  the library gives a lot of capabilities to define, check for and even replace patterns and extract data from these patterns.
 
-[official Python library](https://docs.python.org/3/library/re.html)
+[official Python library - re](https://docs.python.org/3/library/re.html)
 
 re.search(pattern, string, flags=0)
 
@@ -1395,7 +1395,7 @@ you index into list's and tuples usings numbers, but you index into dictionaries
 a class is a blueprint for pieces of data or objects.  its a mold that can be defined and given a name.  when you use the mold or blueprint, you get types of data designed exactly as you want.
 classes allow you to invent you own type of data types and give them a name
 
-[official Python library](https://docs.python.org/3/tutorial/classes.html)
+[official Python tutorial - classes](https://docs.python.org/3/tutorial/classes.html)
 
 # class
 allows you to define custom containers with custom names for pieces of data
@@ -1539,7 +1539,7 @@ child2 = Child2("Brian", "Sports")
 
 # exceptions
 
-[official Python library](https://docs.python.org/3/library/exceptions.html)
+[official Python library - exceptions](https://docs.python.org/3/library/exceptions.html)
 
 heres some examples:-
 
@@ -1568,7 +1568,7 @@ e.g.
 
 meaing plus(+) dose not have to mean addition, its also used for concatenation - for joining two strings, its also used for adding to a list
 
-[official Python library](https://docs.python.org/3/reference/datamodel.html#special-method-names)
+[official Python reference - data model, special method names](https://docs.python.org/3/reference/datamodel.html#special-method-names)
 
 object.__add__(self, other)
 
@@ -1588,20 +1588,20 @@ self + other
 # Extra Cetera 
 
 ## reading material
-[official Python library](https://docs.python.org/3)
+[official Python documentation](https://docs.python.org/3)
 
-[official Python library](https://docs.python.org/3/tutorial/)
+[official Python tutorial](https://docs.python.org/3/tutorial/)
 
 [official Python library](https://docs.python.org/3/library/)
 
-[official Python library](https://docs.python.org/3/reference)
+[official Python references](https://docs.python.org/3/reference)
 
-[official Python library](https://docs.python.org/3/howto/)
+[official Python how to](https://docs.python.org/3/howto/)
 
 # set
 in mathmatics a set is a collection of values where there are no duplicates, and there eliminated for you
 
-[official Python library](https://docs.python.org/3/library/stdtypes.html#set)
+[official Python library - std types, sets](https://docs.python.org/3/library/stdtypes.html#set)
 
 # global
 aslo known as global variable
