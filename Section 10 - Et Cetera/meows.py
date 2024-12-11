@@ -2,6 +2,39 @@
 meows
 '''
 
+def meow(n: int):
+    for _ in rang(n):
+        print("meow")
+
+number = input("Number: ")
+meow(number)
+
+
+
+'''
+# different variations to produce the same result and solve the problem
+# descending from currently used practices to basic beginner code
+
+
+def meow(n: int):
+    for _ in rang(n):
+        print("meow")
+
+number = input("Number: ")
+meow(number)
+
+
+
+def meow(n):
+    for _ in rang(n):
+        print("meow")
+
+number = input("Number: ")
+meow(number)
+
+
+
+
 class Cat:
     MEOWS = 3
 
@@ -12,9 +45,7 @@ class Cat:
 cat = cat()
 cat.meow()
 
-'''
-# different variations to produce the same result and solve the problem
-# descending from currently used practices to basic beginner code
+
 
 MEOWS = 3
 

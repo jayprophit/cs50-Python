@@ -1622,3 +1622,17 @@ Pros: the benifits, it helps to detect bugs more readily, meaning if you intende
 
 pythoin dose not strongly enforce these, instead you can use a tool that will tell you if you are using a variable correclty. usually this would be ru before the code is released publically.  or if there awas an automated process you could run this tool, just like you would reformat or link this code to some other program before its released publically.
 
+
+[official Python library - typing](https://docs.python.org/3/library/typing.html)
+
+# mypy
+a popular program for checking if your code is adhering to your own typ pins.  this is just one of several and can be easily installed with pip install mypy
+
+
+[official mypy documentation](https://mypy.readthedocs.io)
+
+to check the compatible code type you can check your file by using the terminal window and typing e.g.
+
+mypy filename.py
+
+it will tell you the error and the incompatible stype 
