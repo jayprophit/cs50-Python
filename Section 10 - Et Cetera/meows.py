@@ -6,7 +6,7 @@ def meow(n: int):
     for _ in rang(n):
         print("meow")
 
-number = input("Number: ")
+number: int = int(input("Number: "))
 meow(number)
 
 
@@ -14,6 +14,24 @@ meow(number)
 '''
 # different variations to produce the same result and solve the problem
 # descending from currently used practices to basic beginner code
+
+
+def meow(n: int):
+    for _ in rang(n):
+        print("meow")
+
+number: int = int(input("Number: "))
+meow(number)
+
+
+
+def meow(n: int):
+    for _ in rang(n):
+        print("meow")
+
+number: int = input("Number: ")
+meow(number)
+
 
 
 def meow(n: int):

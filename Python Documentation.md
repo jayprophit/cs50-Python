@@ -1622,6 +1622,15 @@ Pros: the benifits, it helps to detect bugs more readily, meaning if you intende
 
 pythoin dose not strongly enforce these, instead you can use a tool that will tell you if you are using a variable correclty. usually this would be ru before the code is released publically.  or if there awas an automated process you could run this tool, just like you would reformat or link this code to some other program before its released publically.
 
+example:-
+
+def meow(n: int):
+    for _ in rang(n):
+        print("meow")
+
+number: int = int(input("Number: "))
+meow(number)
+
 
 [official Python library - typing](https://docs.python.org/3/library/typing.html)
 
