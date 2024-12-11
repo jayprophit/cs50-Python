@@ -1604,4 +1604,7 @@ in mathmatics a set is a collection of values where there are no duplicates, and
 [official Python library - std types, sets](https://docs.python.org/3/library/stdtypes.html#set)
 
 # global
-aslo known as global variable
+aslo known as global variable, can be defined as a variable thats local to a function, or if you have a variable outside of all of the functions example at the top of the file.  these can be specific to the module and behave for a given program as though it is glabal.
+
+sometimes if this happens, when solving some problem in the future, where it may consist of multiple functions, if there are one or more vareiables outside of those functions, you might not be able to change those variables as easily as it may seem.
+
