@@ -2,18 +2,58 @@
 meows
 '''
 
-def meow(n: int):
-    for _ in rang(n):
-        print("meow")
+def meow(n: int) -> str:
+    """Meow n times."""
+    return "meow\n" * n
 
 number: int = int(input("Number: "))
-meow(number)
+meows: str = meow(number)
+print(meows, ends="")
 
 
 
 '''
 # different variations to produce the same result and solve the problem
 # descending from currently used practices to basic beginner code
+
+
+def meow(n: int) -> str:
+    return "meow\n" * n
+
+number: int = int(input("Number: "))
+meows: str = meow(number)
+print(meows, ends="")
+
+
+
+def meow(n: int) -> str:
+    return "meow\n" * n
+
+number: int = int(input("Number: "))
+meows: str = meow(number)
+print(meows)
+
+
+
+
+def meow(n: int) -> None:
+    for _ in rang(n):
+        print("meow")
+
+number: int = int(input("Number: "))
+meows: str = meow(number)
+print(meows)
+
+
+
+def meow(n: int):
+    for _ in rang(n):
+        print("meow")
+
+number: int = int(input("Number: "))
+meows: str = meow(number)
+print(meows)
+
 
 
 def meow(n: int):

@@ -1622,7 +1622,7 @@ Pros: the benifits, it helps to detect bugs more readily, meaning if you intende
 
 pythoin dose not strongly enforce these, instead you can use a tool that will tell you if you are using a variable correclty. usually this would be ru before the code is released publically.  or if there awas an automated process you could run this tool, just like you would reformat or link this code to some other program before its released publically.
 
-example:-
+### example 1:-
 
 def meow(n: int):
     for _ in rang(n):
@@ -1630,6 +1630,17 @@ def meow(n: int):
 
 number: int = int(input("Number: "))
 meow(number)
+
+
+### example2:-
+
+
+def meow(n: int) -> str:
+    return "meow\n" * n
+
+number: int = int(input("Number: "))
+meows: str = meow(number)
+print(meows, ends="")
 
 
 [official Python library - typing](https://docs.python.org/3/library/typing.html)
@@ -1644,4 +1655,20 @@ to check the compatible code type you can check your file by using the terminal 
 
 mypy filename.py
 
-it will tell you the error and the incompatible stype 
+it will tell you the error and the incompatible stype
+
+# docstrings
+when documentation is placed inbetween """example.""" the code automatically exstracts the document strings for you and even generates web pages or PDFs of documentation for the function
+
+[official Python documentation - pepstring](https://peps.python.org/pep0257/)
+
+### example:-
+
+
+def meow(n: int) -> str:
+    """Meow n times."""
+    return "meow\n" * n
+
+number: int = int(input("Number: "))
+meows: str = meow(number)
+print(meows, ends="")
