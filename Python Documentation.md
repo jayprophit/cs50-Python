@@ -1608,3 +1608,17 @@ aslo known as global variable, can be defined as a variable thats local to a fun
 
 sometimes if this happens, when solving some problem in the future, where it may consist of multiple functions, if there are one or more vareiables outside of those functions, you might not be able to change those variables as easily as it may seem.
 
+# constants
+means once you have set a value to them, you can not change the value of that variable.  this can sometimes be seen as a good thing incase you want to program defensively, incase you accidently or someone else tries to modify the values of that variable.  if you have declared it as a constant it cannot be changed or cannot be changed without great effort.
+
+# type hints
+python is a dynamically typed langunage.  its not strongly typed where you may want an INT, you have to tell the program that you are using INT, you dont have to tell the program that you are using a str, float, set or anything else.  commonly today we are giving a varibale a name, we freaqunetly assign an equal sign or some other value, python dynamically figures out what type of variable it is
+
+if the its "hello, world" it will be a str, or if its 50 then its an integer the variable is going to be and INT.
+
+in other programs like C, C++, java and others, sometimes is necessary to specify what type of variables you want something to be.  
+
+Pros: the benifits, it helps to detect bugs more readily, meaning if you intended to use a str instead of an INT and it was accidently swapped or input. by mistake the languange can detect that kind of mistake.
+
+pythoin dose not strongly enforce these, instead you can use a tool that will tell you if you are using a variable correclty. usually this would be ru before the code is released publically.  or if there awas an automated process you could run this tool, just like you would reformat or link this code to some other program before its released publically.
+
