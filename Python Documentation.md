@@ -1682,3 +1682,14 @@ meows: str = meow(number)
 print(meows, ends="")
 
 this is a sometime done so that you can share the code publicly or into a library
+
+# -n
+in command line terminal it is an instruction to allow the code to be read more specific to understand that this has been set to the number of times it allows you to pass in to arguments
+
+e.g.
+in Terminal window type:-
+
+python meows.py -n 3
+
+# argpars
+

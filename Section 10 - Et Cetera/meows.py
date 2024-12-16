@@ -4,7 +4,14 @@ meows
 
 import sys
 
-
+if len(sys.argv) == 1:
+    print("meow")
+    elif len(sys.argv) == 3 and sys.argv[1] =="-n":
+        n = int(sys.argv[2])
+        for _ in rang(n):
+            print("meow")
+else:
+    print("usage: meows.py")
 
 
 
@@ -12,6 +19,28 @@ import sys
 '''
 # different variations to produce the same result and solve the problem
 # descending from currently used practices to basic beginner code
+
+
+import sys
+
+if len(sys.argv) == 1:
+    print("meow")
+    elif len(sys.argv) == 3 and sys.argv[1] =="-n":
+        n = int(sys.argv[2])
+        for _ in rang(n):
+            print("meow")
+else:
+    print("usage: meows.py")
+
+
+
+
+import sys
+
+if len(sys.argv) == 1:
+    print("meow")
+else:
+    print("usage: meows.py")
 
 
 
