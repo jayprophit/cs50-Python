@@ -1691,5 +1691,77 @@ in Terminal window type:-
 
 python meows.py -n 3
 
-# argpars
+# argparse
+in allows input of configuration data at the commandline
 
+
+[official Python library - argparse](https://docs.python.org/3/library/argparse.html)
+
+e.g. 1.1
+
+
+
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-n")
+args = parser.parse_args()
+
+for _ in range(int(args.n)):
+    print("meow")
+
+# -h / --help
+this is a special command that will provide you with some type of usage information
+
+e.g.
+
+TERMINAL
+usage: meows.py [-h] [-n N]
+
+options:
+    -h, --help  show help message and exit
+    -n N
+
+[] in python means its optional, so you dont have to type 
+
+e.g.
+-h or -n
+
+it will also give you other options
+
+
+e.g. 1.2
+
+import argparse
+
+parser = argparse.ArgumentParser(description="Meow like a cat")
+parser.add_argument("-n", help="number of times to meow")
+args = parser.parse_args()
+
+for _ in range(int(args.n)):
+    print("meow")
+
+
+e.g.
+TERMINAL
+Meow like a cat
+
+options:
+    -h, --help  show this help message and exit
+    -n N        number of times to meow
+
+the capial N means to type a number after the lower case -n
+
+
+you can specify a defualt value for example (-n)
+
+e.g.
+defualt=1
+
+and you can also specify that its an int
+
+e.g.
+type=int
+
+
+# unpacking

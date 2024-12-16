@@ -2,16 +2,14 @@
 meows
 '''
 
-import sys
+import argparse
 
-if len(sys.argv) == 1:
+parser = argparse.ArgumentParser(description="Meow like a cat")
+parser.add_argument("-n", defulat=1, help="number of times to meow", type=int)
+args = parser.parse_args()
+
+for _ in range(args.n):
     print("meow")
-    elif len(sys.argv) == 3 and sys.argv[1] =="-n":
-        n = int(sys.argv[2])
-        for _ in rang(n):
-            print("meow")
-else:
-    print("usage: meows.py")
 
 
 
@@ -19,6 +17,30 @@ else:
 '''
 # different variations to produce the same result and solve the problem
 # descending from currently used practices to basic beginner code
+
+
+import argparse
+
+parser = argparse.ArgumentParser(description="Meow like a cat")
+parser.add_argument("-n", help="number of times to meow")
+args = parser.parse_args()
+
+for _ in range(int(args.n)):
+    print("meow")
+
+
+
+
+# with mistake
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-n")
+args = parser.parse_args()
+
+for _ in range(int(args.n)):
+    print("meow")
+
 
 
 import sys
