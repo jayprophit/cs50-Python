@@ -1771,7 +1771,7 @@ type=int
 ## unpacking
 can for example, take a single value from a list or another data structure and putting it imediately into 2 seperate variables
 
-# *input
+## *input
 this allows you to unpack the data attached to that value of variables
 
 ### example:-
