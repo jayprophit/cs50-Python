@@ -1602,13 +1602,16 @@ in mathmatics a set is a collection of values where there are no duplicates, and
 
 [official Python library - std types, sets](https://docs.python.org/3/library/stdtypes.html#set)
 
+
 ## global
 aslo known as global variable, can be defined as a variable thats local to a function, or if you have a variable outside of all of the functions example at the top of the file.  these can be specific to the module and behave for a given program as though it is glabal.
 
 sometimes if this happens, when solving some problem in the future, where it may consist of multiple functions, if there are one or more vareiables outside of those functions, you might not be able to change those variables as easily as it may seem.
 
+
 ## constants
 means once you have set a value to them, you can not change the value of that variable.  this can sometimes be seen as a good thing incase you want to program defensively, incase you accidently or someone else tries to modify the values of that variable.  if you have declared it as a constant it cannot be changed or cannot be changed without great effort.
+
 
 ## type hints
 python is a dynamically typed langunage.  its not strongly typed where you may want an INT, you have to tell the program that you are using INT, you dont have to tell the program that you are using a str, float, set or anything else.  commonly today we are giving a varibale a name, we freaqunetly assign an equal sign or some other value, python dynamically figures out what type of variable it is
@@ -1643,6 +1646,7 @@ print(meows, ends="")
 
 
 [official Python library - typing](https://docs.python.org/3/library/typing.html)
+
 
 ## mypy
 a popular program for checking if your code is adhering to your own typ pins.  this is just one of several and can be easily installed with pip install mypy
@@ -1682,6 +1686,7 @@ print(meows, ends="")
 
 this is a sometime done so that you can share the code publicly or into a library
 
+
 ## -n
 in command line terminal it is an instruction to allow the code to be read more specific to understand that this has been set to the number of times it allows you to pass in to arguments
 
@@ -1690,6 +1695,7 @@ in command line terminal it is an instruction to allow the code to be read more 
 in Terminal window type:-
 
 python meows.py -n 3
+
 
 ## argparse
 in allows input of configuration data at the commandline
@@ -1709,6 +1715,7 @@ args = parser.parse_args()
 
 for _ in range(int(args.n)):
     print("meow")
+
 
 ## -h / --help
 this is a special command that will provide you with some type of usage information
@@ -1771,6 +1778,7 @@ type=int
 ## unpacking
 can for example, take a single value from a list or another data structure and putting it imediately into 2 seperate variables
 
+
 ## *input
 this allows you to unpack the data attached to that value of variables
 
@@ -1784,6 +1792,7 @@ coins = [100, 50, 25]
 
 print(total(*coins), "knuts")
 
+
 ## **input
 allows you to unpack a dictionary with the keys and the values
 
@@ -1795,3 +1804,11 @@ def total(galleons, sickles, knuts):
 coins = {"galleons": 100, "sickles": 50, "knuts": 25}
 
 print(total(**coins), "knuts")
+
+
+## *args, **kwargs
+args is used for variable number of positioned number of value
+kwargs is used for named valueds
+
+
+## map
