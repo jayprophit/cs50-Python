@@ -80,7 +80,7 @@ some functions take multiple arguments,
 if you separate the arguments to the function with a comma,
 you can pass in 1 or more arguments
 
-e.g.
+### example:-
 print("hello", + name)
 print("hello, ", )
 
@@ -97,7 +97,7 @@ what you pass your argument inside to get an output
 ## Parentheses
 arguments inside of the parameters
 
-e.g.
+### example:-
 (1 + 2)
 
 
@@ -136,7 +136,7 @@ as to not break code or confuse your self or some one else who may need to edit 
 ## Corner Case
 quotations marks in side comma's
 
-e.g.
+### example:-
 print('hello, "friend"')
 print("hello, \"friend\"")
 
@@ -170,7 +170,7 @@ that returns values.
 
 output = return value
 
-e.g.
+### example:-
 '''question = what's your name?'''
 input = what's your name?
 
@@ -191,7 +191,7 @@ it's expecting text which is going to prompt the user
 = sign means assignment operator
 this means the programmer wants to assign from right to left
 
-e.g.
+### example:-
 name = input("What's your name? ")
 
 the "input("what's your name? ")" is now stored in the word "name"
@@ -203,7 +203,7 @@ what's your name?
 ## Concatenation - concatenates
 to join the thing on the left and the thing on the right
 
-e.g.
+### example:-
 ("hello + world")
 
 
@@ -221,7 +221,7 @@ it is a method to remove white space,
 if a user inputs to many spaces it will reduce it by default off 1,
 or if you set a specific number like 2, it will reduce it to 2 white spaces
 
-e.g.
+### example:-
 name = name.strip()
 
 ## {} list - part: 1
@@ -248,7 +248,7 @@ using the terminal without any files open
 
 you can process some lines of code to execute the code to instantly get a result
 
-e.g.
+### example:-
 1 + 1
 print("hello, world)
 
@@ -261,7 +261,7 @@ if you start typing the request command e.g. "cal TAB" (cal for the file ive nam
 It will auto complete the rest of the text input,
 as its recalling request memory, as a file you've already created and stored, as long as your saved file is located in the same file directory folder
 
-e.g.
+### example:-
 c:\Users\Python> cal(TAB)
 
 '''finished input'''
@@ -318,14 +318,14 @@ round(
 to break a number up, so it has a comma in mathematics e.g. 1000 is 1,000
 using the format principle and a list bracket {}
 
-e.g.
+### example:-
 print(f"{:,}")
 
 
 # .2f
 allows you to specify how many digits you want to print, e.g. 3.566789 into 3.56
 
-e.g.
+### example:-
 print(f"{:.2f,}")
 
 
@@ -334,7 +334,7 @@ allows you to invent or define your own function,
 specifying how you want to manipulate the function,
 allows you to stop repeating yourself again and again,
 
-e.g.
+### example:-
 def hello():
     print("hello")
 
@@ -346,7 +346,7 @@ print(name)
 
 you can also define a default value to some worlds by using parenthesis
 
-e.g.
+### example:-
 def hello(to="world"):
 
 by default it makes the word to = world, without needing to use an argument
@@ -362,7 +362,7 @@ you can have your argument inside and it will run like a function but to a custo
 ## Scope
 refer's to a variable only existing in the context in which you defined it
 
-e.g.
+### example:-
 '''with scope'''
 def main():
     name = input("What's your name? ").strip().title()
@@ -389,7 +389,7 @@ name doesn't exist in the hello function so can't be called
 ## return
 it calls the input function to return a value string that the user typed in
 
-e.g.
+### example:-
 def main():
     x = int(input("what's x? "))
 
@@ -403,7 +403,7 @@ main()
 square has been returned as a value after being called,
 raise a number to the value of another
 
-e.g.
+### example:-
 n ** 2
 pow(n, 2)
 
@@ -430,7 +430,7 @@ a diagram that represent's the direction of the function,
 also known as the control flow.
 go left if the answer is true or go right if the answer is false
 
-e.g.
+### example:-
 follow the stages from start to stop, notice how many steps it function has!
 
 
@@ -438,10 +438,10 @@ follow the stages from start to stop, notice how many steps it function has!
 is a statement that represents
 
 (view in code)
-e.g.
+### example:-
 if the answer to this question is true go ahead and execute this code
 
-e.g.
+### example:-
 0                        (start)
                             |
 1              ----------(x < y)--------
@@ -465,7 +465,7 @@ its a statement that is a conjunction  of else and if,
 allow to ask a question that takes into account whether or not a previous question had a true or false answer
 
 (view in code)
-e.g.
+### example:-
 0                                    (start)
                                         |
 1          --------------------------(x < y)------------
@@ -485,7 +485,7 @@ e.g.
 is a statement that if the answer to the question is not true then lets just assume because its false  for example:- that x is equal to y
 
 (view in code)
-e.g.
+### example:-
 0                                    (start)
                                         |
 1          --------------------------(x < y)------------
@@ -505,7 +505,7 @@ e.g.
 is x equal to y or not or is it true or false
 
 (view in code)
-e.g.
+### example:-
 0                 (start)
                      |
 1          -------(x < y)------
@@ -526,7 +526,7 @@ means its not equal to so just print
 e.g. x is not equal to y
 
 (view in code)
-e.g.
+### example:-
 0                  (start)
                       |
 1          --------(x != y)---------
@@ -546,7 +546,7 @@ means its equal equal to so just print
 e.g. x is equal to y
 
 (view in code)
-e.g.
+### example:-
 0                   (start)
                        |
 1          ---------(x == y)-------
@@ -583,7 +583,7 @@ in a case argument -: = who?
 ## Loops
 
 (view in code)
-e.g.
+### example:-
 0   (start)
        |
 1   (meow)
@@ -607,7 +607,7 @@ ctrl c (cancel, interrupt) in terminal window
 (May very depending ong system software)
 
 (view in code)
-e.g.
+### example:-
 0                   (start)
                        |
 1                   (i = 3)
@@ -654,7 +654,7 @@ it allows you to iterate over a list of items
 allows you to contain multiple values all in the same place, all in the same variable.
 the 1st item in a list starts at location zero
 
-e.g.
+### example:-
 
 shopping list equals, item one: location zero, item two: location one, item three: location two
 shopping list = ["item1", "item 2", "item 3"]
@@ -666,7 +666,7 @@ item three  [2]
 in a list when using loops call the variable by its name and don't use a place holder
 
 
-e.g.
+### example:-
 
 students = ["Hemione", "Harry", "Ron"]
 
@@ -770,7 +770,7 @@ module = random, function = choice, sequence = a list/ list like of string data
 randint - means random integer
 module = random, function = randint, thats between a and b inclusive
 
-e.g.
+### example:-
 
 1-10
 you will get a number back between one and ten and the numbers one and ten included.
@@ -806,7 +806,7 @@ sys.argv
 
 when passing through a prompt, you can put it in double quotes at the terminal window to except the argument as long as the in the code the allows it
 
-e.g.
+### example:-
 
 import sys
 
@@ -831,9 +831,8 @@ this tells the user that your prompt (list selection) is to far out of range.  t
 ## slices
 takes a sub-set of a list (a slice of a list)
 
-e.g.
 
-Example 1
+### example:- v1
 import sys
 
 check for errors
@@ -847,7 +846,7 @@ for arg in sys.argv[1:]:
     print("hello, my name is" , arg)
 
 
-Example 2
+### example:- v2
 import sys
 
 check for errors
@@ -877,7 +876,7 @@ is a package in python that allows a cow to say something on your screen
 ## pip
 is a package manager.  install packages into your Mac, PC, Linux, Cloud environment or IDE (integrated development environment)
 
-e.g.
+### example:-
 
 pip install cowsay
 
@@ -939,7 +938,7 @@ indents the data by the specified number of spaces
 ## __name__
 automatically set by python to be main when you run a file from the command line
 
-e.g.
+### example:-
 
 def main():
     hello("world")
@@ -1010,14 +1009,14 @@ open a file, allows the user to read information from it or write information to
 in terminal if you input
 rm (name) it will delete the file
 
-e.g.
+e### example:-
 
 rm names.txt
 
 ## with
 with open allows you to write and close a file
 
-e.g.
+### example:-
 
 with open("names.txt", "a") as file:
     file.write(f"{name}\n")
@@ -1026,7 +1025,7 @@ with open("names.txt", "a") as file:
 ## line
 allows you to read files, stores them in a variable called line and return them as a list
 
-e.g.
+### example:-
 
 with open("names.txt", "r") as file:
     lines = file.readlines()
@@ -1038,7 +1037,7 @@ for line in lines:
 ## .rstrip
 allows you to strip of the end of an implement detail in the line
 
-e.g.
+### example:-
 
 with open("names.txt", "r") as file:
     lines = file.readlines()
@@ -1049,7 +1048,7 @@ for line in lines:
 ## append
 sorts the file in alphabetical ascending order
 
-e.g.
+### example:-
 
 names = []
 
@@ -1104,7 +1103,7 @@ sorted(iterable, /, *, key=None, reverse=True)
 for student in sorted (students, key=get_name):
     print(f"{student['name']} is in {student['house']}")
 
-e.g. #2
+### example:- v2
 
 students = []
 
@@ -1122,7 +1121,7 @@ def get_house(student):
 for student in sorted (students, key=get_house, reverse=True):
     print(f"{student['name']} is in {student['house']}")
 
-e.g. #3
+### example:- v3
 
 students = []
 
@@ -1142,7 +1141,7 @@ for student in sorted (students, key=lambda student: student["name"]):
 ## reader
 it can be used to iterate over files, meaning it sorts where the quotes, corner cases, etc and will automatically sort them for you, you can override certain defaults or functions
 
-e.g.
+### example:-
 
 import csv
 
@@ -1163,7 +1162,7 @@ is a function for csv that allows you to iterate over the file, top to bottom, l
 ## writer
 allows you to open and write a file
 
-e.g.
+### example:-
 
 import csv
 
@@ -1178,7 +1177,7 @@ with open("students.csv", "a") as file:
 
 allows you to open and write a file as a dictionary, it needs an extra function called fieldname that helps to define which column belongs to which group
 
-e.g.
+### example:-
 
 import csv
 
@@ -1203,7 +1202,7 @@ it allows you to apply filters, animation.
 
 the pillow library takes care of opening, the saving and closing by just calling save
 
-e.g.
+### example:-
 
 import sys
 
@@ -1219,13 +1218,13 @@ images[0].save
 
 to animate in the terminal window you call the command
 
-e.g.
+### example:-
 
 python costumes.py costume1.gif costume2.gif
 
 to get the final gif in the terminal window you type
 
-e.g.
+### example:-
 
 code costumes.gif
 
@@ -1253,7 +1252,7 @@ re.search(pattern, string, flags=0)
 
 there are certain symbols which you can use to define patterns
 
-e.g.
+### example:-
 
 .           any character except a newline
 *           0 or more repetitions
@@ -1268,7 +1267,7 @@ $           matches the end of the string or just before the newline at the end 
 
 it searches and finds a result using a finite state machine or formally known as non-deterministic finite automaton
 
-e.g. v1
+### example:- v1
 
 ".*@.*"
 
@@ -1312,7 +1311,7 @@ represents a "word character", commonly known as an alpha numeric symbol or the 
 
 here are some other examples of input using backslash
 
-e.g.
+### example:-
 
 \d          decimal digit
 \D          not a decimal digit
@@ -1379,14 +1378,14 @@ also known as OOP
 ## tuple
 is type of data that is a collection of values, it's similar to a list but its immutable, not mutable - meaning you can not change the value.  that means a list is something you can change the values of but a tuple returns multiple values just by using a comma.  it returnsmultiple values as 1 value which is a tuple, and inside of that values is multiple values
 
-e.g.
+### example:-
 
 e,y
 (x,z)
 
 to return data that has been modified you must put the condition inside a [] instead of a of nothing or ()
 
-e.g.
+### example:-
 ["name"]
 
 you index into list's and tuples usings numbers, but you index into dictionaries using strings
@@ -1406,7 +1405,7 @@ any time you use a class you're creating an object as in OOP - object oriented p
 # attributes
 any thing that is created which is the properties of or the attributes of
 
-e.g.
+### example:-
 name
 house
 
@@ -1431,7 +1430,7 @@ due to being customizable from being a class it allows you to modify the content
 # self
 gives you access to the current object that was just created
 
-e.g.
+### example:-
 
 class Student:
     def __init__(self, name, house):
@@ -1507,7 +1506,7 @@ the ability to have a hierarchical meaning, one class can borrow or inherit from
 
 super() is used to refer to/ pull data from the parent class
 
-e.g.
+### example:-
 
 class Parent:
     def __init__(self, name):
@@ -1598,20 +1597,20 @@ self + other
 
 [official Python how to](https://docs.python.org/3/howto/)
 
-# set
+## set
 in mathmatics a set is a collection of values where there are no duplicates, and there eliminated for you
 
 [official Python library - std types, sets](https://docs.python.org/3/library/stdtypes.html#set)
 
-# global
+## global
 aslo known as global variable, can be defined as a variable thats local to a function, or if you have a variable outside of all of the functions example at the top of the file.  these can be specific to the module and behave for a given program as though it is glabal.
 
 sometimes if this happens, when solving some problem in the future, where it may consist of multiple functions, if there are one or more vareiables outside of those functions, you might not be able to change those variables as easily as it may seem.
 
-# constants
+## constants
 means once you have set a value to them, you can not change the value of that variable.  this can sometimes be seen as a good thing incase you want to program defensively, incase you accidently or someone else tries to modify the values of that variable.  if you have declared it as a constant it cannot be changed or cannot be changed without great effort.
 
-# type hints
+## type hints
 python is a dynamically typed langunage.  its not strongly typed where you may want an INT, you have to tell the program that you are using INT, you dont have to tell the program that you are using a str, float, set or anything else.  commonly today we are giving a varibale a name, we freaqunetly assign an equal sign or some other value, python dynamically figures out what type of variable it is
 
 if the its "hello, world" it will be a str, or if its 50 then its an integer the variable is going to be and INT.
@@ -1622,7 +1621,7 @@ Pros: the benifits, it helps to detect bugs more readily, meaning if you intende
 
 pythoin dose not strongly enforce these, instead you can use a tool that will tell you if you are using a variable correclty. usually this would be ru before the code is released publically.  or if there awas an automated process you could run this tool, just like you would reformat or link this code to some other program before its released publically.
 
-### example 1:-
+### example 1
 
 def meow(n: int):
     for _ in rang(n):
@@ -1632,7 +1631,7 @@ number: int = int(input("Number: "))
 meow(number)
 
 
-### example2:-
+### example2
 
 
 def meow(n: int) -> str:
@@ -1645,7 +1644,7 @@ print(meows, ends="")
 
 [official Python library - typing](https://docs.python.org/3/library/typing.html)
 
-# mypy
+## mypy
 a popular program for checking if your code is adhering to your own typ pins.  this is just one of several and can be easily installed with pip install mypy
 
 
@@ -1657,7 +1656,7 @@ mypy filename.py
 
 it will tell you the error and the incompatible stype
 
-# docstrings
+## docstrings
 when documentation is placed inbetween """example.""" the code automatically exstracts the document strings for you and even generates web pages or PDFs of documentation for the function
 
 [official Python documentation - pepstring](https://peps.python.org/pep0257/)
@@ -1683,21 +1682,22 @@ print(meows, ends="")
 
 this is a sometime done so that you can share the code publicly or into a library
 
-# -n
+## -n
 in command line terminal it is an instruction to allow the code to be read more specific to understand that this has been set to the number of times it allows you to pass in to arguments
 
-e.g.
+### example:-
+
 in Terminal window type:-
 
 python meows.py -n 3
 
-# argparse
+## argparse
 in allows input of configuration data at the commandline
 
 
 [official Python library - argparse](https://docs.python.org/3/library/argparse.html)
 
-e.g. 1.1
+### example:- 1.1
 
 
 
@@ -1710,10 +1710,10 @@ args = parser.parse_args()
 for _ in range(int(args.n)):
     print("meow")
 
-# -h / --help
+## -h / --help
 this is a special command that will provide you with some type of usage information
 
-e.g.
+### example:-
 
 TERMINAL
 usage: meows.py [-h] [-n N]
@@ -1724,13 +1724,14 @@ options:
 
 [] in python means its optional, so you dont have to type 
 
-e.g.
+### example:-
+
 -h or -n
 
 it will also give you other options
 
 
-e.g. 1.2
+### example:- 1.2
 
 import argparse
 
@@ -1742,7 +1743,8 @@ for _ in range(int(args.n)):
     print("meow")
 
 
-e.g.
+### example:-
+
 TERMINAL
 Meow like a cat
 
@@ -1755,14 +1757,16 @@ the capial N means to type a number after the lower case -n
 
 you can specify a defualt value for example (-n)
 
-e.g.
+### example:-
+
 defualt=1
 
 and you can also specify that its an int
 
-e.g.
+### example:-
+
 type=int
 
 
-# unpacking
+## unpacking
 can for example, take a single value from a list or another data structure and putting it imediately into 2 seperate variables
