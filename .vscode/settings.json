@@ -6,7 +6,7 @@
     "notebook.output.wordWrap": true,
     "chat.editor.wordWrap": "on",
     "files.autoSave": "afterDelay",
-    "editor.defaultColorDecorators": true,
+    "editor.defaultColorDecorators": "auto",
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.codeActions.triggerOnFocusChange": true,
     "deepscan.enable": true

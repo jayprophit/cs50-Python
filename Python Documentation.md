@@ -1770,3 +1770,16 @@ type=int
 
 ## unpacking
 can for example, take a single value from a list or another data structure and putting it imediately into 2 seperate variables
+
+# *input
+this allows you to unpack the data attached to that value of variables
+
+### example:-
+
+
+def total(galleons, sickles, knuts):
+    return(galleons * 17 +sickles) * 29 + knuts
+
+coins = [100, 50, 25]
+
+print(total(*coins), "knuts")
