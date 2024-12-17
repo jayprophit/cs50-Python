@@ -1832,3 +1832,6 @@ it can be used like map but with a more functional approach
 
 filter(function, iterable, ...)
 
+
+## dictionary comprehensions
+this allows you to create on the fly a dictionary with keys and some values, without having to do it manually, creating an empty dictionary, creating a for loop and iteratting over that loop and inserting more keys and values
