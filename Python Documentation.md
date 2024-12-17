@@ -1822,3 +1822,13 @@ map(function, iterable, ...)
 
 ## list comprehensions
 this allows you to construct a list on the fly,  this means you dont have to use a loop, without calling append. this allows you to do it in one line.
+
+
+## filter
+it can be used like map but with a more functional approach
+
+
+[official Python library - filter](https://docs.python.org/3/library/functions.html#filter)
+
+filter(function, iterable, ...)
+
