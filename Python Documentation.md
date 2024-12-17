@@ -1812,3 +1812,13 @@ kwargs is used for named valueds
 
 
 ## map
+allow you to map,  apply some function to every elemenet of some sequence.  e.g. list
+
+
+[official Python library - map](https://docs.python.org/3/library/functions.html#map)
+
+map(function, iterable, ...)
+
+
+## list comprehensions
+this allows you to construct a list on the fly,  this means you dont have to use a loop, without calling append. this allows you to do it in one line.
