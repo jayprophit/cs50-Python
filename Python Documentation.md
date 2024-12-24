@@ -1835,3 +1835,22 @@ filter(function, iterable, ...)
 
 ## dictionary comprehensions
 this allows you to create on the fly a dictionary with keys and some values, without having to do it manually, creating an empty dictionary, creating a for loop and iteratting over that loop and inserting more keys and values
+
+
+## enumerate
+it allows solving of some type of problem,  by iteratting over some sequence, by not just finding out the value one at a time but also the index there of.  giving you back two answers at onece
+
+[official Python library - enumerate](https://docs.python.org/3/library/functions.html#enumerate)
+
+enumerate(iterable, start=0)
+
+
+## generators
+the abilities to generate values from functions saving memory, if the computer runs out of memory from reading or gerating lots of data it can causing it to not run any further.
+
+you can define a function as a generator, it can still generate a massive amount of  data fo your users, but it can return a little bit of that data at a time
+
+
+[official Python library - generators](https://docs.python.org/3/library/functions.html#generators)
+
+yield - means to return 1 value at a time

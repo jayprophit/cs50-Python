@@ -2,16 +2,44 @@
 gryffindors
 '''
 
-# dictionary list comprehension
 students = ["Harmione", "Harry", "Ron"]
 
-gryffindors = {student: "Gryffindor" for student in students}
+for i, student in enumerate(students):
+    print(i + 1, student)
 
-print(gryffindors)
 
 '''
 # different variations to produce the same result and solve the problem
 # descending from currently used practices to basic beginner code
+
+students = ["Harmione", "Harry", "Ron"]
+
+for i, student in enumerate(students):
+    print(i + 1, student)
+
+
+
+
+students = ["Harmione", "Harry", "Ron"]
+
+for i in range(len(students)):
+    print(i + 1, student[i])
+
+
+
+
+students = ["Harmione", "Harry", "Ron"]
+
+for i in range(len(students)):
+    print(i, student[i])
+
+
+
+students = ["Harmione", "Harry", "Ron"]
+
+for student in students:
+    print(student)
+
 
 
 # dictionary list comprehension
