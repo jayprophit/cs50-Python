@@ -1853,4 +1853,4 @@ you can define a function as a generator, it can still generate a massive amount
 
 [official Python library - generators](https://docs.python.org/3/library/functions.html#generators)
 
-yield - means to return 1 value at a time
+"yield" - means to return 1 value at a time, this is also know as a "iterators"
