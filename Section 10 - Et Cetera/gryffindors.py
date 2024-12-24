@@ -5,13 +5,23 @@ gryffindors
 # dictionary list comprehension
 students = ["Harmione", "Harry", "Ron"]
 
-gryffindors = [{"name": student, "house": "Gryffindor"} for student in students]
+gryffindors = {student: "Gryffindor" for student in students}
 
 print(gryffindors)
 
 '''
 # different variations to produce the same result and solve the problem
 # descending from currently used practices to basic beginner code
+
+
+# dictionary list comprehension
+students = ["Harmione", "Harry", "Ron"]
+
+gryffindors = [{"name": student, "house": "Gryffindor"} for student in students]
+
+print(gryffindors)
+
+
 
 
 # dictionary list comprehension
