@@ -1,813 +1,711 @@
-# Python
-
-
-
-# cs50 - Introduction to Programming with Python - Full University Course
-
-## Course Context
-
-# functions -
-# variables -
-# conditionals - true or false
-# loops - repeated again and again set number of times
-# exceptions - except errors
-# libraries - 3rd party code or code you have written to be reused as many times as desired
-# unit test - write test to test your own code
-# file I/O - input/ out
-# regular expression - validate data or extract data
-# object-oriented programming:- allows you to represent real world entities
-# procedural programming - write procedures top to bottom to solve problems step by step
-# functional programming -
-# et cetera
-
-## python website documentation library:
-https://docs.python.org/3/library/
-
-## Youtube video link:
-https://www.youtube.com/watch?v=nLRL_NcnK-4&t=1405s
-
-## online course:
-[edx.org online cs50 python full university course](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python?index=product&queryID=d261282de44491e46e7817fb335660b7&position=2&results_level=first-level-results&term=cs50&objectID=course-2cc794d0-316d-42f7-bbfd-25c34e4cd5df&campaign=CS50%27s+Introduction+to+Programming+with+Python&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fsearch)
-
-
-
-
-# --SECTION 1--
-
-
-## Single Line Comment
-at the beginning of the line before any text input, 'number sign, hash, or pound sign' (#) is a comment, which allows you to leave notes that are reminders that are ignored by the programme
-
-
-## Paragraph Comment
-Three apostrophe's 'punctuation marks' (''' ''') or three Quotation marks (""" """) before and after your text,
-allows comment of a section of information,
-to leave notes that are reminders that are ignored by the programme
-
-
-## Python
-is a program otherwise known as an interpreter.
-It converts the file into readable binary code a computer can understand,
-then it changes the programme into readable human language
-
-
-## Create New File
-Using the terminal and typing
-code name.py
-in the place of name, is where you put your file name
-this allows you to create a new file
-
-
-## Run/ Execute Python Code
-Using the terminal and typing
-python name.py
-in the place of name, is where you put your file name
-this will run your programme
-
-## using the up arrow
-is a quick way to recall a request command printed on the terminal
-
-
-## Functions
-a function is like an action or a verb,
-that lets you do something in the programme.
-generally any language comes with some predetermined set of functions.
-the can be very basic actions or verbs,
-that the language will already know how to use.
-as a programmer you can use the functions to get the computer to do those things
-
-some functions take multiple arguments,
-if you separate the arguments to the function with a comma,
-you can pass in 1 or more arguments
-
-### example:-
-print("hello", + name)
-print("hello, ", )
-
-when you pass multiple arguments to print,
-it automatically inserts a space for you
-
-
-## Arguments
-is an input to a function that somehow influences its's behaviour
-
-## Parameters ()
-what you pass your argument inside to get an output
-
-## Parentheses
-arguments inside of the parameters
-
-### example:-
-(1 + 2)
-
-
-## print()
-Print is a function that use's parentheses,
-as an ability to take in some input of string of text data,
-in English or any other human language.
-that you want this function to print onto the screen
-
-[official Python library - functions, print](https://docs.python.org/3/library/functions.html#print)
-
-official documentation for:
-
-print(*objects, sep='', end='\n', file=sys.stdout, flush=False)
-
-print(
-    *                   - pass in zero to specified number of strings
-    object              - is the string
-    ,                   - is the separator
-    sep=''              - separator is how many spaces.  default value is a single blank space
-    ,                   - is the separator
-    end='\n'            - new line, line ending specification
-    ,                   - is the separator
-    file=sys.stdout     -
-    ,                   - is the separator
-    flush=False
-)
-
-Print objects to the text stream file, separated by sep and followed by end. sep, end, file, and flush, if present, must be given as keyword arguments.
-
-## Speech Text that is visible and readable to the user is placed inside comma's ('text') or quotation marks ("text"),
-as python accepts both, just remember to keep consistent when using a specific set when coding,
-as to not break code or confuse your self or some one else who may need to edit the code in the future
-
-
-## Corner Case
-quotations marks in side comma's
-
-### example:-
-print('hello, "friend"')
-print("hello, \"friend\"")
-
-## f - (means format)
-before the quotation mark make it a special string
-inside the parameters
-print(f"hello,", {name})
-
-## \n
-is an escape character, also means new line, line ending
-
-# Side Effects
-when a function is executed.
-The program gives back an action from the commands given.
-it can be:-
-visual
-audio
-
-
-# Bugs
-are mistakes that coders and programmers make,
-that causes errors in the programme
-and its the coders and programmers job to fix theses problems
-before, during and after programme launch.
-Theses are just seen as problems that need to be solved, edited, rewritten, modified or simplified
-
-
-## Return values
-a feature of some of one or more functions,
-that returns values.
-
-output = return value
-
-### example:-
-'''question = what's your name?'''
-input = what's your name?
-
-'''answer = John'''
-output = John
-
-
-## Variables
-can store a value of some number, text, image, video or more.
-a variable is a container for some value,
-inside of a computer or inside a programme that can be used or reused at any time
-
-
-## input()
-expects what's called a string,
-it's expecting text which is going to prompt the user
-
-= sign means assignment operator
-this means the programmer wants to assign from right to left
-
-### example:-
-name = input("What's your name? ")
-
-the "input("what's your name? ")" is now stored in the word "name"
-meaning any time the word name is called upon as a function,
-it will display:-
-
-what's your name?
-
-## Concatenation - concatenates
-to join the thing on the left and the thing on the right
-
-### example:-
-("hello + world")
-
-
-## String - str()
-a sequence of text be it English or any other human language,
-this is classed as data in programmes
-
-[official Python library - functions, func-str](https://docs.python.org/3/library/functions.html#func-str)
-
-[official Python library - std types, str ](<https://docs.python.org/3/library/stdtypes.html#str>)
-
-## .strip()
-is a string extension
-it is a method to remove white space,
-if a user inputs to many spaces it will reduce it by default off 1,
-or if you set a specific number like 2, it will reduce it to 2 white spaces
-
-### example:-
-name = name.strip()
-
-## {} list - part: 1
-allows you to store multiple pieces of data into a list, be it int or variable,
-to be recalled on command
-
-
-## int - Integer
-it represents a number,
-but not a decimal number
-
-- +   - addition
-- -   - subtraction
-- *   - multiplication
-- /   - division
-- %   - modulo operator, it allows you to take the remainder after dividing one number by another
-
-
-## Interactive Mode
-you can start writing python code and immediately execute each of those lines interactively,
-allowing the coder to execute some lines of code and get back some answers
-
-using the terminal without any files open
-
-you can process some lines of code to execute the code to instantly get a result
-
-### example:-
-1 + 1
-print("hello, world)
-
-
-## TAB
-is used to indent inside code instead of multiple spaces.
-
-if used in terminal.
-if you start typing the request command e.g. "cal TAB" (cal for the file ive named calculator).
-It will auto complete the rest of the text input,
-as its recalling request memory, as a file you've already created and stored, as long as your saved file is located in the same file directory folder
-
-### example:-
-c:\Users\Python> cal(TAB)
-
-'''finished input'''
-c:\Users\Python> .\calculator.py
-
-'''result'''
-c:\Users\Python\calculator>
-
-location: C drive
-folder name: Users
-folder name: Python
-file name: calculator
-
-
-## Nesting functions
-means the return value of the inner function,
-becomes the argument to outer function
-
-'''un-nested'''
-input("what's x?)
-
-'''nested'''
-int(input("what's x? ))
-
-this means that the input "whats x?" now equals or is represented by the function int
-
-
-## float
-is a number with a decimal point,
-also know as a floating point value.
-
-# [] square brackets
-means an optional choice
-
-
-# round - Rounding
-you can round the number to the ndigit (nearest digit "integer") after the decimal point
-
-[official Python library - functions, round](https://docs.python.org/3/library/functions.html#round)
-
-official documentation for:
-
-round(number[, ndigits=None])
-
-round(
-    number          - represents 1 number
-    [               - optional choice
-    ndigits=None    - specify the number of digits e.g. you want the number 3.589068 rounded to 2 decimal point that would equal 3.59, if you don't specify it rounds to the nearest integer (number)
-    ]               - optional choice
-)
-
-
-# Number break - 0,000.00
-to break a number up, so it has a comma in mathematics e.g. 1000 is 1,000
-using the format principle and a list bracket {}
-
-### example:-
-print(f"{:,}")
-
-
-# .2f
-allows you to specify how many digits you want to print, e.g. 3.566789 into 3.56
-
-### example:-
-print(f"{:.2f,}")
-
-
-# def - Define
-allows you to invent or define your own function,
-specifying how you want to manipulate the function,
-allows you to stop repeating yourself again and again,
-
-### example:-
-def hello():
-    print("hello")
-
-'''ask user for their name'''
-name = input("What's your name? ").strip().title()
-hello()
-'''say hello''
-print(name)
-
-you can also define a default value to some worlds by using parenthesis
-
-### example:-
-def hello(to="world"):
-
-by default it makes the word to = world, without needing to use an argument
-
-def main():
-    inset argument
-main()
-
-by defining main() and closing with main, main can be any customized word e.g. house, car,
-you can have your argument inside and it will run like a function but to a customized argument
-
-
-## Scope
-refer's to a variable only existing in the context in which you defined it
-
-### example:-
-'''with scope'''
-def main():
-    name = input("What's your name? ").strip().title()
-    hello()
-
-def hello(to="world"):
-    print("hello,", to)
-
-main()
-
-'''without scope'''
-def main():
-    name = input("What's your name? ").strip().title()
-    hello()
-
-def hello():
-    print("hello,", name)
-
-main()
-
-name doesn't exist in the hello function so can't be called
-
-
-## return
-it calls the input function to return a value string that the user typed in
-
-### example:-
-def main():
-    x = int(input("what's x? "))
-
-print("x squared is", square(x))
-
-def square(n):
-    return n * n
-
-main()
-
-square has been returned as a value after being called,
-raise a number to the value of another
-
-### example:-
-n ** 2
-pow(n, 2)
-
-this means ive raised n by the value of 2, raising the left side by the value of the right side
-
-
-
-# --SECTION 2--
-
-
-## Conditionals
-
-built in syntax
->   - greater than
->=  - greater than or equal to
-<   - less than
-<=  - less than or equal to
-==  - equal equal to - equality
-!=  - not equal to
-
-
-## Flow chart
-a diagram that represent's the direction of the function,
-also known as the control flow.
-go left if the answer is true or go right if the answer is false
-
-### example:-
-follow the stages from start to stop, notice how many steps it function has!
-
-
-## if
-is a statement that represents
-
-(view in code)
-### example:-
-if the answer to this question is true go ahead and execute this code
-
-### example:-
-0                        (start)
-                            |
-1              ----------(x < y)--------
-            (true)                      |
-2    (x is less than y)              (false)
-3              |----------(x > y)--------|
-                            |
-               -------------|-----------
-            (true)                      |
-4    (x is greater than y)           (false)
-5             |----------(x == y)-------|
-                            |
-               -------------|-----------
-            (true)                      |
-6    (x is equal to y)               (false)
-7             |----------(stop)---------|
-
-
-## elif
-its a statement that is a conjunction  of else and if,
-allow to ask a question that takes into account whether or not a previous question had a true or false answer
-
-(view in code)
-### example:-
-0                                    (start)
-                                        |
-1          --------------------------(x < y)------------
-          |                                             |
-          |                                          (false)
-2         |                             -------------(x > y)-------------------
-          |                             |                                      |
-        (true)                       (true)                                 (false)
-3         |                             |                        -----------(x == y)-------
-          |                             |                     (true)                        |
-4   (x is less than y)      (x is greater than y)       (x is equal to y)               (false)
-          |                             |                       |                          |
-5         |--------------------------(stop)---------------------|--------------------------|
-
-
-## else
-is a statement that if the answer to the question is not true then lets just assume because its false  for example:- that x is equal to y
-
-(view in code)
-### example:-
-0                                    (start)
-                                        |
-1          --------------------------(x < y)------------
-          |                                             |
-          |                                          (false)
-2         |                             -------------(x > y)----
-          |                             |                       |
-        (true)                       (true)                     |
-          |                             |                       |
-          |                             |                     (false)
-3   (x is less than y)      (x is greater than y)       (x is equal to y)
-          |                             |                       |
-4         |--------------------------(stop)---------------------|
-
-
-## or
-is x equal to y or not or is it true or false
-
-(view in code)
-### example:-
-0                 (start)
-                     |
-1          -------(x < y)------
-          |                    |
-          |                 (false)
-2         |         --------(x > y)----
-          |        |                   |
-        (true)  (true)                 |
-          |        |                   |
-          |        |                (false)
-3   (x is not equal to y)       (x is equal to y)
-              |                        |
-4             |---------(stop)---------|
-
-
-## !=  - not equal to
-means its not equal to so just print
-e.g. x is not equal to y
-
-(view in code)
-### example:-
-0                  (start)
-                      |
-1          --------(x != y)---------
-          |                        |
-          |                        |
-          |                        |
-          |                        |
-        (true)                  (false)
-          |                        |
-          |                        |
-2   (x is not equal to y)   (x is equal to y)
-          |                        |
-3         |---------(stop)---------|
-
-## ==  - equal equal to
-means its equal equal to so just print
-e.g. x is equal to y
-
-(view in code)
-### example:-
-0                   (start)
-                       |
-1          ---------(x == y)-------
-          |                        |
-          |                        |
-          |                        |
-          |                        |
-        (true)                  (false)
-          |                        |
-          |                        |
-2   (x is equal to y)   (x is not equal to y)
-          |                        |
-3         |---------(stop)---------|
-
-
-## and
-means to ask, one or two or more questions
-
-
-## bool - Boolean
-they can only be True or False,
-(has to have a capital for code input - True/ False)
-
-
-## match - (also know as switch in other languages)
-it uses a case argument
-in a case argument -: = who?
-
-
-
-# --SECTION 3--
-
-
-## Loops
-
-(view in code)
-### example:-
-0   (start)
-       |
-1   (meow)
-       |
-2   (meow)
-       |
-3   (meow)
-       |
-4   (stop)
-
-
-## while
-allows a question to be asked as a loop,
-that repeats again and again,
-as many times as you want
-
-
-## Break out of infinite loop
-if stuck by accident
-ctrl c (cancel, interrupt) in terminal window
-(May very depending ong system software)
-
-(view in code)
-### example:-
-0                   (start)
+Here is the rewritten and formatted version of the provided section, designed for a coursework-oriented GitHub book:
+
+---
+
+# Python Programming Guide  
+
+## CS50: Introduction to Programming with Python  
+**Course Type**: Full University Course  
+
+### Course Topics  
+- **Functions**: Perform specific tasks within the program.  
+- **Variables**: Store values for later use.  
+- **Conditionals**: Execute code based on conditions (true or false).  
+- **Loops**: Repeat actions for a set number of times.  
+- **Exceptions**: Handle errors gracefully.  
+- **Libraries**: Reusable code modules (third-party or custom).  
+- **Unit Tests**: Validate code functionality through tests.  
+- **File I/O**: Handle input/output operations on files.  
+- **Regular Expressions**: Validate or extract data patterns.  
+- **Object-Oriented Programming (OOP)**: Model real-world entities.  
+- **Procedural Programming**: Solve problems step-by-step.  
+- **Functional Programming**: Use functions as primary building blocks.  
+
+### Resources  
+- **Python Documentation**: [Official Python Library](https://docs.python.org/3/library/)  
+- **YouTube Lecture**: [CS50 Python Course Video](https://www.youtube.com/watch?v=nLRL_NcnK-4&t=1405s)  
+- **Online Course**: [CS50 Python on edX](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)  
+
+---
+
+## --Section 1--: Basics of Python  
+
+### Comments  
+- **Single-Line Comments**: Use `#` at the beginning of a line to write notes ignored by the program.  
+  Example:  
+  ```python  
+  # This is a single-line comment  
+  ```  
+
+- **Multi-Line Comments**: Use triple quotes (`'''` or `"""`) to write longer notes ignored by the program.  
+  Example:  
+  ```python  
+  '''  
+  This is a multi-line comment.  
+  It spans multiple lines.  
+  '''  
+  ```  
+
+### Python as an Interpreter  
+Python is an interpreter that converts code into machine-readable binary and translates it into human-readable output.  
+
+### File Operations  
+- **Create a New File**: Use the terminal command:  
+  ```bash  
+  code name.py  
+  ```  
+  Replace `name` with your desired filename.  
+- **Run/Execute Python Code**: Use the terminal command:  
+  ```bash  
+  python name.py  
+  ```  
+  Replace `name` with your filename.  
+
+- **Quick Command Recall**: Use the up arrow in the terminal to quickly recall previous commands.  
+
+---
+
+### Functions  
+A function is an action or verb that performs specific tasks. Functions can take arguments (inputs) and return outputs.  
+
+- **Syntax**:  
+  ```python  
+  def function_name(parameters):  
+      # code block  
+      return output  
+  ```  
+
+- **Example**:  
+  ```python  
+  def greet(name):  
+      print(f"Hello, {name}!")  
+  greet("Alice")  
+  ```  
+
+- **Arguments and Parameters**:  
+  - **Arguments**: Inputs passed to functions.  
+  - **Parameters**: Variables inside the function that receive the arguments.  
+
+---
+
+### The `print()` Function  
+The `print()` function displays output on the screen.  
+
+- **Syntax**:  
+  ```python  
+  print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)  
+  ```  
+  - `sep`: Separator (default is a space).  
+  - `end`: End of the printed line (default is a newline).  
+
+- **Examples**:  
+  ```python  
+  print("Hello, World!")  
+  print("Hello,", "World!", sep="-", end="!!\n")  
+  ```  
+
+### Strings  
+- **Definition**: A sequence of text, such as `"Hello"` or `'World'`.  
+- **Escape Characters**:  
+  - `\n`: Newline.  
+  - `\"`: Double quote inside a string.  
+  - **Example**:  
+    ```python  
+    print("He said, \"Hello!\"")  
+    ```  
+
+- **Concatenation**: Join strings using `+`.  
+  Example:  
+  ```python  
+  greeting = "Hello" + " " + "World"  
+  print(greeting)  
+  ```  
+
+---
+
+### Variables  
+Variables store values like numbers, text, or other data.  
+
+- **Syntax**:  
+  ```python  
+  variable_name = value  
+  ```  
+  Example:  
+  ```python  
+  name = "Alice"  
+  age = 25  
+  ```  
+
+---
+
+### Input and Output  
+- **Input**: Use `input()` to get user input.  
+  Example:  
+  ```python  
+  name = input("What's your name? ")  
+  print(f"Hello, {name}!")  
+  ```  
+
+- **Return Values**: Functions can return values using the `return` keyword.  
+  Example:  
+  ```python  
+  def square(x):  
+      return x * x  
+  result = square(5)  
+  print(result)  
+  ```  
+
+---
+
+### Numeric Operations  
+- **Integers (`int`)**: Whole numbers.  
+- **Floating Point Numbers (`float`)**: Numbers with decimals.  
+- **Operators**:  
+  - `+` (Addition)  
+  - `-` (Subtraction)  
+  - `*` (Multiplication)  
+  - `/` (Division)  
+  - `%` (Modulo)  
+
+---
+
+### Formatting Numbers  
+- **Rounding**:  
+  ```python  
+  print(round(3.5678, 2))  # Output: 3.57  
+  ```  
+
+- **Comma Separator**:  
+  ```python  
+  print(f"{1000:,}")  # Output: 1,000  
+  ```  
+
+- **Decimal Precision**:  
+  ```python  
+  print(f"{3.5678:.2f}")  # Output: 3.57  
+  ```  
+
+---
+
+### Defining Functions (`def`)  
+- **Syntax**:  
+  ```python  
+  def function_name(parameters):  
+      # Code block  
+  ```  
+- **Example**:  
+  ```python  
+  def greet(name="World"):  
+      print(f"Hello, {name}!")  
+  greet()  
+  greet("Alice")  
+  ```  
+
+---
+
+
+
+
+# --SECTION 2--: Conditionals  
+
+## **Conditionals**  
+### Built-in Syntax  
+| Symbol | Description                     | Example               | Meaning                          |
+|--------|---------------------------------|-----------------------|----------------------------------|
+| `>`    | Greater than                   | `x > y`               | `x` is greater than `y`         |
+| `>=`   | Greater than or equal to       | `x >= y`              | `x` is greater than or equal to `y` |
+| `<`    | Less than                      | `x < y`               | `x` is less than `y`            |
+| `<=`   | Less than or equal to          | `x <= y`              | `x` is less than or equal to `y` |
+| `==`   | Equal to (equality)            | `x == y`              | `x` is equal to `y`             |
+| `!=`   | Not equal to                   | `x != y`              | `x` is not equal to `y`         |
+
+---
+
+## **Flow Chart**  
+A flow chart is a diagram that represents the direction or control flow of a function.  
+- Follow steps from **start** to **stop** to understand how the function operates.  
+
+### Example Flow:  
+```plaintext
+0 (Start)
+  |
+1 ----------(x < y)----------
+   (True)                 (False)
+   |                      |
+2 (x is less than y)      ----------(x > y)----------
+                          (True)                 (False)
+                          |                      |
+3               (x is greater than y)    (x is equal to y)
+                          |                      |
+4                       (Stop)                (Stop)
+```
+
+---
+
+## **`if` Statement**  
+The `if` statement allows the program to execute a block of code only if a specified condition is **true**.  
+
+### Code Example:  
+```python
+if x < y:
+    print("x is less than y")
+elif x > y:
+    print("x is greater than y")
+else:
+    print("x is equal to y")
+```
+
+---
+
+## **`elif` Statement**  
+The `elif` statement is a combination of `else` and `if`. It allows checking multiple conditions in sequence.  
+
+### Example Flow:  
+```plaintext
+0 (Start)
+  |
+1 -------(x < y)---------
+   |                    |
+(True)              (False)
+   |                    |
+(x is less than y)   -------(x > y)-------
+                       |                |
+                    (True)           (False)
+                      |                |
+          (x is greater than y)   (x is equal to y)
+                      |                |
+                   (Stop)            (Stop)
+```
+
+---
+
+## **`else` Statement**  
+The `else` statement executes a block of code when all previous conditions are **false**.  
+
+### Example Flow:  
+```plaintext
+0 (Start)
+  |
+1 -------(x < y)---------
+   |                    |
+(True)              (False)
+   |                    |
+(x is less than y)   -------(x > y)----
+                       |             |
+                    (True)        (False)
+                      |             |
+      (x is greater than y)  (x is equal to y)
+                      |             |
+                   (Stop)         (Stop)
+```
+
+---
+
+## **Logical Operators**  
+- **`or`**: At least one condition must be **true**.  
+- **`and`**: All conditions must be **true**.  
+
+### Example:  
+```python
+if x < y or x == y:
+    print("Condition met")
+if x > y and y > 0:
+    print("Both conditions are true")
+```
+
+---
+
+## **Boolean (bool)**  
+A Boolean value can only be **True** or **False**.  
+> **Note:** Always capitalize `True` and `False` in Python.  
+
+### Example:  
+```python
+is_greater = x > y  # Returns True or False
+```
+
+---
+
+## **`match` Statement**  
+The `match` statement, also known as a `switch` in other languages, evaluates an expression and executes a case that matches the value.  
+
+### Code Example:  
+```python
+match x:
+    case 1:
+        print("x is 1")
+    case 2:
+        print("x is 2")
+    case _:
+        print("x is something else")
+```
+
+
+# --SECTION 3--: Loops 
+
+## **Loops**  
+Loops allow you to repeat a block of code multiple times, either a fixed number of times or until a specific condition is met.  
+
+### Example Flow:  
+```plaintext
+0   (Start)
+    |
+1   (Meow)
+    |
+2   (Meow)
+    |
+3   (Meow)
+    |
+4   (Stop)
+```
+
+---
+
+## **`while` Loop**  
+The `while` loop repeatedly executes a block of code as long as the given condition is **true**.  
+
+### Code Example:  
+```python
+i = 3
+while i != 0:
+    print("Meow")
+    i -= 1  # Decrement `i` to avoid an infinite loop
+```
+
+### Flow Diagram:  
+```plaintext
+0                   (Start)
                        |
 1                   (i = 3)
                        |
 2          -------- (i != 0)-------
           |            |           |
+        (True)      (False)        |
           |            |           |
-          |            |           |
-          |            |           |
-3       (true)      (False)        |
-          |            |           |
-          |            |           |
-4       ("meow")     (stop)         |
+3       ("Meow")     (Stop)        |
           |                        |
-5         |-------(i = i - 1)------|
+4         |-------(i = i - 1)------|
+```
 
+> **Tip:**  
+If you accidentally create an **infinite loop**, press **`Ctrl + C`** to interrupt it (may vary depending on your system).  
 
-when counting generally most scientist or programmers start from zero
+---
 
-(view in code)
-e.g.
-0                   (start)
+## **Counting with `while`**  
+Counting typically starts at zero in programming.  
+
+### Code Example:  
+```python
+i = 0
+while i < 3:
+    print("Meow")
+    i += 1
+```
+
+### Flow Diagram:  
+```plaintext
+0                   (Start)
                        |
 1                   (i = 0)
                        |
-2          ---------(i < 0)--------
+2          ---------(i < 3)--------
           |            |           |
-          |            |           |
-          |            |           |
-          |            |           |
-3       (true)      (False)        |
-          |            |           |
-          |            |           |
-4       ("meow")     (stop)        |
+        (True)      (False)        |
           |                        |
-5         |--------(i += 1)--------|
+3       ("Meow")     (Stop)        |
+          |                        |
+4         |--------(i += 1)--------|
+```
 
+---
 
-## for
-it allows you to iterate over a list of items
+## **`for` Loop**  
+The `for` loop iterates over a sequence (e.g., list, range, etc.).  
 
-
-## [] list - pt: 2
-allows you to contain multiple values all in the same place, all in the same variable.
-the 1st item in a list starts at location zero
-
-### example:-
-
-shopping list equals, item one: location zero, item two: location one, item three: location two
-shopping list = ["item1", "item 2", "item 3"]
-
-item one    [0]
-item two    [1]
-item three  [2]
-
-in a list when using loops call the variable by its name and don't use a place holder
-
-
-### example:-
-
-students = ["Hemione", "Harry", "Ron"]
-
+### Example with a List:  
+```python
+students = ["Hermione", "Harry", "Ron"]
 for student in students:
     print(student)
+```
+
+---
+
+## **Lists (`[]`)**  
+A list allows you to store multiple values in a single variable.  
+- The first item in a list is at index `0`.  
+
+### Example:  
+```python
+shopping_list = ["item1", "item2", "item3"]
+print(shopping_list[0])  # Output: item1
+```
+
+### Iterating through a List:  
+```python
+students = ["Hermione", "Harry", "Ron"]
+for student in students:
+    print(student)
+```
+
+---
+
+## **`range`**  
+The `range` function generates a sequence of numbers up to (but not including) a specified value.  
+
+### Example:  
+```python
+for i in range(3):
+    print(i)  # Output: 0, 1, 2
+```
+
+---
+
+## **Placeholders (`_`)**  
+Use `_` as a placeholder when the variable is not important.  
+
+### Example:  
+```python
+for _ in range(3):
+    print("Meow")
+```
+
+---
+
+## **`end=""`**  
+Controls how the print function ends its output.  
+
+### Example:  
+```python
+for _ in range(3):
+    print("Meow", end=" ")  # Output: Meow Meow Meow
+```
+
+---
+
+## **`len` (Length)**  
+The `len` function returns the number of items in a list.  
+
+### Example:  
+```python
+students = ["Hermione", "Harry", "Ron"]
+print(len(students))  # Output: 3
+```
+
+---
+
+## **Dictionaries (`dict`)**  
+A dictionary allows you to map keys to values.  
+
+### Example:  
+```python
+words = {"cat": "a small domesticated animal", "dog": "a loyal companion"}
+print(words["cat"])  # Output: a small domesticated animal
+```
+
+---
+
+## **`sep` (Separator)**  
+Adds a custom separator between printed values.  
+
+### Example:  
+```python
+print("Hermione", "Harry", "Ron", sep=", ")  # Output: Hermione, Harry, Ron
+```
+
+---
+
+## **`None`**  
+Represents the absence of a value.  
+
+### Example:  
+```python
+value = None
+if value is None:
+    print("No value assigned")
+```
+
+---
+
+## **Nesting**  
+You can nest loops or functions, but it’s common practice to use variables like `i`, `j`, and `k` for loop counters. Avoid nesting too deeply for clarity.  
 
 
-## range
-it returns to you a range of values, from at least one or more arguments,
-this is a selection of values up to a specified value,
-not through the specified value
-
-## _
-use as a place holder, if its a variable but you not concerned about its name
 
 
-## end=""
-allows you to set the amount of spaces to reduce from the end
+# --SECTION 4--: Exceptions  
+
+## **Exceptions**  
+Exceptions are errors that occur during the execution of a program. They interrupt the normal flow of the program unless they are handled.  
+
+---
+
+## **Types of Errors**  
+
+### **Syntax Error**  
+- Occurs when the code is written incorrectly and doesn't follow Python's syntax rules.  
+- **Example:**  
+  ```python
+  print("Hello World  # Missing closing quote
+  ```
+  **Error:** `SyntaxError: EOL while scanning string literal`
+
+---
+
+### **Runtime Error**  
+- Occurs during the execution of the program.  
+- These errors can vary based on user input or external factors.  
+- **Good Practice:** Write defensive code to anticipate and handle these errors gracefully.  
+
+---
+
+### **ValueError**  
+- Raised when a function receives an argument of the correct type but an inappropriate value.  
+- **Example:**  
+  ```python
+  int("abc")  # Trying to convert a string to an integer
+  ```
+  **Error:** `ValueError: invalid literal for int() with base 10`
+
+---
+
+### **NameError**  
+- Occurs when a variable or function is referenced before it is defined.  
+- **Example:**  
+  ```python
+  print(x)  # Variable `x` is not defined
+  ```
+  **Error:** `NameError: name 'x' is not defined`
+
+---
+
+## **Handling Exceptions**  
+
+### **`try` and `except`**  
+Use `try` to test a block of code and `except` to handle exceptions if they occur.  
+
+### Example:  
+```python
+try:
+    x = int(input("Enter a number: "))
+    print(f"The number is {x}")
+except ValueError:
+    print("That's not a valid number!")
+```
+
+---
+
+### **`pass`**  
+Use `pass` to ignore an error and continue execution.  
+
+### Example:  
+```python
+try:
+    x = int("abc")
+except ValueError:
+    pass  # Do nothing if an exception occurs
+```
+
+---
+
+### **`raise`**  
+Use `raise` to manually raise an exception.  
+
+### Example:  
+```python
+x = -5
+if x < 0:
+    raise ValueError("Negative values are not allowed")
+```
+
+---
 
 
-## len - length
-tells you the length of a list
 
+# --SECTION 5--: Libraries  
 
-## dict - dictionary
-a data structure that allows you to associate one value with another
+## **Libraries**  
+Libraries are collections of pre-written code (functions, modules, or classes) that you can use in your programs. They save time and encourage reusability. Libraries can be written by you, or they can be third-party libraries shared with the community.
 
-e.g.
-words with their definitions
+---
 
+## **Modules**  
+Modules are files containing Python code, including variables, functions, or classes. They promote modularity and reusability.  
 
-## sep=", "
-adds a separator, a separation with a comma
+### Example:  
+```python
+# math module example
+import math
+print(math.sqrt(16))  # Output: 4.0
+```
 
+---
 
-## None
-this means the absents of a value
+## **Random Module**  
+The `random` module provides functions to generate random numbers or perform random operations.  
 
+### Key Functions:  
 
-## end=""
-allows you to end the line
+- **`random.choice(seq)`**: Selects a random element from a sequence (e.g., list, string).  
+  ```python
+  import random
+  colors = ["red", "blue", "green"]
+  print(random.choice(colors))  # Randomly selects one color
+  ```
 
+- **`random.randint(a, b)`**: Returns a random integer between `a` and `b` (inclusive).  
+  ```python
+  print(random.randint(1, 10))  # Random number between 1 and 10
+  ```
 
-## nesting (notes)
-you can use i, j, k
-advised not to use any more as these letters are assigned to a function in python
+- **`random.shuffle(x)`**: Shuffles the elements of a list in place.  
+  ```python
+  my_list = [1, 2, 3, 4, 5]
+  random.shuffle(my_list)
+  print(my_list)  # List shuffled randomly
+  ```
 
+---
 
+## **Importing Modules**  
 
-# --SECTION 4--
+- **`import`**: Imports the entire module.  
+  ```python
+  import random
+  ```
 
+- **`from ... import ...`**: Imports specific functions or variables.  
+  ```python
+  from random import randint
+  print(randint(1, 10))
+  ```
 
-## Exceptions
+---
 
-## Syntax error
-is a problem that you have to solve and want resolve itself
+## **Statistics Module**  
+Provides mathematical functions to analyze data sets (e.g., mean, median).  
 
-## Run time error
-this happens when you code is running.
-as good practice coders write additional codes defensively to detect when the errors happen.  This is to prepare for the different varieties of code that will be input by different users correctly or incorrectly
+### Example:  
+```python
+import statistics
+data = [1, 2, 3, 4, 5]
+print(statistics.mean(data))  # Output: 3
+```
 
-## ValueError
-this is an error with one of the input values
+---
 
-## try
-try to see if this is exceptional code
+## **Command-Line Arguments**  
+Allows passing arguments to a Python script via the command line.  
 
-## except
-excepts a code regardless of the error
+- **`sys` Module**: Contains `sys.argv`, a list of command-line arguments.  
+  ```python
+  import sys
+  print(sys.argv)  # List of command-line arguments
+  ```
 
-## NameError
-your specified variable name has an error
-
-## Pass
-allows you to ignore/ pass on doing anything with it - meaning (don't print data)
-
-## raise
-allows you to raise exceptions yourself
-
-
-
-# --SECTION 5--
-
-
-## Libraries
-are files that other people have written that you can use in your own program, or code that you yourself have written that you can use in your own program
-
-## modules
-are files with one or more functions built into it.
-its to encourage reusability of code, meaning shorter work time and and the ability to share work
-
-## random
-its a modulator with pre programmed functions
-
-[official Python library - random](https://docs.python.org/3/library/random.html)
-
-### random.choice(seq)
-module = random, function = choice, sequence = a list/ list like of string data
-
-### random.randint(a, b)
-randint - means random integer
-module = random, function = randint, thats between a and b inclusive
-
-### example:-
-
-1-10
-you will get a number back between one and ten and the numbers one and ten included.
-this gives a 10% probability for each choice
-
-### random.shuffle(x)
-takes in a list of values and shuffle up the data into random order
-module = random, function = shuffle, x - is the list of values
-
-## import
-allows you to import the entire contents of a module
-
-## from
-allows you to import parts of a functions from a module
-
-## Statistics
-has functions that are more mathematical in nature.  calculating means, modules or other aspects of a data set you may want to analyze
-
-[official Python library - statistics](https://docs.python.org/3/library/statistics.html)
-
-## command-line arguments
-it allows to provide arguments that inputs to the program just when your executing at the command-line
-
-## sys -system
-contains functionality that specific to the python system itself
-
-[official Python library - sys](https://docs.python.org/3/library/sys.html)
-
-a variable called argument vector.
-the 1st element is the first thing you type the second element will be the second thing that you type. etc
-
-sys.argv
-
-when passing through a prompt, you can put it in double quotes at the terminal window to except the argument as long as the in the code the allows it
-
-### example:-
-
+### Example:  
+```python
 import sys
 
 if len(sys.argv) < 2:
@@ -815,241 +713,294 @@ if len(sys.argv) < 2:
 elif len(sys.argv) > 2:
     print("Too many arguments")
 else:
-    print("hello, my name is" , sys.argv[1])
+    print(f"Hello, {sys.argv[1]}")
+```
 
-at the terminal window:
-python name.py "Jonathan Powell"
+Run the script in the terminal:  
+```bash
+python script.py John
+```
 
-exits the program at the specified location, then are there
+Output:  
+```
+Hello, John
+```
 
-sys.exit
+---
 
+## **Common Errors**  
 
-## IndexError
-this tells the user that your prompt (list selection) is to far out of range.  this means to far to the left or to far to the right in this object which is a list of some values.
+- **`IndexError`**: Accessing a list element out of range.  
+- **`ValueError`**: Invalid input value for a function.  
 
-## slices
-takes a sub-set of a list (a slice of a list)
+---
 
+## **Slicing**  
+Extracts a subset of a list.  
 
-### example:- v1
-import sys
+### Example:  
+```python
+my_list = [1, 2, 3, 4, 5]
+print(my_list[1:4])  # Output: [2, 3, 4]
+```
 
-check for errors
+---
 
-if len(sys.argv) < 2:
-    sys.exit("Too few arguments")
+## **Packages**  
+Packages are collections of modules organized in directories.  
 
-starts at element 1 and everything else
-
-for arg in sys.argv[1:]:
-    print("hello, my name is" , arg)
-
-
-### example:- v2
-import sys
-
-check for errors
-
-if len(sys.argv) < 2:
-    sys.exit("Too few arguments")
-
-starts at element 1 and everything else and removes last entry
-
-for arg in sys.argv[1:-1]:
-    print("hello, my name is" , arg)
-
-
-## Packages
-3rd party library which is a module implemented in a folder of functions that you yourself or other people have created
-
-## PyPi
-is the python package index website, that allows you to download and install a package on your computer or server or upload a package you create for others to use
-
-[official pypi](https://pypi.org)
-
-## cowsay
-is a package in python that allows a cow to say something on your screen
-
-[pypi projects -  cowsay](https://pypi.org/project/cowsay)
-
-## pip
-is a package manager.  install packages into your Mac, PC, Linux, Cloud environment or IDE (integrated development environment)
-
-### example:-
-
+### Example: Installing a package using `pip`:  
+```bash
 pip install cowsay
+```
 
-## ASCII - art
-is olden styled textual way of using keys on the keyboard to print pictures of sort on a screen
+---
 
-## APIs
-application programming interface.
-third party services that anyone can talk to.
+## **APIs**  
+Application Programming Interfaces (APIs) allow interaction with external services or data.  
 
-## requests
-allows the user to make web requests, allowing the user to automate the requests of URL's that stat with http or https
+### Example: Using the `requests` library to fetch data:  
+```python
+import requests
 
-pip install requests
+response = requests.get("https://itunes.apple.com/search?entity=song&limit=1&term=weezer")
+print(response.json())
+```
 
-[pypi documentation - requests](https://pypi.org/requests)
+---
 
+## **JSON**  
+JavaScript Object Notation (JSON) is a text-based format for exchanging data.  
 
-### Itunes Exercise
+- **`json` Module**: Handles JSON data in Python.  
 
-https://itunes.apple.com/search?entity=song&limit=1&term=weezer
+### Example:  
+```python
+import json
 
-https://itunes.apple.com - is the website
+data = '{"name": "John", "age": 30}'
+parsed_data = json.loads(data)  # Converts JSON string to Python dictionary
+print(parsed_data["name"])  # Output: John
+```
 
-search? - is the request made on the website server
+---
 
-entity=song - so that its songs is not artists or albums or something like that
+## **Special Variables**  
 
-limit=1 - this is to get back information on one song
-
-term=weezer - this is the band or the artist that is requested
-
-this gives you will give you a text file
-
-{
- "resultCount":1,
- "results": [
-{"wrapperType":"track", "kind":"song", "artistId":115234, "collectionId":1440878798, "trackId":1440879325, "artistName":"Weezer", "collectionName":"Weezer", "trackName":"Buddy Holly", "collectionCensoredName":"Weezer", "trackCensoredName":"Buddy Holly", "artistViewUrl":"https://music.apple.com/us/artist/weezer/115234?uo=4", "collectionViewUrl":"https://music.apple.com/us/album/buddy-holly/1440878798?i=1440879325&uo=4", "trackViewUrl":"https://music.apple.com/us/album/buddy-holly/1440878798?i=1440879325&uo=4",
-"previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/f0/ba/a8/f0baa81a-7449-c490-f43a-b5c6e3609e3f/mzaf_3988310882581261442.plus.aac.p.m4a", "artworkUrl30":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/74/67/fc74674a-1eb0-d50d-33fe-215caee529d1/16UMGIM52971.rgb.jpg/30x30bb.jpg", "artworkUrl60":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/74/67/fc74674a-1eb0-d50d-33fe-215caee529d1/16UMGIM52971.rgb.jpg/60x60bb.jpg", "artworkUrl100":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/74/67/fc74674a-1eb0-d50d-33fe-215caee529d1/16UMGIM52971.rgb.jpg/100x100bb.jpg", "collectionPrice":10.99, "trackPrice":1.29, "releaseDate":"1994-01-01T12:00:00Z", "collectionExplicitness":"notExplicit", "trackExplicitness":"notExplicit", "discCount":1, "discNumber":1, "trackCount":10, "trackNumber":4, "trackTimeMillis":159587, "country":"USA", "currency":"USD", "primaryGenreName":"Pop", "isStreamable":true}]
-}
-
-this text format is known as 'json'
-
-## JSON
-javaScript object notation.
-known as a 'language agnostic format' for exchanging data between computers.  this isn't limit to python.  you can use any other language to read json or write it as well.
-its completely text based format.  meaning if i visit a url in a browser, what gets downloaded is just a bunch of text, but that text is formatted in a standard way using curly braces and square brackets, using quotes and some colons, that contains all of the information on apple's data base on Weezer's song at the first one as the selection was limited to one in their database.
-thats using an API, a mechanism where the user can access some data on someone else's server and then integrate it into the user's own program.
-as the web browser is not something that is written by the user.  the user will need a code to interact with the text format provide,
-
-[official Python library - json (string documentation)](https://docs.python.org/3/library/json.html)
-
-json.dumps - dump string,
-this means to pass that function that response.json return value
-
-## indent=
-indents the data by the specified number of spaces
-
-## __name__
-automatically set by python to be main when you run a file from the command line
-
-### example:-
-
-def main():
-    hello("world")
-    goodbye("world")
-
-def hello(name):
-    print(f"hello, {name}")
-
-def goodbye(name):
-    print(f"goodbye, {name}")
-
-if __name__ == "__name__":
-    main()
-
-name - becomes main
+- **`__name__`**: A special variable set to `"__main__"` when a file is executed directly.  
+  ```python
+  if __name__ == "__main__":
+      print("This script is running directly")
+  ```
 
 
 
-# --SECTION 6--
+# --SECTION 6--: Unit Tests  
 
-## Unit Tests
+## **Unit Tests**  
+Unit tests are used to verify that individual parts (units) of a program work as expected. They help ensure code reliability and correctness.  
 
-## assert
-allows you to claim (assert) that something is true, if its not true it will show an error
+---
 
-## AssertionError
-shows that theres an error wile using the assert command
+## **`assert`**  
+The `assert` statement checks if a condition is true. If it is not true, an `AssertionError` is raised.  
 
-## pytest
-is a 3rd party program  tool that will automate the testing of your code, as long as the coder/ programmer write's the test
+### Example:  
+```python
+def add(a, b):
+    return a + b
 
-note - there are other unit testing programs available on python
+# Test the function
+assert add(2, 3) == 5  # Passes silently if true
+assert add(2, 3) == 6  # Raises AssertionError if false
+```
 
-[official Pytest package index](https://pytest.org)
+---
+
+## **AssertionError**  
+An error raised when an `assert` condition evaluates to `False`.  
+
+### Example:  
+```python
+x = 10
+assert x < 5  # Raises AssertionError because x is not less than 5
+```
+
+---
+
+## **`pytest`**  
+`pytest` is a third-party testing framework that simplifies writing and running unit tests in Python.  
+
+### Installation:  
+```bash
+pip install pytest
+```
+
+### Running Tests:  
+- To run tests in a folder:  
+  ```bash
+  pytest <folder_name>
+  ```
+- To run all tests in the current directory:  
+  ```bash
+  pytest
+  ```
+
+---
+
+### Writing Tests with `pytest`:  
+Save test files with names like `test_*.py` or `*_test.py` for `pytest` to detect them automatically.  
+
+### Example:  
+Create a file `test_math.py`:  
+```python
+def add(a, b):
+    return a + b
+
+def test_add():
+    assert add(2, 3) == 5
+    assert add(-1, 1) == 0
+    assert add(0, 0) == 0
+```
+
+Run the tests:  
+```bash
+pytest test_math.py
+```
+
+---
+
+## **Organizing Tests in Folders**  
+To organize tests in folders:  
+
+1. **Create a new folder for tests**:  
+   ```bash
+   mkdir tests
+   ```
+
+2. **Add `__init__.py`**:  
+   Create an empty `__init__.py` file in the folder to treat it as a package.  
+
+3. **Add test files**:  
+   Add your test files (e.g., `test_example.py`) in the `tests` folder.  
+
+4. **Run `pytest` on the folder**:  
+   ```bash
+   pytest tests
+   ```
+
+---
+
+## **`__init__.py`**  
+An `__init__.py` file marks a folder as a package. It can be empty or contain initialization code.  
+
+### Example:  
+Folder structure:  
+```
+mypackage/
+    __init__.py
+    module.py
+tests/
+    __init__.py
+    test_module.py
+```
+
+---
+
+## **Packages in Testing**  
+A package is a folder containing one or more Python modules, often with an `__init__.py` file.  
+
+### Example:  
+```bash
+mypackage/
+    __init__.py
+    math_utils.py
+```
+
+Code in `math_utils.py`:  
+```python
+def multiply(a, b):
+    return a * b
+```
+
+Test file in `tests/test_math_utils.py`:  
+```python
+from mypackage.math_utils import multiply
+
+def test_multiply():
+    assert multiply(2, 3) == 6
+    assert multiply(-1, 5) == -5
+```
+
+Run the tests:  
+```bash
+pytest tests
+```
 
 
-running pytest on multiple folders
+# --SECTION 7--: File I/O  
 
-in terminal:-
+## **File I/O**  
+File I/O refers to reading data from files (input) and writing data to files (output).  
 
-pytest test
+---
 
-## mkdir
-makes a new folder
+## **Lists and Memory**  
+Lists are stored in memory and are not persistent; their contents disappear when the program ends. To store data permanently, use files.  
 
-## __init__.py
-tells python to treat the specified folder not as a module but as a package
+---
 
-## package
-is a python module or multiple modules that are organized inside of a folder
+## **`open`**  
+The `open()` function opens a file for reading or writing.  
 
+### Modes:  
+- `"r"`: Read (default)  
+- `"w"`: Write (overwrites the file)  
+- `"a"`: Append (adds to the end of the file)  
 
+[Documentation: `open()`](https://docs.python.org/3/library/functions.html#open)
 
-# --SECTION 7--
+---
 
-# File I/O
-is the input and output of files.
-
-## {} list - part: 3
-list are stored in the computers memory, so once the program exits even the contents of those disappear
-
-## open
-open a file, allows the user to read information from it or write information to it
-
-[official Python library - functions, open](https://docs.python.org/3/library/functions.html#open)
-
-## rm
-in terminal if you input
-rm (name) it will delete the file
-
-e### example:-
-
+## **`rm`**  
+The `rm` command in the terminal deletes a file.  
+```bash
 rm names.txt
+```
 
-## with
-with open allows you to write and close a file
+---
 
-### example:-
+## **`with` Statement**  
+The `with` statement ensures the file is properly closed after its suite finishes execution.  
 
+### Example: Writing to a File  
+```python
 with open("names.txt", "a") as file:
-    file.write(f"{name}\n")
+    file.write("John\n")
+```
 
+---
 
-## line
-allows you to read files, stores them in a variable called line and return them as a list
+## **Reading Files**  
+- **`readlines()`**: Reads all lines and returns them as a list.  
+- **`.rstrip()`**: Removes trailing characters (like `\n`).  
 
-### example:-
-
+### Example: Reading and Stripping Lines  
+```python
 with open("names.txt", "r") as file:
     lines = file.readlines()
 
 for line in lines:
-    print("hello,", line)
+    print("Hello,", line.rstrip())
+```
 
+---
 
-## .rstrip
-allows you to strip of the end of an implement detail in the line
+## **Sorting and Appending**  
+- **`sorted()`**: Sorts an iterable (e.g., list).  
 
-### example:-
-
-with open("names.txt", "r") as file:
-    lines = file.readlines()
-
-for line in lines:
-    print("hello,", line.rstrip())
-
-## append
-sorts the file in alphabetical ascending order
-
-### example:-
-
+### Example: Alphabetical Sorting  
+```python
 names = []
 
 with open("names.txt") as file:
@@ -1057,800 +1008,678 @@ with open("names.txt") as file:
         names.append(line.rstrip())
 
 for name in sorted(names):
-    print(f"hello, {name}")
+    print(f"Hello, {name}")
+```
 
-[official Python library - functions, sorted](https://docs.python.org/3/library/functions.html#sorted)
+- **Descending Order**: Use `reverse=True` in `sorted()`.  
 
+---
 
-summary:-
+## **CSV Files**  
+- CSV (Comma-Separated Values) files store tabular data in plain text.  
+- Easily opened in spreadsheet software like Excel, Google Sheets, etc.  
 
-sorted(iterable, /, *, key=None, reverse=False)
+[Documentation: `csv`](https://docs.python.org/3/library/csv.html)
 
-to have descending order
+---
 
-you change it to:-
+### **Splitting Data**  
+- **`.split(",")`**: Splits a string into parts using a delimiter (e.g., a comma).  
 
-sorted(iterable, /, *, key=None, reverse=True)
-
-
-## csv
- stands for - comma separated value, which is a file format, that allows you to store multiple pieces of information that are related in the same file
-
- you can import your csv file into spreadsheet software
- like:-
-
- excel
- apple number
- google spreadsheet
-
- [official Python library - csv](https://docs.python.org/3/library/csv.html)
-
-
- ## .split
- the split function will split the pice of information into 1 or more pieces of data
-
- ## row
- it allows you to look at lines as rows, each part separated by comma's as columns
-
- ## key
- tells sorted function how to sort the specified list of dictionary.  you can also pass an anonymous function, which is called lambda which can be seen in example 3.
-
- e.g. #1
-
- def get_name(student):
-    return student["name"]
-
-for student in sorted (students, key=get_name):
-    print(f"{student['name']} is in {student['house']}")
-
-### example:- v2
-
-students = []
-
+### Example: Splitting CSV Rows  
+```python
 with open("students.csv") as file:
     for line in file:
         name, house = line.rstrip().split(",")
-        student = {}
-        student = {"name": name, "house": house}
-        students.append(student)
+        print(f"{name} is in {house}")
+```
 
-def get_house(student):
-    return student["house"]
+---
 
+## **Using `csv.reader`**  
+Parses CSV files into rows.  
 
-for student in sorted (students, key=get_house, reverse=True):
-    print(f"{student['name']} is in {student['house']}")
-
-### example:- v3
-
-students = []
-
-with open("students.csv") as file:
-    for line in file:
-        name, house = line.rstrip().split(",")
-        student = {}
-        student = {"name": name, "house": house}
-        students.append(student)
-
-def get_house(student):
-    return student["house"]
-
-for student in sorted (students, key=lambda student: student["name"]):
-    print(f"{student['name']} is in {student['house']}")
-
-## reader
-it can be used to iterate over files, meaning it sorts where the quotes, corner cases, etc and will automatically sort them for you, you can override certain defaults or functions
-
-### example:-
-
+### Example: Reading CSV with `csv.reader`  
+```python
 import csv
-
-students = []
 
 with open("students.csv") as file:
     reader = csv.reader(file)
     for row in reader:
-        students.append({"name": row[0], "home": row[1]})
+        print(f"{row[0]} is from {row[1]}")
+```
 
-for student in sorted (students, key=lambda student: student["name"]):
-    print(f"{student['name']} is from {student['home']}")
+---
 
+## **Using `csv.DictReader`**  
+Parses CSV files into dictionaries with column names as keys.  
 
-## DictReader - dictionary reader
-is a function for csv that allows you to iterate over the file, top to bottom, loading in each line of text not as a list of columns but as a dictionary of columns, this gives automatic access yto those columns names
-
-## writer
-allows you to open and write a file
-
-### example:-
-
+### Example: Reading CSV with `DictReader`  
+```python
 import csv
 
-name = input("what's your name? ")
-home = input("where's your home? ")
+with open("students.csv") as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        print(f"{row['name']} is from {row['home']}")
+```
 
-with open("students.csv", "a") as file:
-    writer = csv.writer(file)
-    writer.writerow([name, home])
+---
 
-## DictWriter
+## **Writing CSV Files**  
+- **`csv.writer`**: Writes rows as lists.  
+- **`csv.DictWriter`**: Writes rows as dictionaries.  
 
-allows you to open and write a file as a dictionary, it needs an extra function called fieldname that helps to define which column belongs to which group
-
-### example:-
-
+### Example: Writing with `DictWriter`  
+```python
 import csv
 
-name = input("what's your name? ")
-home = input("where's your home? ")
+name = input("What's your name? ")
+home = input("Where's your home? ")
 
 with open("students.csv", "a") as file:
     writer = csv.DictWriter(file, fieldnames=["name", "home"])
     writer.writerow({"name": name, "home": home})
+```
 
+---
 
-## fieldname
-is a string name given to the column you intend to write to in that file.  it ensures that the library knows which column has been given its name or tiles respectively
+## **Binary Files**  
+Binary files store data in binary format (e.g., images, audio, video).  
 
+---
 
-## binary files
-allows you to store multiple keys and multiple values.  binary files are just zero's and one's (0, 1) and can be laid out in any pattern you want. this is not just restricted to text information but iyt can be graphical, audio or video information as well
+## **Pillow (PIL)**  
+Pillow is a library for image processing in Python.  
 
-## PIL
-it allows you to apply filters, animation.
-[pillow documentation](https://pillow.readthedocs.io)
+[Documentation: Pillow](https://pillow.readthedocs.io)  
 
-the pillow library takes care of opening, the saving and closing by just calling save
-
-### example:-
-
-import sys
-
-from PIL import image
+### Example: Creating Animated GIFs  
+```python
+from PIL import Image
 
 images = []
 
-for arg in sys.argv:
+for arg in ["image1.gif", "image2.gif"]:
     image = Image.open(arg)
     images.append(image)
 
-images[0].save
+images[0].save("output.gif", save_all=True, append_images=images[1:])
+```
 
-to animate in the terminal window you call the command
+---
 
-### example:-
+## **Animated GIFs**  
+- GIFs consist of multiple image frames played in sequence.  
+- Useful for creating simple animations or memes.  
 
-python costumes.py costume1.gif costume2.gif
+---
 
-to get the final gif in the terminal window you type
+## **Scratch**  
+Scratch is a visual programming language from MIT designed for beginners, enabling animation and interactive projects.  
 
-### example:-
 
-code costumes.gif
 
 
-## animated gif
-this can be memes, stickers.  it is an image file that has multiple layers inside it.  the computer shows the images one after another sometimes on an endless loop. as long as theres enough images it creates the illusion of animation, as the observer is only seeing 1 frame per second it looks like an animation.  it can be seen as a simplistic version of a video file
+# --SECTION 8--: Regular Expressions  
 
+## **Regular Expressions (Regex)**  
+Regular expressions are patterns used to match, search, and manipulate strings.  
 
-## scratch
-a programming language from MIT that allows you to animate images and more
+---
 
+## **`re` Module**  
+The `re` module in Python provides tools for working with regular expressions.  
 
+### Common Functions:  
+1. **`re.search(pattern, string, flags=0)`**: Searches for a match anywhere in the string.  
+2. **`re.match(pattern, string, flags=0)`**: Matches the pattern only at the start of the string.  
+3. **`re.fullmatch(pattern, string, flags=0)`**: Matches the pattern from the start to the end of the string.  
+4. **`re.sub(pattern, repl, string, count=0, flags=0)`**: Substitutes matched parts of the string with a replacement.  
+5. **`re.split(pattern, string, maxsplit=0, flags=0)`**: Splits the string by a regex pattern.  
+6. **`re.findall(pattern, string, flags=0)`**: Finds all occurrences of the pattern in the string.  
 
-# --SECTION 8--
+[Documentation: `re`](https://docs.python.org/3/library/re.html)  
 
-# Regular Expressions
-also known as a regex's.  is just a pattern in a code
+---
 
-## re
-which stands for regular expressions, is a library.  the library gives a lot of capabilities to define, check for and even replace patterns and extract data from these patterns.
+## **Regex Symbols and Patterns**  
+### Quantifiers:  
+- `.`: Matches any character except a newline.  
+- `*`: Matches 0 or more repetitions.  
+- `+`: Matches 1 or more repetitions.  
+- `?`: Matches 0 or 1 repetition.  
+- `{m}`: Matches exactly `m` repetitions.  
+- `{m,n}`: Matches between `m` and `n` repetitions.  
 
-[official Python library - re](https://docs.python.org/3/library/re.html)
+### Anchors:  
+- `^`: Matches the start of the string.  
+- `$`: Matches the end of the string.  
 
-re.search(pattern, string, flags=0)
+### Character Sets:  
+- `[abc]`: Matches any one of the characters `a`, `b`, or `c`.  
+- `[^abc]`: Matches any character except `a`, `b`, or `c`.  
 
-there are certain symbols which you can use to define patterns
+### Escape Sequences:  
+- `\d`: Matches a digit.  
+- `\D`: Matches a non-digit.  
+- `\s`: Matches whitespace.  
+- `\S`: Matches non-whitespace.  
+- `\w`: Matches a word character (letters, digits, underscore).  
+- `\W`: Matches a non-word character.  
 
-### example:-
+---
 
-.           any character except a newline
-*           0 or more repetitions
-+           1 or more repetitions
-?           0 or 1 repetitions
-{m}         m repetitions
-{m,n}       m-n repetitions
-^           matches the start of the string
-$           matches the end of the string or just before the newline at the end of the string
-[]          set of characters
-[^]         complementing the set - (you cannot match any of these characters)
+## **Regex Examples**  
 
-it searches and finds a result using a finite state machine or formally known as non-deterministic finite automaton
+### Example 1: Email Validation  
+Pattern: `r".+@.+\..+"`  
+```python
+import re
 
-### example:- v1
+email = "user@example.com"
+if re.fullmatch(r".+@.+\..+", email):
+    print("Valid email address")
+else:
+    print("Invalid email address")
+```
 
-".*@.*"
+---
 
-start--> q1 --@-- q2
+### Example 2: Matching Digits  
+Pattern: `r"\d{3}-\d{2}-\d{4}"` (e.g., Social Security Number format)  
+```python
+text = "My SSN is 123-45-6789."
+if re.search(r"\d{3}-\d{2}-\d{4}", text):
+    print("SSN found!")
+```
 
-q1: its starts in a so called start state is the condition in which it begins (in the 1st state which has a curved edge meaning a reflexive Edge and its labeled dot [because dot means any character] it will follow these transitions as follows from left to right through single characters using the prompt input [name])
+---
 
-q2: then it reads the users email address from left to right, then it decides whether or no to stay in this 1st stat or transition to the next state (then it will follow through to the 2nd state as theres an @ sign [@email.com] and read the following in character order.  it has double circles one inside the other meaning if the computer finds its self in that 2nd accept state after reading all the users prompt input.  it means its a valid address)
+### Example 3: Replacing Text  
+Using **`re.sub()`**:  
+```python
+text = "I love cats."
+new_text = re.sub(r"cats", "dogs", text)
+print(new_text)  # Output: I love dogs.
+```
 
-q1: if by some chance it ends up in the 1st circle which dose not have double circles which is not an accept state.  the computer will conclude this is an invalid email address
+---
 
-e.g. v2
+### Example 4: Splitting Text  
+Using **`re.split()`**:  
+```python
+text = "apple, orange; banana|grape"
+fruits = re.split(r"[,;|]", text)
+print(fruits)  # Output: ['apple', 'orange', 'banana', 'grape']
+```
 
-".+@.+"
+---
 
-start--> q1 --.-- q2 --@-- q3 --.-- q4
+### Example 5: Finding All Matches  
+Using **`re.findall()`**:  
+```python
+text = "The numbers are 42, 17, and 68."
+numbers = re.findall(r"\d+", text)
+print(numbers)  # Output: ['42', '17', '68']
+```
 
-q1: can consume any one character
+---
 
-q2: can consume more characters before the @ sign
+## **Flags in `re`**  
+- `re.IGNORECASE`: Makes the pattern case-insensitive.  
+- `re.MULTILINE`: Allows `^` and `$` to match at the start and end of each line.  
+- `re.DOTALL`: Allows `.` to match newline characters.  
 
-q3: can consume at least one more character because recall Rex has dot plus this time
+---
 
-q4: then we can consume even more characters if we want
+## **Walrus Operator (`:=`)**  
+The walrus operator assigns a value and returns it in a single expression.  
 
-(one your at state 4 your at an accept state, [as it has 2 circles in total] so if the computer finds its self in the 4th state then it is a valid email address)
+### Example:  
+```python
+import re
 
-if it dose not make it to the 4th state then it means the email address is Invalid
+if match := re.search(r"\d+", "The number is 42"):
+    print(f"Found number: {match.group()}")
+```
 
-you can use "\." to to match on a dot or period
+---
 
-### r
+## **String Methods for Simplified Manipulation**  
+1. **`.replace()`**: Replaces parts of a string.  
+2. **`.removeprefix()`**: Removes a specified prefix.  
+3. **`.removesuffix()`**: Removes a specified suffix.  
 
-use r before te r".+@.+\.com" to define that the "\." is used as a dot or period
+### Example:  
+```python
+text = "prefix_string_suffix"
+text = text.removeprefix("prefix_").removesuffix("_suffix")
+print(text)  # Output: string
+```
 
-this is similar to python using f as a format string in a certain way plugging in variables between curly braces.
-In this case r represents a raw string i want passed through exactly as is
+---
 
-# \w
-represents a "word character", commonly known as an alpha numeric symbol or the underscore
 
-here are some other examples of input using backslash
 
-### example:-
+# --SECTION 9-- Object-Oriented Programming (OOP)
 
-\d          decimal digit
-\D          not a decimal digit
-\s          whitespace characters
-\S          not a whitespace character
-\w          word character ... as well as numbers and the underscore
-\W          not a word character
+## **Object-Oriented Programming (OOP)**  
+OOP is a programming paradigm that structures software design around objects, which represent data and methods. The primary goal is to encapsulate the data and the operations on that data into reusable and modular components called classes.
 
-A|B         either A or B
-(...)       a group
-(?:...)     non-capturing version
+---
 
-# flags
+## **Tuples**  
+A tuple is a collection of values, similar to a list but **immutable**, meaning its elements cannot be changed after it is created. Tuples are useful when you want to store multiple values in a single variable that should not be altered.
 
-re.IGNORECASE
-re.MULTILINE
-re.DOTALL
+### Example:
+```python
+# Defining a tuple
+coordinates = (3, 4)
 
+# Accessing tuple elements
+x = coordinates[0]
+y = coordinates[1]
+```
 
-regular expression use case:
+You can't modify a tuple’s elements after it's created, unlike lists.
 
-^[a-zA-Z0-9.!#$%&'*+\/=?^_'{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$
+---
 
-re.match(pattern, string, flags=0)
+## **Classes and Objects**  
 
-re.match automatically starts matching from the start of the string
+### **Class**  
+A class is a blueprint for creating objects (instances). It defines attributes and behaviors (methods) that are common to all objects of that class. 
 
-re.fullmatch(pattern, string, flags=0)
+### **Object**  
+An object is an instance of a class. When a class is defined, no memory is allocated until an object of that class is created.  
 
-re.fullmatch starts matching at the start and end of the string
+### **Attributes and Instance Variables**  
+Attributes are properties of an object, and instance variables are the specific values assigned to those attributes for an object.
 
-# :=
-also known as the walrus operator, it allows you to sign assign a value from right to left and ask a boolean question about it.
+### **Methods**  
+Methods are functions defined inside a class that describe the behaviors of the objects. Special methods in Python begin and end with double underscores, such as `__init__`, `__str__`, etc.
 
-# ignoring conditions
-you can ignore some statements if they meet the conditions.  by using these methods:-
+---
 
-.replace() - replaces the statement with the the defined condition
+## **Key Concepts**
 
-.removeprefix() - removes the part that is defined by the statement
+### `__init__` (Constructor)  
+The `__init__` method is a special method used to initialize a new object. It's called when a new instance of a class is created.
 
-# re.sub
-re.sub(pattern, repl, string, count=0, flags=0)
+```python
+class Student:
+    def __init__(self, name, house):
+        self.name = name
+        self.house = house
+```
 
-is a way to substatue outcode or sections of imformation that would normally be required, that now ignores or skips past some information
+### `self`  
+The `self` keyword refers to the current instance of the class. It's used to access the object's attributes and methods.
 
-# re.split
-re.split(pattern, string, maxplit=0, flag=0)
+### `__str__`  
+The `__str__` method is used to define a string representation of an object, making it more user-friendly.
 
-allows the user to split a string by usings not a specific character or characters, comma or a space but multiple characters aswell
-
-# re.findall
-re.findall(pattern, string, flag=0)
-
-allows the user to search for multiuple copys of the same pattern in different places in a string 
-
-
-
-# --SECTION 9--
-
-# Object-Oriented Programming
-also known as OOP 
-
-## tuple
-is type of data that is a collection of values, it's similar to a list but its immutable, not mutable - meaning you can not change the value.  that means a list is something you can change the values of but a tuple returns multiple values just by using a comma.  it returnsmultiple values as 1 value which is a tuple, and inside of that values is multiple values
-
-### example:-
-
-e,y
-(x,z)
-
-to return data that has been modified you must put the condition inside a [] instead of a of nothing or ()
-
-### example:-
-["name"]
-
-you index into list's and tuples usings numbers, but you index into dictionaries using strings
-
-# classes
-a class is a blueprint for pieces of data or objects.  its a mold that can be defined and given a name.  when you use the mold or blueprint, you get types of data designed exactly as you want.
-classes allow you to invent you own type of data types and give them a name
-
-[official Python tutorial - classes](https://docs.python.org/3/tutorial/classes.html)
-
-# class
-allows you to define custom containers with custom names for pieces of data
-
-# objects
-any time you use a class you're creating an object as in OOP - object oriented programming.  the object is the incarnation of or technically instantiation of.  another term for object is instance, yoyu have instances of classes aswell
-
-# attributes
-any thing that is created which is the properties of or the attributes of
-
-### example:-
-name
-house
-
-# instance variables
-also another technical name for attributes
-
-# methods
-classes come with certain methods or functions inside of them that can be defiend and will behave in a special way.  these functions allow yoy to determine behavour in a standard way known as special methods
-
-# __init__
-also known as Dunder init method is specifically known as an instance method.
-if you want to initialize the contents of an object  from a class you define this method
-
-this is known as adding vairbles to objects
-
-a constructor call is data that will contruct the data object using synoyms. meaning instantiate the data object for the user, by using the class as a template to mold, so that all the data is structured the same.
-
-e.g. they have names and houses
-
-due to being customizable from being a class it allows you to modify the contents of that object
-
-# self
-gives you access to the current object that was just created
-
-### example:-
-
+```python
 class Student:
     def __init__(self, name, house):
         self.name = name
         self.house = house
 
-# __new__
-creates a new function for you
+    def __str__(self):
+        return f"{self.name} belongs to {self.house}."
+```
 
-# raise
-allows you to raise value errors, or create exception of an error
+### `__repr__`  
+The `__repr__` method provides a more technical string representation of an object, mainly for debugging.
 
-# __str__
-this is also a special method, this is used when another function wants to see your object as a string
-this is generally ment for users of the program, to be user friendly
+```python
+class Student:
+    def __repr__(self):
+        return f"Student(name={self.name}, house={self.house})"
+```
 
-# repr
-is ment for developers which gives access to more information, it will provides the data on what type of object it is
+---
 
-# properties
-is an attribute that has even more defences mechanisms put into place.  a little more functionality to prevent programmers messing things up
+## **Decorators**  
+Decorators are functions that modify the behavior of other functions or methods. The `@property` decorator allows you to define a method as a property of a class.
 
-@property
+```python
+class Circle:
+    def __init__(self, radius):
+        self._radius = radius
 
-# decorators
-is a term of art, they are functions that modify the behavour of other functions
+    @property
+    def radius(self):
+        return self._radius
 
-# int
-int is a class and can be passed back an object called int
+    @radius.setter
+    def radius(self, value):
+        if value <= 0:
+            raise ValueError("Radius must be positive.")
+        self._radius = value
+```
 
-class int(x, base=10)
+### Example of `@staticmethod` and `@classmethod`
+- `@staticmethod`: A method that doesn't take a reference to the instance or class.
+- `@classmethod`: A method that takes a reference to the class as its first argument.
 
-# str
-str is a class and can be passed back as an object
+```python
+class MathOperations:
+    @staticmethod
+    def add(x, y):
+        return x + y
 
-class str(object='')
+    @classmethod
+    def multiply(cls, x, y):
+        return x * y
+```
 
-this is a method
-str.lower()
+---
 
-this is a class
-str.strip([chars])
+## **Inheritance**  
+Inheritance allows a class to inherit properties and methods from another class. The `super()` function is used to call methods from the parent class.
 
-# list
-list is a class and can be passed back as an object
-
-class list([iterable])
-
-this is a method
-list.append(x)
-
-# dict
-dict is a class and can be passed back as an object
-
-# class methods
-an instances or an object of a class that dosent have a special function but function stays the same no matter its use case
-
-@classmethod - cls
-also known as cls
-
-# random.choice
-gives ramdom sorting and can be used within a class
-
-# class within a class
-you can have a class within another class.  meaning a parent class and a child classes
-
-# static methods
-
-@staticmethod
-
-# inheritance
-the ability to have a hierarchical meaning, one class can borrow or inherit from attributes, mehtods or variables if they all have them in common
-
-super() is used to refer to/ pull data from the parent class
-
-### example:-
-
+### Example of Inheritance:
+```python
 class Parent:
     def __init__(self, name):
         if not name:
             raise ValueError("Missing name")
         self.name = name
 
-    ...
-
-class Child1(Main):
+class Child(Parent):
     def __init__(self, name, house):
         super().__init__(name)
         self.house = house
 
-    ...
+child = Child("John", "Gryffindor")
+```
 
+---
 
-class Child2(Main):
-    def __inti__(self, name, subject):
-        super().__init__(name)
-        self.subject = subject
+## **Exception Handling**  
+In Python, exceptions are errors that disrupt the flow of a program. The `raise` keyword is used to raise exceptions, while `try`, `except`, `else`, and `finally` blocks are used to handle them.
 
-    ...
+### Example:
+```python
+try:
+    age = int(input("Enter your age: "))
+except ValueError:
+    print("Invalid input! Please enter a number.")
+```
 
-parent = Parent("Attendents")
-child1 = Child1("Debbie", "inner Spirit")
-child2 = Child2("Brian", "Sports")
+---
 
+## **Operator Overloading**  
+Operator overloading allows you to define custom behaviors for operators like `+`, `-`, etc. You can override the behavior of operators for custom classes.
 
-# exceptions
+### Example: Overloading `+` operator for a `Point` class:
+```python
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
 
-[official Python library - exceptions](https://docs.python.org/3/library/exceptions.html)
+    def __add__(self, other):
+        return Point(self.x + other.x, self.y + other.y)
 
-heres some examples:-
+point1 = Point(2, 3)
+point2 = Point(4, 5)
+result = point1 + point2  # Calls __add__()
+```
 
-BaseExceptions
-+-- KeyboardInterrupt
-+-- Exception
-    +-- ArithmeticError
-    |   +-- ZeroDivisionError
-    +-- AssertionError
-    +-- AttributeError
-    +-- EOFError
-    +-- ImportError
-    |   +-- ModuleNotFoundError
-    +-- LookupError
-    |   +-- KeyError
-    +-- NameError
-    +-- SyntaxError
-    |   +-- IndentationError
-    +-- ValueError
+---
 
+## **Common Python Classes**
 
-# operator overloading
-this allows you to take specific symbols or keyboard syntax and implement your own interpertaion thereof.
+- **`int`**: Represents integer numbers.
+- **`str`**: Represents string values.
+- **`list`**: Represents a list of items.
+- **`dict`**: Represents a dictionary of key-value pairs.
 
-e.g.
+You can create objects of these built-in classes, and you can also define custom classes.
 
-meaing plus(+) dose not have to mean addition, its also used for concatenation - for joining two strings, its also used for adding to a list
+### Example of `list`:
+```python
+numbers = list([1, 2, 3])
+# --SECTION 10--: Extra Cetera
 
-[official Python reference - data model, special method names](https://docs.python.org/3/reference/datamodel.html#special-method-names)
+## **Reading Material**
+- [Official Python Documentation](https://docs.python.org/3)
+- [Official Python Tutorial](https://docs.python.org/3/tutorial/)
+- [Official Python Library](https://docs.python.org/3/library/)
+- [Official Python References](https://docs.python.org/3/reference)
+- [Official Python How-To Guides](https://docs.python.org/3/howto/)
 
-object.__add__(self, other)
+---
 
-example:-
+## **Set**
+A set is a collection of unique elements, where duplicate values are automatically eliminated.
 
-two blocks of data that you want to combined (add) together. one on the right and one on the left
+- **Example:**
+  ```python
+  my_set = {1, 2, 3, 3, 4}
+  print(my_set)  # Output: {1, 2, 3, 4}
+  ```
 
-right add left
+[Official Python Library - Sets](https://docs.python.org/3/library/stdtypes.html#set)
 
-right + left
-=
-self + other
+---
 
+## **Global Variables**
+Global variables are defined outside of functions, making them accessible throughout the entire program. However, modifying them from within functions can be tricky, as they can introduce side effects if not handled carefully.
 
-# --SECTION 10--
+---
 
-# Extra Cetera 
+## **Constants**
+Constants are variables whose values are not meant to change after being set. Python does not enforce constant values, but it is a common practice to define constants in all uppercase letters to indicate that their values should not be changed.
 
-## reading material
-[official Python documentation](https://docs.python.org/3)
+- **Example:**
+  ```python
+  PI = 3.14159
+  ```
 
-[official Python tutorial](https://docs.python.org/3/tutorial/)
+---
 
-[official Python library](https://docs.python.org/3/library/)
+## **Type Hints**
+Python is dynamically typed, meaning you don't need to explicitly declare variable types. However, type hints provide a way to specify the expected types of variables and functions, helping with code clarity and bug detection.
 
-[official Python references](https://docs.python.org/3/reference)
+- **Example 1:**
+  ```python
+  def meow(n: int):
+      for _ in range(n):
+          print("meow")
+  ```
 
-[official Python how to](https://docs.python.org/3/howto/)
+- **Example 2:**
+  ```python
+  def meow(n: int) -> str:
+      return "meow\n" * n
+  ```
 
-## set
-in mathmatics a set is a collection of values where there are no duplicates, and there eliminated for you
+[Official Python Library - Typing](https://docs.python.org/3/library/typing.html)
 
-[official Python library - std types, sets](https://docs.python.org/3/library/stdtypes.html#set)
+---
 
+## **Mypy**
+Mypy is a static type checker for Python. It checks whether your code adheres to the type hints provided.
 
-## global
-aslo known as global variable, can be defined as a variable thats local to a function, or if you have a variable outside of all of the functions example at the top of the file.  these can be specific to the module and behave for a given program as though it is glabal.
+- Install Mypy with: `pip install mypy`
+- Run it on your Python file using the command:
+  ```bash
+  mypy filename.py
+  ```
 
-sometimes if this happens, when solving some problem in the future, where it may consist of multiple functions, if there are one or more vareiables outside of those functions, you might not be able to change those variables as easily as it may seem.
+[Official Mypy Documentation](https://mypy.readthedocs.io)
 
+---
 
-## constants
-means once you have set a value to them, you can not change the value of that variable.  this can sometimes be seen as a good thing incase you want to program defensively, incase you accidently or someone else tries to modify the values of that variable.  if you have declared it as a constant it cannot be changed or cannot be changed without great effort.
+## **Docstrings**
+Docstrings are used to document your functions, classes, and methods. They are written between triple quotes (`"""docstring"""`) and can be used to automatically generate documentation.
 
+- **Example:**
+  ```python
+  def meow(n: int) -> str:
+      """
+      Meow n times.
+      
+      :param n: Number of times to meow
+      :type n: int
+      :raises TypeError: If n is not an int
+      :returns: A string of n meows, one per line
+      :rtype: str
+      """
+      return "meow\n" * n
+  ```
 
-## type hints
-python is a dynamically typed langunage.  its not strongly typed where you may want an INT, you have to tell the program that you are using INT, you dont have to tell the program that you are using a str, float, set or anything else.  commonly today we are giving a varibale a name, we freaqunetly assign an equal sign or some other value, python dynamically figures out what type of variable it is
+[Official Python Documentation - PEP 257](https://peps.python.org/pep0257/)
 
-if the its "hello, world" it will be a str, or if its 50 then its an integer the variable is going to be and INT.
+---
 
-in other programs like C, C++, java and others, sometimes is necessary to specify what type of variables you want something to be.  
+## **Command-Line Arguments**
 
-Pros: the benifits, it helps to detect bugs more readily, meaning if you intended to use a str instead of an INT and it was accidently swapped or input. by mistake the languange can detect that kind of mistake.
+### `-n`
+This argument specifies the number of times the code should be executed.
 
-pythoin dose not strongly enforce these, instead you can use a tool that will tell you if you are using a variable correclty. usually this would be ru before the code is released publically.  or if there awas an automated process you could run this tool, just like you would reformat or link this code to some other program before its released publically.
+- **Example in Terminal:**
+  ```bash
+  python meows.py -n 3
+  ```
 
-### example 1
+### **Argparse**
+The `argparse` module allows you to parse command-line arguments in Python programs.
 
-def meow(n: int):
-    for _ in rang(n):
-        print("meow")
+- **Example:**
+  ```python
+  import argparse
+  
+  parser = argparse.ArgumentParser()
+  parser.add_argument("-n", help="Number of times to meow")
+  args = parser.parse_args()
 
-number: int = int(input("Number: "))
-meow(number)
+  for _ in range(int(args.n)):
+      print("meow")
+  ```
 
+[Official Python Library - argparse](https://docs.python.org/3/library/argparse.html)
 
-### example2
+---
 
+## **Unpacking**
 
-def meow(n: int) -> str:
-    return "meow\n" * n
+### `*input`
+Unpacks data from a sequence into individual variables.
 
-number: int = int(input("Number: "))
-meows: str = meow(number)
-print(meows, ends="")
+- **Example:**
+  ```python
+  def total(galleons, sickles, knuts):
+      return (galleons * 17 + sickles) * 29 + knuts
 
+  coins = [100, 50, 25]
+  print(total(*coins), "knuts")
+  ```
 
-[official Python library - typing](https://docs.python.org/3/library/typing.html)
+### `**input`
+Unpacks a dictionary into function arguments.
 
+- **Example:**
+  ```python
+  coins = {"galleons": 100, "sickles": 50, "knuts": 25}
+  print(total(**coins), "knuts")
+  ```
 
-## mypy
-a popular program for checking if your code is adhering to your own typ pins.  this is just one of several and can be easily installed with pip install mypy
+---
 
+## **`*args` and `**kwargs`**
 
-[official mypy documentation](https://mypy.readthedocs.io)
+- `*args`: Allows for a variable number of positional arguments.
+- `**kwargs`: Allows for a variable number of keyword arguments.
 
-to check the compatible code type you can check your file by using the terminal window and typing e.g.
+---
 
-mypy filename.py
+## **Map**
+The `map` function applies a given function to all items in an iterable.
 
-it will tell you the error and the incompatible stype
+- **Example:**
+  ```python
+  numbers = [1, 2, 3, 4]
+  squared = map(lambda x: x ** 2, numbers)
+  print(list(squared))
+  ```
 
-## docstrings
-when documentation is placed inbetween """example.""" the code automatically exstracts the document strings for you and even generates web pages or PDFs of documentation for the function
+[Official Python Library - map](https://docs.python.org/3/library/functions.html#map)
 
-[official Python documentation - pepstring](https://peps.python.org/pep0257/)
+---
 
-### example:-
+## **List Comprehensions**
+List comprehensions allow you to create a list in a concise, one-line syntax.
 
+- **Example:**
+  ```python
+  numbers = [1, 2, 3, 4]
+  squares = [x ** 2 for x in numbers]
+  print(squares)
+  ```
 
-def meow(n: int) -> str:
-    """
-    Meow n times.
-    
-    :pram n: Number of times to meow
-    :type n: int
-    :raise TypeError: If n is not an int
-    :returns A string of n meows, one per line
-    :rtype: str
-    """
-    return "meow\n" * n
+---
 
-number: int = int(input("Number: "))
-meows: str = meow(number)
-print(meows, ends="")
+## **Filter**
+The `filter` function is similar to `map`, but it filters elements based on a condition.
 
-this is a sometime done so that you can share the code publicly or into a library
+- **Example:**
+  ```python
+  numbers = [1, 2, 3, 4]
+  even_numbers = filter(lambda x: x % 2 == 0, numbers)
+  print(list(even_numbers))
+  ```
 
+[Official Python Library - filter](https://docs.python.org/3/library/functions.html#filter)
 
-## -n
-in command line terminal it is an instruction to allow the code to be read more specific to understand that this has been set to the number of times it allows you to pass in to arguments
+---
 
-### example:-
+## **Dictionary Comprehensions**
+Dictionary comprehensions allow you to create dictionaries in a concise, one-line syntax.
 
-in Terminal window type:-
+- **Example:**
+  ```python
+  numbers = [1, 2, 3, 4]
+  squared_dict = {x: x ** 2 for x in numbers}
+  print(squared_dict)
+  ```
 
-python meows.py -n 3
+---
 
+## **Enumerate**
+The `enumerate` function allows you to iterate over a sequence while keeping track of the index of each item.
 
-## argparse
-in allows input of configuration data at the commandline
+- **Example:**
+  ```python
+  fruits = ['apple', 'banana', 'cherry']
+  for index, fruit in enumerate(fruits):
+      print(f"{index}: {fruit}")
+  ```
 
+[Official Python Library - enumerate](https://docs.python.org/3/library/functions.html#enumerate)
 
-[official Python library - argparse](https://docs.python.org/3/library/argparse.html)
+---
 
-### example:- 1.1
+## **Generators**
+Generators allow you to generate values lazily, one at a time, without storing them in memory.
 
+- **Example:**
+  ```python
+  def count_up_to(max):
+      count = 1
+      while count <= max:
+          yield count
+          count += 1
 
+  counter = count_up_to(5)
+  for num in counter:
+      print(num)
+  ```
 
-import argparse
+[Official Python Library - Generators](https://docs.python.org/3/library/functions.html#generators)
 
-parser = argparse.ArgumentParser()
-parser.add_argument("-n")
-args = parser.parse_args()
-
-for _ in range(int(args.n)):
-    print("meow")
-
-
-## -h / --help
-this is a special command that will provide you with some type of usage information
-
-### example:-
-
-TERMINAL
-usage: meows.py [-h] [-n N]
-
-options:
-    -h, --help  show help message and exit
-    -n N
-
-[] in python means its optional, so you dont have to type 
-
-### example:-
-
--h or -n
-
-it will also give you other options
-
-
-### example:- 1.2
-
-import argparse
-
-parser = argparse.ArgumentParser(description="Meow like a cat")
-parser.add_argument("-n", help="number of times to meow")
-args = parser.parse_args()
-
-for _ in range(int(args.n)):
-    print("meow")
-
-
-### example:-
-
-TERMINAL
-Meow like a cat
-
-options:
-    -h, --help  show this help message and exit
-    -n N        number of times to meow
-
-the capial N means to type a number after the lower case -n
-
-
-you can specify a defualt value for example (-n)
-
-### example:-
-
-defualt=1
-
-and you can also specify that its an int
-
-### example:-
-
-type=int
-
-
-## unpacking
-can for example, take a single value from a list or another data structure and putting it imediately into 2 seperate variables
-
-
-## *input
-this allows you to unpack the data attached to that value of variables
-
-### example:-
-
-
-def total(galleons, sickles, knuts):
-    return(galleons * 17 +sickles) * 29 + knuts
-
-coins = [100, 50, 25]
-
-print(total(*coins), "knuts")
-
-
-## **input
-allows you to unpack a dictionary with the keys and the values
-
-### example:-
-
-def total(galleons, sickles, knuts):
-    return(galleons * 17 +sickles) * 29 + knuts
-
-coins = {"galleons": 100, "sickles": 50, "knuts": 25}
-
-print(total(**coins), "knuts")
-
-
-## *args, **kwargs
-args is used for variable number of positioned number of value
-kwargs is used for named valueds
-
-
-## map
-allow you to map,  apply some function to every elemenet of some sequence.  e.g. list
-
-
-[official Python library - map](https://docs.python.org/3/library/functions.html#map)
-
-map(function, iterable, ...)
-
-
-## list comprehensions
-this allows you to construct a list on the fly,  this means you dont have to use a loop, without calling append. this allows you to do it in one line.
-
-
-## filter
-it can be used like map but with a more functional approach
-
-
-[official Python library - filter](https://docs.python.org/3/library/functions.html#filter)
-
-filter(function, iterable, ...)
-
-
-## dictionary comprehensions
-this allows you to create on the fly a dictionary with keys and some values, without having to do it manually, creating an empty dictionary, creating a for loop and iteratting over that loop and inserting more keys and values
-
-
-## enumerate
-it allows solving of some type of problem,  by iteratting over some sequence, by not just finding out the value one at a time but also the index there of.  giving you back two answers at onece
-
-[official Python library - enumerate](https://docs.python.org/3/library/functions.html#enumerate)
-
-enumerate(iterable, start=0)
-
-
-## generators
-the abilities to generate values from functions saving memory, if the computer runs out of memory from reading or gerating lots of data it can causing it to not run any further.
-
-you can define a function as a generator, it can still generate a massive amount of  data fo your users, but it can return a little bit of that data at a time
-
-
-[official Python library - generators](https://docs.python.org/3/library/functions.html#generators)
-
-"yield" - means to return 1 value at a time, this is also know as a "iterators"
+---
