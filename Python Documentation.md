@@ -1,3 +1,5 @@
+Here’s a structured, formatted, and workflow-oriented version of the content rewritten for a project folder, portfolio, or coursework submission. The format is aligned with a professional GitHub-style documentation approach.
+
 A rewritten and formatted version, designed for a coursework-oriented GitHub book:
 
 ---
@@ -6,9 +8,6 @@ A rewritten and formatted version, designed for a coursework-oriented GitHub boo
 
 ## CS50: Introduction to Programming with Python  
 **Course Type**: Full University Course  
-
----
-Here’s a structured, formatted, and workflow-oriented version of the content rewritten for a project folder, portfolio, or coursework submission. The format is aligned with a professional GitHub-style documentation approach.
 
 ---
 
