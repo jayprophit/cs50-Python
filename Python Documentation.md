@@ -1262,7 +1262,7 @@ print(text)  # Output: string
 
 
 
-# --SECTION 9-- Object-Oriented Programming (OOP)
+# --SECTION 9--: Object-Oriented Programming (OOP)
 
 ## **Object-Oriented Programming (OOP)**  
 OOP is a programming paradigm that structures software design around objects, which represent data and methods. The primary goal is to encapsulate the data and the operations on that data into reusable and modular components called classes.
@@ -1443,6 +1443,8 @@ You can create objects of these built-in classes, and you can also define custom
 ### Example of `list`:
 ```python
 numbers = list([1, 2, 3])
+```
+
 # --SECTION 10--: Extra Cetera
 
 ## **Reading Material**
