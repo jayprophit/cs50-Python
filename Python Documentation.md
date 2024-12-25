@@ -1,4 +1,4 @@
-Here is the rewritten and formatted version of the provided section, designed for a coursework-oriented GitHub book:
+A rewritten and formatted version, designed for a coursework-oriented GitHub book:
 
 ---
 
@@ -7,24 +7,37 @@ Here is the rewritten and formatted version of the provided section, designed fo
 ## CS50: Introduction to Programming with Python  
 **Course Type**: Full University Course  
 
-### Course Topics  
-- **Functions**: Perform specific tasks within the program.  
-- **Variables**: Store values for later use.  
-- **Conditionals**: Execute code based on conditions (true or false).  
-- **Loops**: Repeat actions for a set number of times.  
-- **Exceptions**: Handle errors gracefully.  
-- **Libraries**: Reusable code modules (third-party or custom).  
-- **Unit Tests**: Validate code functionality through tests.  
-- **File I/O**: Handle input/output operations on files.  
-- **Regular Expressions**: Validate or extract data patterns.  
-- **Object-Oriented Programming (OOP)**: Model real-world entities.  
-- **Procedural Programming**: Solve problems step-by-step.  
-- **Functional Programming**: Use functions as primary building blocks.  
+---
+Here’s a structured, formatted, and workflow-oriented version of the content rewritten for a project folder, portfolio, or coursework submission. The format is aligned with a professional GitHub-style documentation approach.
 
-### Resources  
-- **Python Documentation**: [Official Python Library](https://docs.python.org/3/library/)  
-- **YouTube Lecture**: [CS50 Python Course Video](https://www.youtube.com/watch?v=nLRL_NcnK-4&t=1405s)  
-- **Online Course**: [CS50 Python on edX](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)  
+---
+
+# **Python Programming: CS50 - Introduction to Programming with Python**
+
+## **Course Overview**
+This document serves as a guide to fundamental concepts in Python programming, based on the CS50 University course. The course covers the following topics:
+
+| **Topic**                  | **Description**                                                                                  |
+|----------------------------|--------------------------------------------------------------------------------------------------|
+| **Functions**              | Actions or verbs that perform specific tasks in a program.                                      |
+| **Variables**              | Containers for storing values like numbers, text, or other data.                                |
+| **Conditionals**           | Statements that evaluate to `True` or `False` to control program flow.                         |
+| **Loops**                  | Structures that repeat code execution for a set number of times.                                |
+| **Exceptions**             | Handling errors or exceptions to maintain program flow.                                         |
+| **Libraries**              | Reusable third-party or user-defined code for modular functionality.                           |
+| **Unit Testing**           | Writing tests to validate the functionality of code.                                           |
+| **File I/O**               | Reading from and writing to files.                                                              |
+| **Regular Expressions**    | Validating or extracting data using patterns.                                                   |
+| **Object-Oriented Programming** | Representing real-world entities using classes and objects.                              |
+| **Procedural Programming** | Solving problems step-by-step using procedures.                                                |
+| **Functional Programming** | Programming paradigm focused on pure functions and immutability.                               |
+
+---
+
+## **Key Resources**
+- **Python Documentation:** [Python Standard Library](https://docs.python.org/3/library/)  
+- **CS50 Python Course on YouTube:** [CS50 Python Course](https://www.youtube.com/watch?v=nLRL_NcnK-4&t=1405s)  
+- **Online Course:** [CS50's Introduction to Python on edX](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python?index=product&queryID=d261282de44491e46e7817fb335660b7&position=2&results_level=first-level-results&term=cs50&objectID=course-2cc794d0-316d-42f7-bbfd-25c34e4cd5df&campaign=CS50%27s+Introduction+to+Programming+with+Python&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fsearch)  
 
 ---
 
@@ -44,7 +57,15 @@ Here is the rewritten and formatted version of the provided section, designed fo
   This is a multi-line comment.  
   It spans multiple lines.  
   '''  
-  ```  
+  ```
+---
+
+| **Type**          | **Syntax**                              | **Description**                                                                 |
+|--------------------|------------------------------------------|---------------------------------------------------------------------------------|
+| **Single-Line**    | `# Comment text`                        | Starts with `#`, used for brief notes.                                         |
+| **Multi-Line**     | `'''Comment text'''` or `"""Comment"""` | Enclosed in triple quotes, used for detailed documentation or block comments. |
+
+---
 
 ### Python as an Interpreter  
 Python is an interpreter that converts code into machine-readable binary and translates it into human-readable output.  
@@ -62,6 +83,17 @@ Python is an interpreter that converts code into machine-readable binary and tra
   Replace `name` with your filename.  
 
 - **Quick Command Recall**: Use the up arrow in the terminal to quickly recall previous commands.  
+
+---
+
+## **Basic Python Commands**
+
+| **Command**                      | **Description**                                                                 |
+|----------------------------------|---------------------------------------------------------------------------------|
+| `code filename.py`               | Creates a new Python file in the terminal.                                     |
+| `python filename.py`             | Executes the Python file in the terminal.                                      |
+| **Arrow Up (`↑`)**               | Recalls the last command in the terminal.                                      |
+| **Tab**                          | Auto-completes file or directory names in the terminal.                        |
 
 ---
 
@@ -123,6 +155,17 @@ The `print()` function displays output on the screen.
 
 ---
 
+## **String Methods**
+
+| **Method**    | **Description**                              | **Example**                   |
+|---------------|----------------------------------------------|-------------------------------|
+| `.strip()`    | Removes leading/trailing whitespace.         | `"  hello ".strip()` → `hello` |
+| `.title()`    | Capitalizes the first letter of each word.   | `"hello world".title()` → `Hello World` |
+| `.lower()`    | Converts text to lowercase.                  | `"HELLO".lower()` → `hello`   |
+| `.upper()`    | Converts text to uppercase.                  | `"hello".upper()` → `HELLO`   |
+
+---
+
 ### Variables  
 Variables store values like numbers, text, or other data.  
 
@@ -166,6 +209,18 @@ Variables store values like numbers, text, or other data.
   - `*` (Multiplication)  
   - `/` (Division)  
   - `%` (Modulo)  
+
+---
+
+## **Mathematics in Python**
+
+| **Operator** | **Description**    | **Example**       | **Result** |
+|--------------|--------------------|-------------------|------------|
+| `+`          | Addition           | `5 + 3`           | `8`        |
+| `-`          | Subtraction        | `5 - 3`           | `2`        |
+| `*`          | Multiplication     | `5 * 3`           | `15`       |
+| `/`          | Division           | `5 / 3`           | `1.666...` |
+| `%`          | Modulo (Remainder) | `5 % 3`           | `2`        |
 
 ---
 
